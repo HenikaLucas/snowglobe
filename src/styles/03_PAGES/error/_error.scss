@@ -1,0 +1,117 @@
+$shared-width: 30%;
+
+.error {
+    &__container {
+        position: relative;
+        min-height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        color: $white;
+
+        @include breakpoint(medium) {
+            justify-content: flex-end;
+            min-height: 90vh;
+        }
+
+        @include breakpoint(medium-l) {
+            min-height: 100vh;
+        }
+
+        @include breakpoint(large) {
+            min-height: 100vh;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        bottom: 25%;
+        left: 0;
+
+        @include breakpoint(medium) {
+            bottom: 0;
+        }
+
+        &  img {
+            height: auto;
+            width: 100%;
+
+            margin: auto 0;
+
+            @include breakpoint(medium) {
+                width: 65%;
+            }
+
+            @include breakpoint(large) {
+                width: 65%;
+            }
+
+            @include breakpoint(x-large) {
+                width: 70%;
+            }
+        }
+    }
+
+    &__content {
+        width: 40%;
+        z-index: 1;
+        line-height: 1.3em;
+
+        @include breakpoint(medium) {
+            width: 45%;
+        }
+
+        @include breakpoint(large) {
+            position: relative;
+            bottom: 50px;
+        }
+
+        @include breakpoint(x-large) {
+            bottom: 100px;
+        }
+    }
+
+    &__title {
+        font-family: $soft-alt-thin;
+    }
+
+    &__text {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 16px;
+
+        @include breakpoint(medium) {
+            width: $shared-width;
+        }
+    }
+
+    &__btn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 80%;
+        margin: 0 10%;
+        align-self: center;
+        margin-bottom: 15px;
+
+        @include breakpoint(medium) {
+            position: relative;
+        }
+
+        .btn__container {
+            margin-top: 20px;
+
+            background: $light-grey;
+            color: $purple;
+            font-weight: 600;
+
+            @include breakpoint(medium) {
+                // width: $shared-width;
+            }
+        }
+        
+    }
+}

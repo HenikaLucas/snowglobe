@@ -1,0 +1,57 @@
+$dimension: 25px;
+$dimension-sm: 33px;
+
+.select-country {
+    &__container {
+        
+        cursor: pointer;
+        font-family: $soft-alt-regular;
+        border-radius: 50%;
+        border: 1.5px solid $milka-lilac;
+
+        
+        width: $dimension-sm;
+        height: $dimension-sm;
+        min-width: $dimension-sm;
+        min-height: $dimension-sm;
+        max-width: $dimension-sm;
+        max-height: $dimension-sm;
+
+        @include breakpoint (large) {
+            width: $dimension;
+            height: $dimension;
+            min-width: $dimension;
+            min-height: $dimension;
+            max-width: $dimension;
+            max-height: $dimension;
+            border: 2px solid $white;
+        }
+    }
+
+    &__text {
+        
+        position: relative;
+        top: 8px;
+        left: 5px;
+        color: $milka-lilac;
+        font-size: 16px;
+        font-weight: 600;
+        
+        @include breakpoint(large) {
+            font-size: 10px;
+            color: $white;
+            top: 1px;
+            font-weight: 500;
+        }
+    }
+}
+
+.error__page{
+    .select-country__container {
+        border: 2px solid $white;
+    }
+    
+    .select-country__text {
+        color: $white;
+    }
+}

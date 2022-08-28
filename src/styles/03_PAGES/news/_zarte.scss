@@ -1,0 +1,91 @@
+.zarte {
+    &__container {
+        background-image: url($local-images+'/Shapes/master-paper-texture_grey.jpg');
+        background-repeat: repeat;
+        padding-bottom: 50px;
+        @include breakpoint(medium) {
+            padding-bottom: 105px;
+        }
+
+        .product-highlight{
+            &__container {
+                background-color: transparent;
+            }
+            
+            &__description {
+                @include breakpoint(large) {
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .mosaique {
+            &__container  {
+                &--centered {
+                    padding: 0 15px 50px;
+
+                    .mosaique__title {
+                        margin-bottom: 20px;
+                        padding: 0;
+                    }
+
+                    @include breakpoint(large) {
+                        padding-bottom: 90px;
+                    }
+
+                    @include breakpoint(start-large) {
+                        padding: 0 0 90px;
+                    }
+                }
+                &--bg {
+                    padding-bottom: 30px;
+                    @include breakpoint(large) {
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+        }
+
+        .product-highlight {
+            &__carousel {
+                padding-bottom: 0;
+            }
+            &__container {
+                .slick-track {
+                    display: flex;
+                }
+                padding-top: 20px;
+                @include breakpoint(large) {
+                    padding-bottom: 20px;
+                }
+            }
+            &__content {
+                width: auto!important;
+                margin: 0 auto;
+                @include breakpoint(medium) {
+                    // margin-left: 20%;
+                }
+                @include breakpoint(large) {
+                    max-width: 510px;
+                    // margin-left: 15%;
+                }
+                
+            }
+            &__text {
+                margin: 0 auto;
+            }
+            &__img {
+                max-width: 470px;
+            }
+            &__title {
+                width: 95%;
+                word-break: none;
+            }
+        }
+    }
+
+    .image__text {
+        padding-top: 20%!important;
+    }
+
+}

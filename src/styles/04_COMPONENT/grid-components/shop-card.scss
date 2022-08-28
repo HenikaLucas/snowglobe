@@ -1,0 +1,106 @@
+.shop-card {
+    &__container {
+        position: relative;
+        width: auto;
+        height: auto; 
+        overflow: hidden;
+
+        @include breakpoint(medium) {
+            height: 100%;
+        }
+
+        @include hover {
+            .shop-card__image img {
+                transform: scale($grid-transition);
+            }
+        }
+    }
+
+    &__image {
+        height: 100%;
+
+        picture {
+            width: 100%;
+        }
+
+        img {
+            transition: $grid-transition-speed;
+            width: 100%;
+            height: 100%;
+            // @include object-fit('cover');
+        }
+    }
+
+    &__content {
+        top: 0;
+        position: absolute;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    &__icons {
+        min-height: 40px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+        padding-right: 20px;
+
+        @include breakpoint(medium) {
+            margin-top: 20px;
+        }
+
+        span {
+            color: $dark-lilac;
+        }
+    }
+
+    &__footer {
+        width: 100%;
+        padding-bottom: 15px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include breakpoint(large) {
+            padding-bottom: 18px;
+        }
+    }
+
+    &__title {
+        font-family: $recol-regular;
+        color: $white;
+        font-size: 25px;
+        max-width: 90%;
+        text-align: center;
+
+        @include breakpoint(large) {
+            font-size: 30px;
+        }
+    }
+
+    &__link {
+        width: 80%;
+        margin-top: 15px;
+
+        @include breakpoint(medium) {
+            width: auto;
+        }
+
+        @include breakpoint(large) {
+            margin-top: 10px;
+        }
+
+        .btn__container {
+            color: $dark-lilac;
+            font-family: $soft-alt-medium;
+        }
+    }
+}
+
+@import "../../05_STATE/card/shop-card";

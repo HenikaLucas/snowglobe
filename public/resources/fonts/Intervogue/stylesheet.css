@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-Thin.eot');
+    src: url('IntervogueSoft-Thin.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-Thin.woff2') format('woff2'),
+        url('IntervogueSoft-Thin.woff') format('woff'),
+        url('IntervogueSoft-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-ThinOblique.eot');
+    src: url('IntervogueSoftAlt-ThinOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-ThinOblique.woff2') format('woff2'),
+        url('IntervogueSoftAlt-ThinOblique.woff') format('woff'),
+        url('IntervogueSoftAlt-ThinOblique.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-Black.eot');
+    src: url('IntervogueSoft-Black.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-Black.woff2') format('woff2'),
+        url('IntervogueSoft-Black.woff') format('woff'),
+        url('IntervogueSoft-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-Bold.eot');
+    src: url('IntervogueSoftAlt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-Bold.woff2') format('woff2'),
+        url('IntervogueSoftAlt-Bold.woff') format('woff'),
+        url('IntervogueSoftAlt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-LightOblique.eot');
+    src: url('IntervogueSoftAlt-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-LightOblique.woff2') format('woff2'),
+        url('IntervogueSoftAlt-LightOblique.woff') format('woff'),
+        url('IntervogueSoftAlt-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-Medium.eot');
+    src: url('IntervogueSoftAlt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-Medium.woff2') format('woff2'),
+        url('IntervogueSoftAlt-Medium.woff') format('woff'),
+        url('IntervogueSoftAlt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-Thin.eot');
+    src: url('IntervogueSoftAlt-Thin.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-Thin.woff2') format('woff2'),
+        url('IntervogueSoftAlt-Thin.woff') format('woff'),
+        url('IntervogueSoftAlt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-Regular.eot');
+    src: url('IntervogueSoft-Regular.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-Regular.woff2') format('woff2'),
+        url('IntervogueSoft-Regular.woff') format('woff'),
+        url('IntervogueSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-BlackOblique.eot');
+    src: url('IntervogueSoftAlt-BlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-BlackOblique.woff2') format('woff2'),
+        url('IntervogueSoftAlt-BlackOblique.woff') format('woff'),
+        url('IntervogueSoftAlt-BlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-Light.eot');
+    src: url('IntervogueSoftAlt-Light.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-Light.woff2') format('woff2'),
+        url('IntervogueSoftAlt-Light.woff') format('woff'),
+        url('IntervogueSoftAlt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-Oblique.eot');
+    src: url('IntervogueSoft-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-Oblique.woff2') format('woff2'),
+        url('IntervogueSoft-Oblique.woff') format('woff'),
+        url('IntervogueSoft-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-Medium.eot');
+    src: url('IntervogueSoft-Medium.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-Medium.woff2') format('woff2'),
+        url('IntervogueSoft-Medium.woff') format('woff'),
+        url('IntervogueSoft-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-Light.eot');
+    src: url('IntervogueSoft-Light.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-Light.woff2') format('woff2'),
+        url('IntervogueSoft-Light.woff') format('woff'),
+        url('IntervogueSoft-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-BoldOblique.eot');
+    src: url('IntervogueSoftAlt-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-BoldOblique.woff2') format('woff2'),
+        url('IntervogueSoftAlt-BoldOblique.woff') format('woff'),
+        url('IntervogueSoftAlt-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-Oblique.eot');
+    src: url('IntervogueSoftAlt-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-Oblique.woff2') format('woff2'),
+        url('IntervogueSoftAlt-Oblique.woff') format('woff'),
+        url('IntervogueSoftAlt-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-UltraOblique.eot');
+    src: url('IntervogueSoftAlt-UltraOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-UltraOblique.woff2') format('woff2'),
+        url('IntervogueSoftAlt-UltraOblique.woff') format('woff'),
+        url('IntervogueSoftAlt-UltraOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-Bold.eot');
+    src: url('IntervogueSoft-Bold.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-Bold.woff2') format('woff2'),
+        url('IntervogueSoft-Bold.woff') format('woff'),
+        url('IntervogueSoft-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-LightOblique.eot');
+    src: url('IntervogueSoft-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-LightOblique.woff2') format('woff2'),
+        url('IntervogueSoft-LightOblique.woff') format('woff'),
+        url('IntervogueSoft-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-Regular.eot');
+    src: url('IntervogueSoftAlt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-Regular.woff2') format('woff2'),
+        url('IntervogueSoftAlt-Regular.woff') format('woff'),
+        url('IntervogueSoftAlt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-BoldOblique.eot');
+    src: url('IntervogueSoft-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-BoldOblique.woff2') format('woff2'),
+        url('IntervogueSoft-BoldOblique.woff') format('woff'),
+        url('IntervogueSoft-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-MediumOblique.eot');
+    src: url('IntervogueSoft-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-MediumOblique.woff2') format('woff2'),
+        url('IntervogueSoft-MediumOblique.woff') format('woff'),
+        url('IntervogueSoft-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-Black.eot');
+    src: url('IntervogueSoftAlt-Black.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-Black.woff2') format('woff2'),
+        url('IntervogueSoftAlt-Black.woff') format('woff'),
+        url('IntervogueSoftAlt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt Ultra';
+    src: url('IntervogueSoftAlt-Ultra.eot');
+    src: url('IntervogueSoftAlt-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-Ultra.woff2') format('woff2'),
+        url('IntervogueSoftAlt-Ultra.woff') format('woff'),
+        url('IntervogueSoftAlt-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Ultra';
+    src: url('IntervogueSoft-UltraItalic.eot');
+    src: url('IntervogueSoft-UltraItalic.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-UltraItalic.woff2') format('woff2'),
+        url('IntervogueSoft-UltraItalic.woff') format('woff'),
+        url('IntervogueSoft-UltraItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-BlackOblique.eot');
+    src: url('IntervogueSoft-BlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-BlackOblique.woff2') format('woff2'),
+        url('IntervogueSoft-BlackOblique.woff') format('woff'),
+        url('IntervogueSoft-BlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft';
+    src: url('IntervogueSoft-ThinOblique.eot');
+    src: url('IntervogueSoft-ThinOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-ThinOblique.woff2') format('woff2'),
+        url('IntervogueSoft-ThinOblique.woff') format('woff'),
+        url('IntervogueSoft-ThinOblique.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt';
+    src: url('IntervogueSoftAlt-MediumOblique.eot');
+    src: url('IntervogueSoftAlt-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoftAlt-MediumOblique.woff2') format('woff2'),
+        url('IntervogueSoftAlt-MediumOblique.woff') format('woff'),
+        url('IntervogueSoftAlt-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Ultra';
+    src: url('IntervogueSoft-Ultra.eot');
+    src: url('IntervogueSoft-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('IntervogueSoft-Ultra.woff2') format('woff2'),
+        url('IntervogueSoft-Ultra.woff') format('woff'),
+        url('IntervogueSoft-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

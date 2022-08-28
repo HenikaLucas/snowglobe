@@ -1,0 +1,202 @@
+@include breakpoint(medium-only) {
+    .medium {
+        &-1 {
+            @include flex-long(0,0,50%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,8.33%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(50% - 30px));
+
+                @include breakpoint(medium) {
+                    @include flex-long(0,0,calc(8.33% - 30px));
+                }
+            }
+        }
+
+        &-2 {
+            @include flex-long(0,0,50%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,16.66%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(50% - 30px));
+
+                @include breakpoint(medium) {
+                    @include flex-long(0,0,calc(16.66% - 30px));
+                }
+            }
+        }
+
+        &-3 {
+            @include flex-long(0,0,50%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,25%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(50% - 30px));
+
+                @include breakpoint(medium) {
+                    @include flex-long(0,0,calc(25% - 30px));
+                }
+            }
+        }
+
+        &-4 {
+            @include flex-long(0,0,50%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,33.33%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(50% - 30px));
+
+                @include breakpoint(medium) {
+                    @include flex-long(0,0,calc(33.33% - 30px));
+                }
+            }
+        }
+
+        &-5 {
+            @include flex-long(0,0,50%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,41.66%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(50% - 30px));
+
+                @include breakpoint(medium) {
+                    @include flex-long(0,0,calc(41.66% - 30px));
+                }
+            }
+        }
+
+        &-6 {
+            @include flex-long(0,0,50%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,50%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(50% - 30px)); 
+            }
+        }
+
+        &-7 {
+            @include flex-long(0,0,100%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,58.33%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(100% - 30px));
+
+                @include breakpoint(medium) {
+                    @include flex-long(0,0,calc(58.33% - 30px));
+                }
+            }
+        }
+
+        &-8 {
+            @include flex-long(0,0,100%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,66.66%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(100% - 30px));
+
+                @include breakpoint(medium) {
+                    @include flex-long(0,0,calc(66.66% - 30px));
+                }
+            }
+        }
+
+        &-9 {
+            @include flex-long(0,0,100%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,75%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(100% - 30px));
+
+                @include breakpoint(medium) {
+                    @include flex-long(0,0,calc(75% - 30px));
+                }
+            }
+        }
+
+        &-10 {
+            @include flex-long(0,0,100%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,83.33%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(100% - 30px));
+
+                @include breakpoint(medium) {
+                    @include flex-long(0,0,calc(83.33% - 30px));
+                }
+            }
+        }
+
+        &-11 {
+            @include flex-long(0,0,100%);
+            margin: 0;
+
+            @include breakpoint(medium) {
+                @include flex-long(0,0,91.66%);
+            }
+
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(100% - 30px));
+
+                @include breakpoint(medium) {
+                    @include flex-long(0,0,calc(91.66% - 30px));
+                }
+            }
+        }
+
+        &-12 {
+            @include flex-long(0,0,100%);
+            margin: 0;
+        }
+    }
+}

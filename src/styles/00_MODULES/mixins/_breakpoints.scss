@@ -1,0 +1,134 @@
+/*
+* Contains the definition for page breakpoints
+*/
+
+@import "../variables/breakpoints";
+
+@mixin breakpoint($mediaList) {
+    @each $media in $mediaList {
+        @include generate-media-query($media) {
+            @content;
+        }
+    }
+}
+
+@mixin generate-media-query($media) {
+    
+    // * ---------- SCREEN BREAKPOINTS ----------
+    
+    @if $media == x-small {
+        @media only screen and (max-width: map-get($breakpoints, x-small)) {
+            @content;
+        }
+    }
+
+    @else if $media == small {
+        @media screen and (min-width: map-get($breakpoints, start-small)){
+            @content;
+        }
+    }
+    
+    @else if $media == small-only {
+        @media only screen and (max-width: map-get($breakpoints, small)) {
+            @content;
+        }
+    }
+
+    @else if $media == small-down {
+        @media only screen and (max-width: map-get($breakpoints, start-medium)) {
+            @content;
+        }
+    }
+
+        @else if $media == start-medium-tablet {
+            @media only screen and (min-width: map-get($breakpoints,  end-medium)) {
+                @content;
+            }
+        }
+
+    @else if $media == medium {
+        @media only screen and (min-width: map-get($breakpoints, start-medium)) {
+            @content;
+        }
+    }
+
+    @else if $media == medium-tablet-only {
+        @media only screen and (min-width: map-get($breakpoints, start-medium)) and (max-width: map-get($breakpoints, end-medium)) {
+            @content;
+        }
+    }
+
+    @else if $media == medium-only {
+        @media only screen and (min-width: map-get($breakpoints, start-medium)) and (max-width: map-get($breakpoints, end-medium-l)) {
+            @content;
+        }
+    }
+
+    @else if $media == medium-down {
+        @media only screen and (max-width: map-get($breakpoints, end-medium)) {
+            @content;
+        }
+    }
+
+    @else if $media == start-medium {
+        @media only screen and (min-width: map-get($breakpoints, end-medium)+1) {
+            @content;
+        }
+    }
+
+    @else if $media == medium-l {
+        @media only screen and (min-width: map-get($breakpoints, start-medium))  and (max-width: map-get($breakpoints, end-medium) + 1) and (orientation: landscape) {
+            @content;
+        }
+    }
+
+    @else if $media == large {
+        @media only screen and (min-width: map-get($breakpoints, end-medium-l) + 1) {
+            @content;
+        }
+    }
+
+    @else if $media == x-large {
+        @media only screen and (min-width: map-get($breakpoints, end-large)) {
+            @content;
+        }
+    }
+
+    @else if $media == start-large {
+        @media only screen and (min-width: map-get($breakpoints, start-large)) {
+            @content;
+        }
+    }
+
+    // * ---------- BROWSER SPECIFIC ----------
+
+    @else if $media == edge-only {
+        @supports (-ms-ime-align: auto) {
+            @content;
+        }
+    }
+
+    @else if $media == IE-only {
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            @content;
+        }
+    }
+
+    @else if $media == mozilla-only {
+        @-moz-document url-prefix() {
+            @content;
+        }
+    }
+
+    @else if $media == pad-pro {
+        @media only screen and (width: 1024px) {
+            @content;
+        }
+    }
+
+    @else {
+        @media only screen and ($media) {
+            @content;
+        }
+    }
+}

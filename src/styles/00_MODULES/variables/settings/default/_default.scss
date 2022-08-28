@@ -1,0 +1,58 @@
+@import "../variables/colors";
+@import "../variables/resource-target";
+
+//* HEADER
+$sticky-header-back: $mid-dark-lilac;
+$search-layer-back: $sticky-header-back;
+
+//* TYPOGRAPHY
+$p-font-family: $soft-alt-regular;
+$h1-font-family: $soft-alt-black;
+$h2-font-family: $recol-medium;
+$h3-font-family: $soft-alt-black;
+$h4-font-family: $soft-alt-black;
+
+//* NO-SCRIPT
+$no-script-font-family: $soft-alt-black;
+
+//* BREADCRUMBS
+$item-font-family: $soft-regular;
+$last-item-font-family: $soft-alt-bold;
+
+//* BTN
+$btn-background-color: $purple;
+$btn-color: $white;
+$btn-font-family: $soft-alt-regular;
+
+//* LOAD MORE
+$more-background-color: $dark-lilac;
+$more-color: $white;
+$more-font-family: $soft-alt-regular;
+$more-span-font-family: $soft-alt-black;
+
+//* TO CART
+$to-cart-background-color: $mid-dark-lilac;
+$to-cart-title-color: $white;
+$to-cart-subtitle-color: $white;
+$to-cart-btn-color: $alpine-sky;
+$to-cart-btn-txt-color: $dark-lilac;
+
+//* PRODUCT CARD
+$product-name-color: $dark-lilac;
+$product-price-color: $dark-lilac;
+
+//* COMPOSITION INPUT
+$btn-comp-back-color: $extra-light-purple;
+$btn-comp-color: $dark-lilac;
+$composition-border: solid 1px $light-purple;
+
+//* COOKIE BANNER
+$cookie-banner-shadow: $dark-lilac;
+$cookie-banner-background-color: $redish-white;
+
+// * GRID
+$grid-transition-speed: 1s;
+$grid-transition: 1.1;
+
+// * PRODUCT LIST & PRODUCT DETAILS HEADER
+$filter-settings: contrast(0) invert(0) sepia(1) saturate(20) hue-rotate(230deg) brightness(.6);

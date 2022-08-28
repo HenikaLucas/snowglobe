@@ -1,0 +1,164 @@
+.pralines-110 {
+    
+    // make KONVA Generated CANVAS responsive
+    .konvajs-content {
+        padding-bottom: 91.3%; // height/width*100%
+    }
+
+    
+
+    #front-photo-1 {
+        .cropit-preview-image-container {
+            clip-path: url(#front1);
+        }
+    }
+
+    #back-photo-1 {
+        .cropit-preview-image-container {
+            clip-path: url(#back1);
+        }
+    }
+
+    #back-photo-2 {
+        .cropit-preview-image-container {
+            clip-path: url(#back2);
+        }
+    }
+
+    #back-photo-3 {
+        .cropit-preview-image-container {
+            clip-path: url(#back3);
+        }
+    }
+
+    #front {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            &__guide {
+                position: absolute;
+                border-color: $dark-lilac;
+                transform: rotate(12.27deg);
+
+                & > * {
+                    position: absolute;
+                }
+
+                &:nth-of-type(1){
+                    width: 44.44%;
+                    height: 11.91%;
+                    left: 43.32%;
+                    top: 35.62%;
+
+                    @include breakpoint(medium) {
+                        width: 44.44%;
+                        height: 11.91%;
+                        top: 32.62%;
+                    }
+                }
+
+                &:nth-of-type(2){
+                    width: 35.15%;
+                    height: 7.84%;
+                    left: 45.114%;
+                    top: 50.85%;
+
+                    @include breakpoint(medium) {
+                        width: 35.15%;
+                        height: 7.84%;
+                        top: 47.85%;
+                    }
+                }
+
+                &:nth-of-type(3){
+                    border-color: transparent;
+                    transform: rotate(0);
+                    width: 22.708%;
+                    height: 22.708%;
+                    left: 46.5%;
+                    top: 50.85%;
+
+                    @include breakpoint(medium) {
+                        width: 22%;
+                        height: 22%;
+                        top: 63.85%;
+                    }
+                }
+
+            }
+        }
+    }
+
+    #back {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            &__guide {
+                position: absolute;
+                border-color: $dark-lilac;
+                transform: rotate(12.27deg);
+
+                &:nth-of-type(1){
+                    width: 33.9%;
+                    height: 13%;
+                    left: 35.63%;
+                    top: 58.8%;
+                }
+
+                &:nth-of-type(2){
+                    transform: rotate(0deg);
+                    border-color: transparent;
+                    width: 22%;
+                    height: 22%;
+                    left: 3.5%;
+                    top: 66.8%;
+                }
+
+                &:nth-of-type(3){
+                    transform: rotate(0deg);
+                    border-color: transparent;
+                    width: 25%;
+                    height: 25%;
+                    left: 38.63%;
+                    top: 14.8%;
+                }
+
+                &:nth-of-type(4){
+                    transform: rotate(0deg);
+                    border-color: transparent;
+                    width: 19%;
+                    height: 19%;
+                    left: 78.63%;
+                    top: 46.8%;
+                }
+
+            }
+        }
+    }
+}

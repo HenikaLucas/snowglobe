@@ -1,0 +1,104 @@
+.popular-products {
+    &__container {
+        
+        margin-top: 50px;
+        padding-bottom: 20px;
+
+        @include breakpoint(large) {
+            min-height: 40vh;
+        }
+
+        .product {
+            &__card {
+                
+                height: 100%;
+                justify-content: flex-start;
+            }
+
+            &__name {
+                
+                color: $redish-white;
+            }
+    
+            &__price {
+                
+                color: $redish-white;
+            }
+
+            &__icon {
+                
+                justify-content: space-between;
+                top: calc(50% - 20px);
+
+                @include breakpoint(large) {
+                    justify-content: flex-end;
+                    top: -15px;
+                }
+            }
+        }
+    }
+
+    &__content {
+        
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        @include breakpoint(large) {
+            min-width: 50%;
+            max-width: 80%;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+
+        @include breakpoint(x-large) {
+            max-width: 60%;
+        }
+
+        & > * {
+            
+            flex-shrink: 1;
+        }
+
+        .product__image {
+            @include breakpoint(IE-only) {
+                width: 100%;
+            }
+        }
+
+        .slick {
+            &-track {
+                
+                display: flex;
+                align-items: center;
+            }
+
+            &-slide {
+                
+                transform: scale(0.8);
+            }
+
+            &-current {
+                
+                transform: initial;
+            }
+        }
+    }
+
+    &__title {
+        
+        color: $dark-lilac;
+        font-family: $recol-medium;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+
+        @include breakpoint(medium) {
+            font-size: 30px;
+        }
+
+        @include breakpoint(large) {
+            font-size: 40px;
+        }
+    }
+}

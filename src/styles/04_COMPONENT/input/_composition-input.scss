@@ -1,0 +1,64 @@
+$composition-border-radius: 22px;
+$input-border: $composition-border-radius 0 0 $composition-border-radius;
+$btn-comp-border: 0 $composition-border-radius $composition-border-radius 0;
+
+.composition {
+    &__container {
+        font-family: $soft-medium;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        position: relative;
+
+        @include breakpoint (medium) {
+            height: 44px;
+        }
+
+        span {
+            position: absolute;
+            bottom: -1.5em;
+        }
+    }
+
+    &__input {
+        border: $composition-border;
+        font-family: $soft-medium;
+        border-radius: $input-border;
+        width: 60%;
+        padding: 15px;
+
+        @include breakpoint (medium) {
+            font-size: 16px;
+        }
+
+        @include breakpoint(IE-only) {
+            line-height: .8em;
+        }
+    }
+
+    &__btn {
+        font-family: $soft-medium;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+        color: $btn-comp-color;
+        -webkit-appearance: none;
+
+        cursor: pointer;
+        border: $composition-border;
+        background-color: $btn-comp-back-color;
+        border-radius: $btn-comp-border;
+
+        font-size: 14px;
+
+        @include breakpoint (medium) {
+            font-size: 16px;
+        }
+
+        @include breakpoint (large) {
+            font-size: 18px;
+        }
+    }
+}

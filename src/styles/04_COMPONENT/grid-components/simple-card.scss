@@ -1,0 +1,54 @@
+.simple-card {
+    &__container {
+        position: relative;
+        width: auto;
+
+        @include breakpoint(medium) {
+            height: 100%;
+        }
+
+        @include hover {
+            .simple-card__image img {
+                transform: scale($grid-transition);
+            }
+        }
+    }
+
+
+    &__floating {
+        z-index: 1;
+        position: absolute;
+        transform: rotate(-20deg);
+        left: 12px;
+
+        @include breakpoint(large) {
+            left: 30px;
+        }
+
+        picture {
+            width: 100%;
+        }
+
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    &__image {
+        overflow: hidden;
+        height: 100%;
+        
+        picture {
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            transition: $grid-transition-speed;
+            width: 100%;
+            height: 100%;
+            // @include object-fit('cover');
+        }
+    }
+}

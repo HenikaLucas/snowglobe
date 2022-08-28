@@ -1,0 +1,51 @@
+.article {
+
+    width: 100%;
+
+    hr {
+        border: 1px solid $hr-grey;
+        margin: 15px 0;
+    }
+    &-category {
+        span {
+            
+            font-family: $soft-alt;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: $dark-lil;
+        }
+    }
+    &-title {
+        span {
+            
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 41px;
+            letter-spacing: 0.03em;
+            color: $dark-lil;
+        }
+    }
+    &-content {
+        span {
+            
+            font-family: $soft-alt;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+
+            color: $dark-lilac;
+        }
+
+        display: none;
+        @include breakpoint(medium) {
+            display: block;
+        }
+    }
+}

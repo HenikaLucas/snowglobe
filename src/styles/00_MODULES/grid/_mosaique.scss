@@ -1,0 +1,209 @@
+.mosaique {
+    &-row {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include breakpoint(large) {
+            flex-wrap: nowrap;
+            height: auto;
+            min-height: 350px;
+            max-height: 670px;
+        }
+
+        & > div {
+            flex-shrink: 1;
+        }
+
+        // picture {
+        //     img {
+        //         @include object-fit('cover');
+        //     }
+        // }
+    }
+
+    &-column {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        & > div {
+            flex-shrink: 1;
+            // border: 1px solid $white;
+        }
+
+        // img {
+        //     @include breakpoint(large) {
+        //         height: 100%;
+        //         width: auto;
+        //     }
+        // }
+
+        .grid {
+
+            &-1 {
+                height: 8.33%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(8.33% - 30px);
+                }
+            }
+        
+            &-2 {
+                height: 16.66%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(16.66% - 30px);
+                }
+            }
+        
+            &-3 {
+                height: 25%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(25% - 30px);
+                }
+            }
+        
+            &-4 {
+                height: 33.33%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(33.33% - 30px);
+                }
+            }
+            
+            &-5 {
+                height: 41.66%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(41.66% - 30px);
+                }
+            }
+        
+            &-6 {
+                height: 50%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(50% - 30px); 
+                }
+            }
+        
+            &-7 {
+                height: 58.33%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(58.33% - 30px);
+                }
+            }
+        
+            &-8 {
+                height: 66.66%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(66.66% - 30px);
+                }
+            }
+        
+            &-9 {
+                height: 75%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(75% - 30px);
+                }
+            }
+        
+            &-10 {
+                height: 83.33%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(83.33% - 30px);
+                }
+            }
+        
+            &-11 {
+                height: 91.66%;
+        
+                &-m {
+                    margin: 15px 0;
+                    height: calc(91.66% - 30px);
+                }
+            }
+        
+            &-12 {
+                height: 100%;
+            }
+        }
+    }
+
+    &-title {
+        z-index: 2;
+        margin-bottom: 33px;
+        text-align: center;
+
+        @include breakpoint(large) {
+            margin-bottom: 52px;
+        }
+    }
+
+    &__container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #7763a9;
+        
+        & > .btn__cotainer {
+            align-self: center;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        font-family: $recol-medium;
+        color: $white;
+        z-index: 2;
+        font-size: 24px;
+        padding: 20px;
+        
+        @include breakpoint(medium) {
+            font-size: 40px;
+            padding: 20px 0 30px;
+        }
+        
+        @include breakpoint(start-medium) {
+            padding: 0 0 50px;
+        }
+
+        @include breakpoint(large) {
+            // margin-top: 80px;
+            // margin-bottom: 52px;
+            font-weight: 500;
+            font-size: 43px;
+            line-height: 52px;
+        }
+    }
+
+    &__subtitle {
+        z-index: 2;
+        font-size: 18px;
+        margin: 10px 0;
+        text-align: center;
+        color: $white;
+        font-family: $recol-regular;
+
+        @include breakpoint(medium) {
+            font-size: 25px;
+        }
+    }
+}
+
+@import "../../05_STATE/grid/mosaique";

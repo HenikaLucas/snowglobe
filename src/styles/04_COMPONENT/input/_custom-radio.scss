@@ -1,0 +1,114 @@
+.custom-radio {
+    &__container {
+        position: relative;
+        margin-top: 15px;
+        padding-left: 35px;
+        display: inline;
+
+        input[type='radio'] {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+        label {
+            cursor: pointer;
+            position: relative;
+            padding-left: 25px;
+            min-height: 20px;
+            margin: 8px 0;
+            font-weight: 600;
+            font-size: 20px;
+    
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                
+                width: 20px;
+                height: 20px;
+                
+                border: 1px solid $dark-lilac;
+                box-sizing: border-box;
+                border-radius: 100px;
+                
+                font-size: 15px;
+                color: $dark-lilac;
+            }
+    
+            &.active-radio {
+                &::before {
+                    border-width: 7px;
+                }
+            }
+        }
+    }
+    
+    &__label {
+        line-height: 19px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            width: 20px;
+            height: 20px;
+
+            border: 1px solid $dark-lilac;
+            box-sizing: border-box;
+            border-radius: 100px;
+
+            font-size: 15px;
+            color: $dark-lilac;
+        }
+
+        &.notvalid {
+            &::before {
+                border: 1px solid red;
+            }
+        }
+
+        &_content {
+            font-family: $soft-alt;
+            &--option {
+                display: flex;
+                justify-content: space-between;
+
+                &-name {
+                    font-style: normal;
+                    // font-weight: 500;   This was the value in figma
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                &-price {
+                    font-size: 18px;
+                    line-height: 22px;
+                    font-weight: 600;
+                    text-align: right;
+                    color: $dark-lil;
+                }
+            }
+            &--details {
+                color: $dark-lilac;
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+
+        label {
+            cursor: pointer;
+        }
+    }
+
+    &__input:checked + &__label:before {
+        border: 7px solid $dark-lilac;
+    }
+
+    &__input {
+        display: none;
+    }
+
+}

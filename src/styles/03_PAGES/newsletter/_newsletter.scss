@@ -1,0 +1,272 @@
+.newsletter {
+    background-image: url($local-images + '/Pages/CartPage-Background.png');
+    @include header-color($milka-lilac);
+
+    &__container {
+        padding-top: 100px;
+        h1 {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 100%;
+            text-align: center;
+            color: $dark-lilac;
+            
+            margin: 0 auto 10px;
+            max-width: 1170px;
+
+            @include breakpoint(medium) {
+                font-size: 45px;
+                line-height: 61px;
+            }
+        }
+    }
+    &__content {
+        padding: 40px 0 0;
+        background-image: url($local-images + '/Pages/Cart-Background-Mobile.png');        
+    
+        @include breakpoint(medium) {
+            padding: 52px 0 22px;
+            background-image: url($local-images + '/Pages/Cart-Background.png');        
+        }
+        @include breakpoint(large) {
+            padding: 55px 0 38px;       
+        }
+
+        &-background {
+            background: $white;
+        }
+
+        &-wrapper {
+            position: relative;
+            margin: 0 auto;
+            max-width: 1170px;
+            color: $dark-lilac;
+            padding-bottom: 45px;
+
+            &:after {
+                content: ' ';
+                border: 1px solid rgba(126,105,172,.2);
+                margin: 0 auto;
+                width: 440px;
+                height: 0;
+                position: absolute;
+                left: 0;
+                right: 0;
+                display: none;
+
+                @include breakpoint(medium){
+                    transform: rotate(90deg);
+                    top: 230px;
+                    display: block;
+                }
+            }
+
+            &-intro {
+                max-width: 390px;
+                margin-right: auto;
+
+                &-subtitle {
+                    font-family: $recoleta;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 34px;
+                    text-align: center;
+                    color: $dark-lilac;
+                    margin-bottom: 15px;
+
+                    @include breakpoint(medium) {
+                        font-size: 30px;
+                        line-height: 35px;
+                        text-align: left;
+
+                        max-width: 300px;
+                    }
+                }
+
+                p {
+                    font-family: $soft-alt;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: center;
+                    color: $dark-lilac;
+
+                    @include breakpoint(medium) {
+                        font-size: 20px;
+                        line-height: 25px;
+                        text-align: left;
+                    }
+
+                    a {
+                        color: $dark-lilac;
+                        text-decoration: underline;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                hr {
+                    border: 1px solid $hr-grey;
+                    margin: 22px 0;
+
+                    @include breakpoint(medium) {
+                        display: none;
+                    }
+                }
+            }
+
+            &-form {
+                max-width: 395px;
+
+                &-mandatory {
+                    font-family: $soft-alt;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 22px;
+                    text-align: right;
+                    display: block;
+                    margin-top: 10px;
+                }
+                &-subscribe {
+                    margin: 0 auto;
+                    padding: 0;
+                    width: 100%;
+
+                    .btn__text {
+                        background: none;
+                        border: none;
+
+                        font-family: $soft-alt;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 22px;
+                        
+                        text-align: center;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+                        
+                        color: $dark-lilac;
+                    }
+                }
+                .form-two-inputs {
+                    flex-wrap: wrap;
+
+                    .input-container {
+                        margin: 0 auto 22px;
+
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                .custom-checkbox {
+                    &__container {
+                        padding-left: 55px;
+                    }
+                    &__label {
+                        font-family: $soft-alt;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: $dark-grey;
+
+                        a {
+                            color: $dark-grey;
+                            text-decoration: underline;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+            
+                        &::before {
+                            left: 15px;
+            
+                            border: 1px solid $mid-dark-lil;
+                            border-radius: 9px;
+                            box-sizing: border-box;
+            
+                            width: 28px;
+                            height: 28px;
+            
+                            line-height: 1;
+                        }
+                    }
+                }
+            }
+
+            .checkout__subtitle {
+                font-family: $recol-alt;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 34px;
+                text-align: center;
+
+                @include breakpoint(medium) {
+                    font-size: 30px;
+                    line-height: 41px;
+                }
+            }
+            
+            .checkout-choice {
+                p {
+                    max-width: 330px;
+                    margin: 15px auto 0;
+
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 20px;
+                    text-align: center;
+
+                    @include breakpoint(medium){
+                        font-size: 20px;
+                        line-height: 25px;
+                    }
+                }
+            }
+
+            .checkout__guest {
+                .checkout__continue-as-guest {
+                    div {
+                        max-width: 345px;
+                        margin: 30px auto 0;
+
+                        @include breakpoint(medium){
+                            max-width: 390px;
+                        }
+                        span {
+                            color: $milka-lilac;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 22px;
+                            text-align: center;
+                            letter-spacing: 5px;
+                        }
+                    }
+                }
+            }
+
+            .checkout__member {
+                margin-top: 50px;
+                @include breakpoint(small) {
+                    margin-top: 60px;
+                }
+                @include breakpoint(medium) {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

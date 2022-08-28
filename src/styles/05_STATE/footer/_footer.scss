@@ -1,0 +1,23 @@
+.footer {
+    &__links {
+        &--open {
+            margin-top: 14px;
+            max-height: 600px;
+            background-color: $dark-natural;
+            padding: 11.5px 0;
+
+            @include breakpoint(large) {
+                background-color: transparent;
+                padding: 0;
+            }
+        }
+    }
+
+    &__control {
+        &--open {
+            //bottom: 10px;
+            //transform: rotate(45deg);
+        }
+    }
+}
+

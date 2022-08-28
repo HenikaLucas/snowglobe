@@ -1,0 +1,95 @@
+.personalisation-step {
+    &__container {
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 15px 0;
+        padding: 10px 5px;
+
+        background-color: $milka-lilac;
+        border-radius: 22px;
+
+        min-height: 44px;
+        max-height: 44px;
+    }
+
+    &__indication {
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        top: calc(50% - 15px);
+        margin-left: 10px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $mid-lilac;
+
+        & > span {
+            color: $white;
+            font-family: $soft-alt-regular;
+        }
+    }
+
+    &__label {
+        font-family: $soft-alt-regular;
+        color: $white;
+    }
+
+    &__header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        margin-top: 15px; // TODO: please remove
+
+        .personalisation-step{
+            &__indication {
+                top: 15px;
+            }
+        }
+    }
+
+    &__title {
+        margin-left: 50px;
+        font-family: $recol-regular;
+        color: $dark-lilac;
+    }
+
+    &__controls {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    &__control {
+        &:nth-of-type(2) {
+            .btn__container {
+                span {
+                    color: $white;
+                }
+            }
+        }
+
+        .icon {
+            &-previous {
+                margin-right: 10px;
+                font-size: 12px;
+            }
+
+            &-next {
+                margin-left: 10px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@import "../../../05_STATE/personalisation/indicators/pesonalisation-step.scss";

@@ -1,0 +1,11 @@
+.category-anchor {
+    &__item {
+        
+        &--active {
+            background-color: $natural;
+            color: $milka-lilac !important;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+    }
+}

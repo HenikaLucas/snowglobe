@@ -1,0 +1,305 @@
+.product-highlight {
+    &__container {
+        background-color: $natural;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        z-index: 0;
+        padding-top: 25px;
+
+        @include breakpoint(large) {
+            padding: 60px 5%;
+        }
+
+        @include breakpoint(x-large) {
+            padding: 60px 15%;
+        }
+
+        @media not all and (min-resolution:.001dpcm) {
+            @supports (-webkit-appearance:none) {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+
+        .btn__container {
+            font-family: $soft-alt-medium;
+            // min-width: auto;
+            // padding: 0;
+
+            @include breakpoint(large) {
+                margin-top: 20px;
+            }
+
+            .btn__text {
+                text-transform: uppercase;
+            }
+        }
+
+        .slick {
+            &-dotted {
+                &.slick-slider {
+                    margin-bottom: 0;
+
+                    @include breakpoint(large) {
+                        margin-bottom: initial;
+                    }
+                }
+            }
+        }
+
+        &.reverse {
+            flex-direction: row-reverse;
+        }
+
+        &--dark {
+            background-image: url($local-images + '/shapes/dark-milk-alps-background-image.png');
+            background-size: cover;
+            background-position: center;
+            background-color: $dark-lilac;
+
+            > * {
+                color: $white;
+            }
+        }   
+        &--full {
+            padding: 0;
+            background-color: $white!important;
+
+            .grid-8 {
+                background-image: url($local-images + '/shapes/lilac-tear.jpg');
+                background-size: cover;
+            }
+
+            .product-highlight {
+                &__carousel {
+                    @include breakpoint(large) {
+                        .slick-dots {
+                            padding-left: 70px;
+                        }
+                    }
+                }
+                &__content {
+                    margin: 10px auto;
+                    @include breakpoint(large) {
+                        padding: 0 70px;
+                    }
+                }
+                &__title {
+                    color: $dark-lilac!important;
+                }
+                &__big {
+                    color: $dark-lilac!important;
+                }
+                &__description {
+                    color: $dark-lilac!important;
+                }
+                &__link {
+                    color: $dark-lilac!important;
+                }
+                &__control {
+                    @include breakpoint(large) {
+                        margin-left: 70px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__content {
+        margin: 10px 0;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        color: $dark-lilac;
+        padding: 0 20px;
+        
+        @include breakpoint(medium) {
+            width: 80%;
+            padding: 0 35px;
+        }
+
+        @include breakpoint(large) {
+            padding: 0 5px;
+            width: 100%;
+        }
+
+        .product-highlight__link {
+            display: none;
+
+            @include breakpoint(large) {
+                display: flex;
+                align-self: flex-start;
+
+                .btn__container {
+                    margin-left: 0;
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+
+    &__title {
+        width: 100%;
+        font-family: $recol-medium;
+        font-size: 30px;
+        margin-bottom: 5px;
+        
+        @include breakpoint(medium) {
+            font-size: 40px;
+        }
+        @include breakpoint (pad-pro) {
+            width: 85%;
+            font-size: 20px;
+        }
+    }
+
+    &__big {
+        width: 102%;
+        font-family: $recol-medium;
+        font-size: 60px;
+        // word-break: break-all;
+
+        @include breakpoint (medium-l) {
+            font-size: 60px;
+        }
+
+        @include breakpoint(large) {
+            font-size: 85px;
+        }
+
+        @include breakpoint (pad-pro) {
+            width: 85%;
+            font-size: 50px;
+        }
+    }
+
+    &__description {
+        font-family: $recol-regular;
+        font-size: 17px;
+
+        @include breakpoint(large) {
+            line-height: 1.4em;
+            width: 85%;
+        }
+    }
+
+    &__img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        @include breakpoint(large) {
+            padding: 0 20px;
+        }
+
+        picture {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-highlight__link {
+            display: flex;
+            margin-top: 20px;
+            width: 80%;
+
+            @include breakpoint(medium) {
+                width: 50%;
+            }
+
+            @include breakpoint(large) {
+                display: none;
+            }
+        }
+    }
+
+    &__carousel {
+        overflow: hidden;
+        padding-bottom: 40px;
+
+        .slick-dots {
+            bottom: 0;
+            left: 0;
+            width: auto;
+            margin-left: 35px;
+
+            @include breakpoint(medium) {
+                left: 100px;
+                bottom: 5px;
+            }
+
+            @include breakpoint(large) {
+                left: 80px;
+            }
+        }
+    }
+
+    &__controls {
+        display: flex;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+
+    &__control {
+        cursor: pointer;
+        font-size: 40px;
+        color: $dark-lilac;
+
+        &:nth-child(1) {
+            margin-right: 10px;
+        }
+
+        &--previous {
+            position: absolute;
+            bottom: 0;
+            left: 35px;
+            z-index: 2;
+            font-family: 'icomoon';
+
+            @include breakpoint(large) {
+                bottom: 0;
+                left: 0;
+                z-index: 2;
+            }
+
+            &:after {
+                content: '\e022';
+            }
+        }
+
+        &--next {
+            position: absolute;
+            bottom: 0;
+            left: 85px;
+            z-index: 2;
+            font-family: 'icomoon';
+
+            @include breakpoint(large) {
+                bottom: 0;
+                left: 50px;
+            }
+
+            &:after {
+                content: '\e023';
+            }
+        }
+    }
+
+    &__link {
+        align-self: center;
+        width: 100%;
+    }
+
+}

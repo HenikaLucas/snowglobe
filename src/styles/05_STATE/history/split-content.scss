@@ -1,0 +1,52 @@
+.split-content {
+    &-beige {
+        color: $milka-lilac;
+        background-image: url($local-images+'/Shapes/master-paper-texture_grey.jpg');
+
+        .split-content{ 
+            &__title {
+                border-color: $milka-lilac;
+            }
+        }
+    }
+
+    &-white {
+        color: $milka-lilac;
+        background-image: url($local-images+'/Shapes/master-paper-texture_white.jpg');
+
+        .split-content{ 
+            &__title {
+                border-color: $milka-lilac;
+            }
+        }
+    }
+
+    &-lilac {
+        color: $white;
+        background-image: url($local-images+'/heritage/torn-lilac.jpg');
+        background-size: cover;
+
+        .split-content{ 
+            &__title {
+                color: $white;
+                border-color: $white;
+            }
+
+            &__text {
+                color: $white;
+            }
+        }
+    }
+
+    &-lilac-milka {
+        color: $white;
+        background-image: url($local-images+'/heritage/torn-milka-lilac.jpg');
+        background-size: cover;
+
+        .split-content{ 
+            &__title {
+                border-color: $white;
+            }
+        }
+    }
+}

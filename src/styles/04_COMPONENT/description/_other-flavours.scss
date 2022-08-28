@@ -1,0 +1,49 @@
+.other-flavours {
+    &__container {
+        width: 100%;
+        
+        @include breakpoint(large) {
+            margin-top: 70px;
+        }
+    }
+
+    &__title {
+        font-family: $soft-alt-regular;
+        text-align: center;
+
+        @include breakpoint(medium) {
+            text-align: initial;
+            font-size: 18px;
+            letter-spacing: 2.77px;
+        }
+    }
+
+    &__products {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        @include breakpoint(medium) {
+            justify-content: initial;
+            margin-top: 10px;
+        }
+    }
+
+    &__product {
+        margin-right: 10px;
+        width: calc(100%/8);
+        
+        @include breakpoint(large) {
+            margin-right: 19px;
+        }
+
+        &:last-child {
+            margin: 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

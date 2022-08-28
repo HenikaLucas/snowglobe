@@ -1,0 +1,170 @@
+.icon {
+    &-milka-logo:before {
+        content: "\e001";
+    }
+
+    &-facebook:before {
+        content: "\e002";
+        color: #593F9D;
+    }
+
+    &-instagram:before {
+        content: "\e003";
+        color: #593F9D;
+    }
+
+    &-mdlz:before {
+        content: "\e004";
+        color: #fff;
+    }
+
+    &-youtube {
+        & .icon-boundary:before {
+            content: "\e005";
+            color: rgb(125, 105, 172);
+        }
+
+        & .icon-play:before {
+            content: "\e006";
+            margin-left: -1.41015625em;
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    &-shopping-bag:before {
+        content: "\e008";
+    }
+
+    &-search:before {
+        content: "\e012";
+    }
+
+    &-customize:before {
+        content: "\e009";
+    }
+
+    &-profile:before {
+        content: "\e010";
+    }
+
+    &-home:before {
+        content: "\e011";
+    }
+
+    &-contact:before {
+        content: '\e028';
+    }
+
+    &-country-de:before {
+        content: '\e029';
+    }
+
+    &-review-filled::before {
+        content: '\e013';
+    }
+
+    &-review::before {
+        content: '\e014';
+    }
+
+    &-less{
+        cursor: pointer;
+    
+        &:before {
+            content: '\e015';
+        }   
+    }
+
+    &-add{
+        cursor: pointer;
+    
+        &:before {
+            content: '\e016';
+        }   
+    }
+
+    &-previous:before {
+        content: '\e017';
+    }
+
+    &-next:before {
+        content: '\e018';
+    }
+
+    &-check:before {
+        content: '\e019';
+    }
+
+    &-zoom-in:before {
+        content: '\e020';
+    }
+
+    &-zoom-out:before {
+        content: '\e021';
+    }
+
+    &-arrow-left:before {
+        content: '\e022';
+    }
+
+    &-arrow-right:before {
+        content: '\e023';
+    }
+
+    &-overlay-close{
+        cursor: pointer;
+        &::before {
+            content: '\e024';
+        }
+    }
+
+    &-down {
+        cursor: pointer;
+        &::before {
+            content: '\e027';
+        }
+    }
+
+    &-left {
+        cursor: pointer;
+        &::before {
+            content: "\e030";
+        }
+    }
+
+    &-right {
+        cursor: pointer;
+        &::before {
+            content: "\e031";
+        }
+    }
+
+    &-pinterest {
+        &::before {
+            content: "\e032";
+            color: #7d69ac;
+        }
+    }
+
+    &-pinterest-white {
+        &::before {
+            content: "\e032";
+            color: $white;
+        }
+    }
+
+    &-country-at {
+        &::before {
+            content: '\e033';
+        }
+    }
+
+    &-like {
+        cursor: pointer;
+        &::before {
+            content: "\e040";
+            margin-right: 5px;
+        }
+    }
+
+}

@@ -1,0 +1,9 @@
+.sort {
+    &__control {
+        &--open {            
+            .sort__content {
+                max-height: 500px;
+            }
+        }
+    }
+}

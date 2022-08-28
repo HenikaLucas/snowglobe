@@ -1,0 +1,86 @@
+$border-value: 22px;
+
+.pesonalisation-tab {
+    &__container {
+        display: flex;
+        padding-top: 60px;
+        padding-bottom: 25px;
+
+        border-bottom: 1px solid $light-lilac;
+        overflow: hidden;
+        
+        &:empty {
+            padding-top: 0;
+            border-bottom: none;
+        }
+    }
+
+    &__item {
+        transition: 0s;
+        display: flex;
+        justify-content: center;
+
+        flex-grow: 1;
+        padding: 10px 0;
+
+        text-transform: uppercase;
+        font-family: $soft-alt-medium;
+        color: $dark-lilac;
+
+        background-color: $light-lilac;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $light-lilac;
+            border-radius: 22px;
+            z-index: -1;
+            transition: .3s;
+        }
+
+        @include hover {
+            &::before {
+                opacity: 0;
+            }
+        }
+
+        @include hover {
+            background-image: linear-gradient(
+                180deg, 
+                rgba(125, 105, 172, 0) 0%, 
+                $mid-lilac 100%
+            );
+        }
+
+        @include breakpoint(medium) {
+            font-size: 20px;
+        }
+
+        &:nth-child(1) {
+            border-radius: $border-value 0 0 $border-value;
+        }
+
+        &:nth-last-child(1) {
+            border-radius: 0 $border-value $border-value 0;
+        }
+
+        
+        &[data-step-completed] {
+            &::after {
+                content: "\e019";
+                font-family: "icomoon";
+                position: relative;
+                top: 2px;
+                margin-left: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@import "../../../05_STATE/personalisation/indicators/pesonalisation-tab.scss";

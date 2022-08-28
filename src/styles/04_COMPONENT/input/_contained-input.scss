@@ -1,0 +1,91 @@
+$contained-input-radius: 40px;
+
+.contained-input {
+    &__container {
+        @include breakpoint(medium) {
+            position: relative;
+        }
+
+        input {
+            font-family: $soft-medium;
+            background-color: $white;
+            border-radius: 40px;
+            border-color: $hr-grey;
+            padding: 10px 20px;
+
+            font-style: normal;
+            font-weight: normal;
+            line-height: 22px;
+            font-size: 16px;
+            color: $dark-lil;
+
+            @include breakpoint(medium) {
+                font-size: 18px;
+                letter-spacing: 0.03em;
+            }
+
+            &::placeholder {
+                font-family: $soft-alt;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+
+                color: $dark-lil;
+
+                @include breakpoint(medium) {
+                    font-size: 18px;
+                    letter-spacing: 0.03em;
+                }
+            }
+        }
+
+        input#search-input {
+            width: 82%;
+        }
+    }
+
+    &__btn {
+        max-width: 215px;
+        margin: 15px auto;
+
+        @include breakpoint(medium) {
+            top: calc(50% - 18px);
+            right: 10px;
+            border-radius: $contained-input-radius;
+            position: absolute;
+            max-width: auto;
+            margin: 0;
+        }
+
+        .btn__container {
+            background-color: #7E69AC;
+            padding: 10px 20px 8px;
+            display: flex;
+            // min-width: 0;
+            // height: auto;
+            @include breakpoint(medium) {
+                border-radius: $contained-input-radius;
+                // width: 155px;
+            }
+
+            span {
+                font-family: $soft-alt-regular;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 22px;
+
+                text-align: center;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+
+                @include breakpoint(medium) {
+                    font-size: 14px;
+                    line-height: 16px;
+                    letter-spacing: 0.2em;
+                }
+            }
+        }
+    }
+}

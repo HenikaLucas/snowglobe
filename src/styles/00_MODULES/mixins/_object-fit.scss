@@ -1,0 +1,8 @@
+@mixin object-fit($value) {
+    object-fit: $value;
+
+    @include breakpoint(IE-only) {
+        object-fit: $value;
+        font-family: 'object-fit: ' + $value;
+    }
+}

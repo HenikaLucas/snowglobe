@@ -1,0 +1,10 @@
+.cookie-banner {
+    &--show {
+        bottom: 0;
+    }
+
+    &--fallback {
+        top: 0;
+        bottom: auto;
+    }
+}

@@ -1,0 +1,24 @@
+.quote-banner {
+    background-image: url($local-images+"/Shapes/LightLilac-Watercolour-Texture.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+
+    p {
+        margin: 0 20px;
+
+        font-family: $recoleta;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 55px;
+        text-align: center;
+        color: $white;
+
+        @include breakpoint(large) {
+            max-width: 785px;
+            margin: auto;
+        }
+    }
+}

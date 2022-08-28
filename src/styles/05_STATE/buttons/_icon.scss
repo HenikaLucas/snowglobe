@@ -1,0 +1,62 @@
+.icon {
+    &__container {
+        &--personalize {
+            // padding-top: 7px;
+            align-items: center;
+            background: $alpine-meadow;
+
+            span[class^=icon-] {
+                font-size: 25px;
+                color: $white;
+            }
+
+            img {
+                width: 60%;
+
+                @include breakpoint(IE-only) {
+                    width: auto;
+                    height: 70%;
+                }
+            }
+        }
+
+        &--to-cart {
+            align-items: center;
+            background: $dark-lilac;
+
+            span[class^=icon-] {
+                font-size: 25px;
+                color: $white;
+            }
+        }
+    }
+}
+
+
+.shop-card__icons {
+    .icon {
+        &__container {
+            &--to-cart {
+                background: $white;
+                
+                span {
+                    font-size: 28px;
+                    color: $dark-lilac;
+                }
+            }
+
+            // TODO: MAKE SVG STROKE ? FILL DARK_LILAC
+        }
+    }
+}
+
+.product__carousel {
+    .product__icon {
+        height: 80px;
+        max-height: 80px;
+    }
+
+    .icon__container {
+        width: 80px;
+    }
+}

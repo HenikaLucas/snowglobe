@@ -1,0 +1,11 @@
+$breakpoints: (
+    'x-small': 320px,
+    'start-small': 375px,
+    'small': 480px,
+    'start-medium': 481px,
+    'end-medium': 768px,
+    // 'end-medium-l': 820px,
+    'end-medium-l': 1024px,
+    'start-large': 1440px,
+    'end-large': 1600px
+) !default;

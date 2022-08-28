@@ -1,0 +1,44 @@
+.review-content {
+    &__title {
+        background-color: rgba(59, 39, 116, 0.05);
+        padding: 25px 0;
+        justify-content: center;
+        
+        .product-review__container {
+            justify-content: center;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+
+            @include breakpoint(medium) {
+                justify-content: initial;
+            }
+        }
+
+        .review-content__anchor {
+            align-self: center;
+        }
+    }
+
+    &__anchor {
+        color: $dark-lilac;
+
+        @include breakpoint(medium) {
+            margin-left: 25px;
+        }
+
+        @include hover() {
+            text-decoration: underline;
+        }
+    }
+
+    &__content {
+        & > div {
+            margin: 0 8px;
+        }
+
+        justify-content: center;
+    }
+}

@@ -1,0 +1,77 @@
+@import "../00_MODULES/fonts/variables/index";
+
+@import "../00_MODULES/variables/settings/default/default";
+@import "../00_MODULES/variables/breakpoints";
+@import "../00_MODULES/mixins/breakpoints";
+@import "../00_MODULES/mixins/flex";
+@import "../00_MODULES/mixins/header-color";
+
+@import "../04_COMPONENT/history/index";
+
+
+.about-history {
+    @include header-color($milka-lilac);
+    .banner__container {
+        .btn--secondary-lilac {
+            border-radius: 50%;
+            // max-width: unset;
+            // min-width: 0px;
+            // width: 104px;
+            // height: 104px;
+            
+            &:before {
+                border-radius: 50%;
+            }
+        }
+
+        .image {
+            &__title {
+                color: $dark-lilac;
+                font-family: $recol-medium;
+                font-size: 40px;
+                
+                @include breakpoint(medium) {
+                    font-size: 75px;
+                }
+            }
+
+            &__subtitle {
+                color: $dark-lilac;
+                font-family: $recol-regular;
+                font-size: 20px;
+                
+                @include breakpoint(medium) {
+                    width: 50%;
+                    font-size: 54px;
+                }
+            }
+
+            &__titles {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            &__text {
+                justify-content: unset;
+            }
+        }
+
+        .btn__container {
+            // padding-right: 0;
+            // padding-left: 0;
+            padding: 45px;
+            position: relative;
+
+            span {
+                position: absolute;
+                top: 40%;
+                left: 15%;
+            }
+        }
+    }
+
+    .js-timeline-container {
+        position: relative;
+    }
+}

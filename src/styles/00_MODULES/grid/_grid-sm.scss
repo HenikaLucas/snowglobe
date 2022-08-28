@@ -1,0 +1,24 @@
+@include breakpoint(small-only) {
+    .grid-s {
+        &-1 {
+            @include flex-long(0,0,50%);
+            margin: 0;
+    
+            &-m {
+                margin: 0 10px;
+                @include flex-long(0,0,calc(50% - 20px));
+            }
+        }
+    
+        &-2 {
+            @include flex-long(0,0,100%);
+            margin: 0;
+    
+            &-m {
+                margin: 0 15px;
+                @include flex-long(0,0,calc(100% - 30px));
+            }
+        }
+    }
+}
+

@@ -1,0 +1,25 @@
+$font-location: '/resources/fonts/Recoleta/';
+
+@font-face {
+    font-family: 'Recoleta Alt';
+    src: url($font-location + 'RecoletaAlt-Regular.woff2') format('woff2'),
+        url($font-location + 'RecoletaAlt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta Medium';
+    src: url($font-location + 'Recoleta-Medium.woff2') format('woff2'),
+        url($font-location + 'Recoleta-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta Regular';
+    src: url($font-location + 'Recoleta-Regular.woff2') format('woff2'),
+        url($font-location + 'Recoleta-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

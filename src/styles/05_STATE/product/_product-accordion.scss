@@ -1,0 +1,23 @@
+.product-accordion {
+    &--opened {
+        max-height: 1000vh;
+        padding: 10px 0;
+
+        &.first {
+            border-top: 1px solid $dark-lilac;
+        }
+
+        @include breakpoint(medium) {
+            padding-top: 26px;
+        }
+    }
+
+    &-icon--inverted {
+        transform: rotate(45deg);
+        bottom: 5px;
+
+        @include breakpoint (medium) {
+            bottom: 10px;
+        }
+    }
+}

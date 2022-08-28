@@ -1,0 +1,270 @@
+.heritage {
+    &__container {
+        position: relative;
+        display: flex;
+        background-color: $dark-natural;
+
+        &--years {
+            @include breakpoint(medium) {
+                min-height: 600px;
+            }
+            @include breakpoint(large) {
+                min-height: 763px;
+            }
+            .heritage {
+                &__lilac {
+                    position: absolute;
+                    height: 60%;
+                    width: 55%;
+                    top: 47%;
+                    overflow: hidden;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+
+                    @include breakpoint(medium) {
+                        position: static;
+                        margin: auto 0 auto 25px;
+                    }
+                    @include breakpoint(large) {
+                        margin-left: 125px;
+                    }
+                    
+                    picture {
+                        width: 100%;
+                        img {
+                            width: auto;
+                            max-width: 100%;
+                            margin-left: auto;
+                            position: static;
+                        }
+                    }
+                }
+                &__description {
+                    max-width: 415px;
+                }
+                &__link {
+                    margin-top: 75%;
+                    .btn__container {
+                        margin: 0 auto 0 0;
+                    }
+                    @include breakpoint(medium) {
+                        margin: 25px auto 0 0;
+                    }
+                }
+                &__content {
+                    padding: 20px 35px;
+                }
+            }
+        }
+    }
+
+    &__lilac {
+        // display: none;
+        position: absolute;
+        height: 60%;
+        width: 55%;
+        top: 40%;
+        overflow: hidden;
+
+        @include breakpoint(medium) {
+            height: 75%;
+            top: 25%;
+        }
+        
+        @include breakpoint (large) {
+            position: relative;
+            height: auto;
+            width: auto;
+            top: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        picture {
+            width: 100%;
+            height: 45%;
+        }
+
+        .heritage__img {
+            right: 0;
+            width: 200%;
+
+            @include breakpoint (large) {
+                right: 20px;
+                height: auto;
+                width: 120%;
+            }
+
+            @include breakpoint (x-large) {
+                width: 110%;
+            }
+
+            @include breakpoint(IE-only) {
+                bottom: 25%;
+            }
+        }
+    }
+
+    &__imgs {
+        position: absolute;
+        width: 100%;
+        bottom: 38%;
+        right: -42%;
+
+        @include breakpoint(medium) {
+            bottom: 40%;
+        }
+        
+        @include breakpoint(large) {
+            bottom: auto;
+            right: auto;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-height: 847px;
+        }
+
+        picture {
+            position: absolute;
+            width: 100%;
+            
+            @include breakpoint(large) {
+                height: 100%;
+                position: relative;
+            }
+
+            &:nth-child(1) {
+                display: none;
+                z-index: 2;
+                top: -30px;
+                transform-origin: top left;
+                transform: rotate(-20deg);
+
+                @include breakpoint(large) {
+                    display: block;
+                    top: 30px;
+                }
+            }
+    
+            &:nth-child(2) {
+                z-index: 1;
+                right: -15%;
+                bottom: 38%;
+                transform: rotate(10deg);
+
+                @include breakpoint(large) {
+                    bottom: 0;
+                    top: 1%;
+                    right: -20%;
+                }
+
+                @include breakpoint(x-large) {
+                    right: -140px;
+                }
+            }
+    
+            &:nth-child(3) {
+                right: 0;
+                top: -45px;
+                transform-origin: bottom left;
+                transform: rotate(-15deg);
+
+                @include breakpoint(large) {
+                    top: 0;
+                    left: -50px;
+                }
+            }
+        }
+
+        .heritage__img {
+            position: relative;
+            // box-shadow: 0px 0px 15px 1px #000;
+            width: 60%;
+
+            @include breakpoint(medium) {
+                width: 40%;
+            }
+            
+            @include breakpoint(large) {
+                width: auto;
+                height: 100%;
+                position: absolute;
+            }
+        }
+    }
+
+    &__img {
+        position: absolute;
+        height: auto;
+    }
+
+    &__content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-grow: 1;
+        width: 100%;
+        padding: 50px 35px;
+        color: $dark-lilac;
+
+        @include breakpoint(medium) {
+            align-self: center;
+            width: 70%;
+        }
+
+        @include breakpoint(large) {
+            width: 30%;
+            padding: initial;
+        }
+
+        @include breakpoint(x-large) {
+            width: 22%;
+        }
+    }
+
+    &__title {
+        width: 100%;
+        font-family: $recol-medium;
+        font-size: 30px;
+
+        @include breakpoint(medium) {
+            font-size: 40px;
+        }
+
+        @include breakpoint(large) {
+            font-size: 60px;
+        }
+    }
+
+    &__description {
+        width: 100%;
+        font-family: $recol-regular;
+        font-size: 17px;
+        margin-top: 10px;
+        line-height: 1.3em;
+
+        @include breakpoint(large) {
+            font-size: 25px;
+        }
+    }
+
+    &__link {
+        align-self: center;
+        width: 100%;
+        margin-top: 170%;
+
+        display: flex;
+        justify-content: center;
+
+        @include breakpoint(medium) {
+            margin-top: 100%;
+        }
+        
+        @include breakpoint(large) {
+            align-self: flex-start;
+            margin-top: 10px;
+        }
+    }
+}

@@ -1,0 +1,321 @@
+.checkout-payment {
+    background-image: url($local-images + '/Pages/CartPage-Background.png');
+    @include header-color($milka-lilac);
+
+    &__container {
+        padding-top: 100px;
+        h1 {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 100%;
+            text-align: center;
+            color: $dark-lilac;
+            
+            margin: 0 auto;
+            max-width: 1170px;
+
+            @include breakpoint(large){
+                font-size: 45px;
+                line-height: 61px;
+                text-align: left;
+            }
+        }
+    }
+
+    &__content {
+        margin-top: -10px;
+        padding: 40px 0 0;
+        background-image: url($local-images + '/Pages/Cart-Background-Mobile.png');
+        
+        @include breakpoint(medium) {
+            padding: 52px 0 22px;
+            background-image: url($local-images + '/Pages/Cart-Background.png');
+        }
+        @include breakpoint(large) {
+            padding: 55px 0 30px;
+        }
+
+        .grid-row {
+            position: relative;
+            color: $dark-lilac;
+
+            &:after {
+                content: ' ';
+                border: 1px solid rgba(126,105,172,.2);
+                position: absolute;
+                top: 0;
+                left: 50%;
+                height: 100%;
+                max-width: 0px;
+                display: none;
+
+                @include breakpoint(medium){
+                    display: block;
+                }
+            }
+        }
+    }
+
+    &__subtitle {
+        font-family: $recol-alt;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: left;
+
+        @include breakpoint(medium) {
+            font-size: 25px;
+            line-height: 34px;
+        }
+    }
+
+    &__form-container {
+        background-color: $white;
+        &-grid { 
+            margin: 0 auto;
+            max-width: 1170px;
+            background-color: $white;
+            padding-bottom: 30px;
+        }
+    }
+
+    &__payment-method {
+        max-width: 390px;
+
+        &-choice {
+            hr {
+                display: none;
+
+                @include breakpoint(medium) {
+                    display: block;
+                    border: 1px solid $hr-grey;
+                }
+            }
+        }
+    }
+
+    &__add-card {
+        margin-top: 40px;
+        max-width: 400px;
+        margin-left: auto;
+
+        @include breakpoint(medium){
+            margin-top: 0;
+        }
+
+        &-title {
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                font-family: $soft-alt;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 22px;
+                text-align: right;
+                text-decoration: underline;
+
+                margin-left: auto;
+
+                @include breakpoint(large){
+                    display: none;
+                }
+            }
+        }
+
+        &-find-security-code {
+            width: 100%;
+            position: relative;
+            span {
+                width: 100%;
+                margin-left: auto;
+                display: block;
+                cursor: pointer;
+
+                color: $dark-lilac;
+                font-family: $soft-alt;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 22px;
+                text-align: right;
+                text-decoration-line: underline;
+
+                @include breakpoint(medium) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .hr {
+            display: block;
+            border: 1px solid $hr-grey;
+        }
+
+        &-adress {
+            margin-top: -15px;
+            .custom-checkbox {
+                &__container {
+                    padding-left: 55px;
+                }
+                &__label {
+                    font-family: $soft-alt;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 19px;
+                    color: $dark-lilac;
+
+                    @include breakpoint(small) {
+                        line-height: 30px;
+                    }
+        
+                    &::before {
+                        left: 15px;
+        
+                        border: 1px solid $mid-dark-lil;
+                        border-radius: 9px;
+                        box-sizing: border-box;
+        
+                        width: 28px;
+                        height: 28px;
+        
+                        line-height: 1;
+                    }
+                }
+            }
+        }
+    }
+
+    &__security-code-overlay {
+        content: url($local-images + '/pages/checkout/OVERLAY-credit-card-security-code.png');
+        background: $white;
+        border-radius: 10px;
+        position: relative;
+        transition: all 1s;
+        max-width: 100%;
+
+        &:after {
+            content: "";
+            position: absolute;
+            right: 17px;
+            top: -15px;
+            border-top: none;
+            border-right: 15px solid transparent;
+            border-left: 15px solid transparent;
+            border-bottom: 15px solid $hr-grey;
+            @include breakpoint (large) {
+                right: 30px;
+            }
+        }
+
+        &-content {
+            padding: 15px;
+        }
+
+        &-wrapper {
+            margin-top: 20px;
+
+            &.hide {
+                display: none;
+            }
+    
+            &.show {
+                display: block;
+            }
+        }
+    }
+
+    .hide {
+        opacity: -1;
+        overflow: hidden;
+
+        &:after {
+            opacity: -1;
+        }
+    }
+
+    .show {
+        opacity: 1;
+        overflow: initial;
+
+        &:after {
+            opacity: 1;
+        }
+    }
+
+    &__adress-form {
+        max-height: 1000px;
+        margin-top: 0;
+        overflow: hidden;
+    }
+
+    &__adress-form.active {
+        max-height: 0;
+    }
+
+    &__right-form {
+        max-height: 1000px;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+    }
+
+    &__right-form.active {
+        max-height: 0;
+    }
+
+    &__button-container {
+        margin-top: 0;
+    }
+
+    &__go-to-review {
+        width: 100%;
+        background-color: white;
+        border: none;
+        display: block;
+        text-align: center;
+
+        .btn__container {
+            span {
+                color: $milka-lilac;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 5px;
+            }
+        }
+    }
+
+    .form-container {
+        .small-input-container {
+            max-width: 135px;
+    
+            @include breakpoint(small) {
+                max-width: 165px;
+            }
+            @include breakpoint(medium) {
+                max-width: 200px;
+            }
+        }
+        .small-input-container.large {
+            max-width: 270px;
+    
+            @include breakpoint(medium) {
+                // min-width: 240px;
+            }
+            @include breakpoint(large) {
+                min-width: 270px;
+            }
+        }
+    }
+}

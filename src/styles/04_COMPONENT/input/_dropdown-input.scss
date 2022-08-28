@@ -1,0 +1,36 @@
+.js-dropdown-input {
+    position: relative;
+}
+.js-dropdown-input::after {
+    // content: url($local-images + '/icons/ArrowDown.svg');
+    content: '\e027';
+    font-family: 'icomoon';
+    position: absolute;
+}
+
+.ui-autocomplete {
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+    width: 218px;
+    border: 1px solid $mid-dark-lil;
+    max-height: 350px;
+    overflow-x: hidden;
+}
+.ui-autocomplete .ui-menu-item {
+    border-top: 1px solid $mid-dark-lil;
+    display: block;
+    padding: 4px 6px;
+    color: $mid-dark-lil;
+    cursor: pointer;
+}
+.ui-autocomplete .ui-menu-item:first-child {
+    border-top: none;
+}
+.ui-autocomplete .ui-menu-item.ui-state-focus {
+    background-color: $mid-dark-lil;
+    color: $white;
+}
+.ui-helper-hidden-accessible {
+    display: none;
+}

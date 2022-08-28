@@ -1,0 +1,254 @@
+.overlay {
+	position: fixed;
+	top: 0;
+	z-index: 9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	overflow-y: auto;
+
+	background-color: rgba(59, 39, 116, 0.5);
+
+	line-height: 1.5em;
+
+	p:not(.overlay__title) {
+		padding:20px 20px 30px 20px;
+		color: $dark-lilac;
+		font-size: 20px;
+	}
+	
+	&__container {
+		position: relative;
+		flex-grow: 0;
+		flex-shrink: 0;
+		flex-basis: 80%;
+		
+    border-radius: 10px;
+		padding-top: 30px;
+		background: #fff;
+
+		@media only screen and (max-width: 320px) { 
+			width: 300px;
+		}
+
+		@include breakpoint(large) {
+			flex-basis: auto;
+			width: 610px;
+			margin: 0 auto;
+		}
+
+		/* Internet Explorer 10 / 11 */
+		@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+			margin: 0 !important;
+		}
+
+		/* Galaxy S5 Landscape only */
+		@media only screen 
+			and (max-width: 640px) 
+			and (max-height: 360px) 
+			and (-webkit-device-pixel-ratio: 3){
+				margin-top: 180px;
+		}
+
+		&.gifts-overlay-popup {
+			@media only screen and (min-width: 1200px) {  
+				width: 790px;
+			}
+
+			@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+				margin: 80px 0 0 0 !important;
+			}
+		}
+
+		/*@supports (-ms-ime-align:auto) {
+			flex-basis: auto !important;
+			width: 810px;
+		}*/
+	}
+	
+	&__close {
+		cursor: pointer;
+		position: absolute;
+		right: 10px;
+		top: -32px;
+		font-family: 'icomoon';
+		font-size: 40px;
+		color: #FFFFFF;
+
+		&:before {
+			cursor: pointer;
+			content: '\e024';
+		}
+	}
+	
+	&__content {
+		text-align: center;
+	}
+
+	&__title {
+		font-family: $recol-medium;
+        color: $dark-lilac;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 32px;
+        padding-bottom: 15px;
+		text-align: center;
+		
+		span {
+			font-family: inherit;
+
+			@media only screen and (min-width: 768px) {  
+				display: block;
+			}
+		}
+	}
+
+	&__footer {
+		padding: 30px;
+		background-color: #F6F1F1;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+
+		p {
+			padding:0 0 20px 0; 
+		}
+
+		.btn__container {
+			width: 300px;
+			margin: 0 auto;
+
+			@media only screen and (max-width: 320px) { 
+				width: 250px;
+			}
+		}
+
+	}
+}
+
+.gift-overlay {
+	padding: 0 30px 10px 30px;
+	position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 40%;
+    border-radius: 10px;
+    padding-top: 30px;
+	background: #fff;
+
+	@media only screen and (max-width: 640px) { 
+		padding: 0 10px 10px 10px;
+		flex-basis: 100%;
+	}
+
+	@media only screen and (min-width: 768px) { 
+		width: 750px;
+		flex-basis: auto;
+	}
+
+	.gift-overlay__header {
+		font-family: $recol-medium;
+        color: $dark-lilac;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px !important;
+        line-height: 32px;
+		text-align: center;
+
+		@media only screen and (max-width: 320px) {  
+			font-size: 18px !important;
+			line-height: 20px;
+		}
+	}
+	
+	.gift-overlay__content {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	.gift-overlay__pack {
+		padding-bottom: 15px;
+		cursor: pointer;
+
+		@media only screen and (max-width: 320px) { 
+			width: 140px !important;
+		}
+
+		@media only screen and (max-width: 640px) { 
+			width: 150px;
+
+			img {
+				width: inherit;
+			}
+		}
+
+		&:hover {
+			-webkit-animation-duration: 1s;
+			animation-duration: 1s;
+			-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+			-webkit-animation-name: wobble;
+			  animation-name: wobble
+			/*animation: shake 1.2s cubic-bezier(.36,.07,.19,.97) both;
+			transform: translate3d(0, 0, 0);
+			backface-visibility: hidden;
+			perspective: 3000px;*/
+		}
+
+		.active {
+			opacity:0.4;
+		}
+	}
+}
+
+@keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(2px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-4px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(4px, 0, 0);
+	}
+  }
+
+@keyframes wobble {
+	0% {
+	  transform: none
+	}
+	15% {
+	  transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -5deg)
+	}
+	30% {
+	  transform: translate3d(15%, 0, 0) rotate3d(0, 0, 1, 3deg)
+	}
+	45% {
+	  transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -3deg)
+	}
+	60% {
+	  transform: translate3d(5%, 0, 0) rotate3d(0, 0, 1, 2deg)
+	}
+	75% {
+	  -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+	  -ms-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+	  transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg)
+	}
+	100% {
+	  -webkit-transform: none;
+	  -ms-transform: none;
+	  transform: none
+	}
+  }
+
+@import "../../05_STATE/popup/overlay";

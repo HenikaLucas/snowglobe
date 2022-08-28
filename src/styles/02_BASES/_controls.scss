@@ -1,0 +1,21 @@
+input, textarea, select, button {
+    &:focus {
+        outline: none;
+    }
+}
+
+button {
+    white-space: normal;
+}
+
+button.disabled {
+    pointer-events: none !important;
+}
+
+a.disabled {
+    pointer-events: none !important;
+}
+
+object {
+    z-index: -1;
+}

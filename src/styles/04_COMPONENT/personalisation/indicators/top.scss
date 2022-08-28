@@ -1,0 +1,22 @@
+.top {
+    &-left {
+        margin: 0;
+		top: -30px;
+		left: -30px;
+		right: auto;
+    }
+
+    &-center {
+        margin: 0;
+		top: -30px;
+        left: calc(50% - 15px);
+        right: auto;
+    }
+
+    &-right {
+        margin: 0;
+		top: -30px;
+        right: -30px;
+        left: auto;
+    }
+}

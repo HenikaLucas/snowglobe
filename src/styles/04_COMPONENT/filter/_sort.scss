@@ -1,0 +1,96 @@
+.sort {
+    &__container {
+        justify-content: center;
+        margin: 20px 0 15px;
+
+        @include breakpoint(medium) {
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+    }
+
+    &__control {
+        align-self: center;
+        position: relative;
+        display: none;
+        cursor: pointer;
+        min-height: 40px;
+        border: 1px solid $dark-lilac;
+        border-radius: 30px;
+        margin-left: 50px;
+
+        text-align: center;
+        padding: 10px 0 0;
+        color: $dark-lilac;
+
+        @include breakpoint(medium-l){
+            display: block;
+        }
+
+        @include breakpoint(large){
+            display: block;
+        }
+    }
+
+    &__title {
+        font-family: $recoleta;
+        color: $dark-lilac;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.5;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+
+        @include breakpoint(medium) {
+            margin-bottom: 25px;
+            font-size: 40px;
+            line-height: 42px;
+        }
+
+        @include breakpoint(medium-l) {
+            width: initial;
+            text-align: initial;
+            margin-bottom: initial;
+        }
+
+        @include breakpoint(large) {
+            width: auto;
+            text-align: left;
+            margin-bottom: auto;
+        }
+    }
+
+    &__display {
+        padding-bottom: 10px;
+    }
+
+    &__item {
+        font-family: $soft-alt-regular;
+    }
+
+    &__content {
+        max-height: 0px;
+        overflow: hidden;
+        width: 100%;
+
+
+        .sort__item {
+            z-index: -1;
+            padding: 5px 0;
+
+            @include hover {
+                background-color: $alpine-sky;
+            }
+
+            //! Prevent child from breaking parent's border radius
+            &:nth-last-child(1) {
+                border-radius: 0 0 30px 30px;
+            }
+        }
+    }
+}
+
+
+@import "../../05_STATE/filter/sort";

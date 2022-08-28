@@ -1,0 +1,66 @@
+.menu {
+    &-line {
+        height: 2px;
+        width: 100%;
+        background: $milka-lilac;
+        position: absolute;
+
+        @include breakpoint(medium) {
+            height: 5px;
+        }
+
+        &:nth-child(1) {
+            transition: 0.5s;
+            opacity: 1;
+            top: 0;
+        }
+
+        &:nth-child(2) {
+            top: 10px;
+        }
+
+        &:nth-child(3) {
+            top: 20px;
+        }
+
+        &:nth-child(4) {
+            top: 30px;
+        }
+
+        &:nth-last-child(1) {
+            transition: 0.5s;
+            opacity: 0;
+        }
+    }
+}
+
+.error__page {
+    .menu-line {
+        background: $white;
+    }
+}
+
+// Hover effect on header btn 
+// ! Desktop only - will animate on touch for touch devices
+@include breakpoint (medium){
+    .header__btn {
+        position: relative; 
+        height: 30px; 
+        width: 35px;
+        transition: 0.2s;
+
+        @include hover {
+            transform: translateY(-10px);
+
+            .menu-line {
+                &:nth-child(1) {
+                    opacity: 0;
+                }
+
+                &:nth-last-child(1) {
+                    opacity: 1;
+                }
+            }
+        }
+    }    
+}

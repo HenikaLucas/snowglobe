@@ -1,0 +1,143 @@
+.cropit {
+    &-image {
+        &-zoom {
+            &-input {
+                z-index: 1;
+                width: 70%;
+                -webkit-appearance: none; 
+                background: transparent; 
+                margin-top: 30px;
+
+                @include breakpoint(medium) {
+                    width: 90%;
+                    margin-top: 0px;
+                    position: absolute;
+                    top: 20px;
+                    left: 152%;
+                }
+                @include breakpoint(large) {
+                    left: 112%;
+                }
+
+                @include breakpoint(mozilla-only) {
+                    top: 10px;
+                }
+
+                @include breakpoint(edge-only) {
+                    height: 16px;
+                }
+
+                @include breakpoint(IE-only) {
+                    padding: 0;
+                    left: 110%
+                }
+
+                // * WEBKIT browser input range css
+                &::-webkit-slider-thumb {
+                    cursor: pointer;
+                    -webkit-appearance: none;
+                    border: none;
+                    height: 16px;
+                    width: 16px;
+                    position: relative;
+                    top: -6px;
+                    border-radius: 50%;
+                    background: $dark-lilac;
+                    -webkit-user-modify: read-write !important;
+                }
+
+                &::-webkit-slider-runnable-track {
+                    width: 50%;
+                    height: 3px;
+                    background:  $light-lilac;
+                    border: 0;
+                    border-radius: 3px;
+                }
+
+                // * FIREFOX input range css
+                &::-moz-range-track {
+                    height: 3px;
+                    background:  $light-lilac;
+                    border: 0;
+                    border-radius: 3px;
+                }
+
+                &::-moz-range-thumb {
+                    cursor: pointer;
+                    -webkit-appearance: none;
+                    border: none;
+                    height: 16px;
+                    width: 16px;
+                    position: relative;
+                    top: -6px;
+                    border-radius: 50%;
+                    background: $dark-lilac;
+                    -webkit-user-modify: read-write !important;
+                }
+
+                // * EDGE & IE range input css
+                &::-ms-track {
+                    height: 3px;
+                    background:  $light-lilac;
+                    border: 0;
+                    overflow: visible;
+                    color: transparent;
+
+                    @include breakpoint(IE-only) {
+                        height: 16px;
+                        background:  transparent;
+                    }
+                }
+
+                &::-ms-fill-lower, &::-ms-fill-upper {
+                    @include breakpoint(IE-only) {
+                        height: 3px;
+                        background:   $light-lilac;
+                        border: 0;
+                        border-radius: 3px;
+                    }
+                }
+
+                &::-ms-thumb {
+                    cursor: pointer;
+                    -webkit-appearance: none;
+                    border: none;
+                    height: 16px;
+                    width: 16px;
+                    position: relative;
+                    top: -6px;
+                    border-radius: 50%;
+                    background: $dark-lilac;
+                    -webkit-user-modify: read-write !important;
+
+                    @include breakpoint(IE-only) {
+                        overflow: visible;
+                    }
+                }
+
+                &::-ms-ticks {
+                    background: green;
+                }
+
+                &:focus::-webkit-slider-runnable-track {
+                    background: $light-lilac;
+                }
+            }
+        }
+    }
+
+    &-preview {
+        // width: 100% !important;
+        // height: 100% !important;
+        // padding-bottom: 100%;
+        
+        &-image {
+            position: relative;
+            // height: 200%;
+
+            &-container {
+                cursor: move;
+            }
+        }
+    }
+}

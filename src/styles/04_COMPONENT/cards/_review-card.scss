@@ -1,0 +1,37 @@
+.review-card {
+    &__container {
+        margin: 10px 0;
+        max-width: 100%;
+        .product-review__container {
+            justify-content: flex-start;
+        }
+    }
+
+    &__username {
+        position: absolute;
+        bottom: 25px;
+        right: 0;
+        color: #3A2A73;
+    }
+
+    &__title {
+        word-break: break-all;
+        font-family: $recol-medium;
+        font-size: 25px;
+        color: $dark-lilac;
+
+        @include breakpoint(medium) {
+            word-break: initial;
+        }
+    }
+
+    &__date {
+        color: $dark-lilac;
+    }
+
+    &__text {
+        font-size: 16px;
+        color: $dark-lilac;
+        line-height: 1.4em;
+    }
+}

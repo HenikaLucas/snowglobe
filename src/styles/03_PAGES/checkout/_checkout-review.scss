@@ -1,0 +1,311 @@
+.checkout-review {
+    background-image: url($local-images + '/Pages/CartPage-Background.png');
+    @include header-color($milka-lilac);
+
+    &__container {
+        padding-top: 100px;
+        h1 {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 100%;
+            text-align: center;
+            color: $dark-lilac;
+            
+            margin: 0 auto;
+            max-width: 1170px;
+
+            @include breakpoint(large){
+                font-size: 45px;
+                line-height: 61px;
+                text-align: left;
+            }
+        }
+    }
+
+    &__content {
+        margin-top: -10px;
+        padding: 40px 0 0;
+        background-image: url($local-images + '/Pages/Cart-Background-Mobile.png');
+        
+        @include breakpoint(medium) {
+            padding: 52px 0 22px;
+            background-image: url($local-images + '/Pages/Cart-Background.png');
+        }
+        @include breakpoint(large) {
+            padding: 55px 0 30px;
+        }
+
+        .grid-row {
+            position: relative;
+            color: $dark-lilac;
+
+            &:after {
+                content: ' ';
+                border: 1px solid rgba(126,105,172,.2);
+                position: absolute;
+                top: 0;
+                left: 50%;
+                height: 75%;
+                max-width: 0px;
+                display: none;
+
+                @include breakpoint(medium){
+                    display: block;
+                }
+            }
+        }
+    }
+
+    &__subtitle {
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: left;
+            margin-bottom: 20px;
+
+            @include breakpoint(medium) {
+                font-size: 25px;
+                line-height: 34px;
+            }
+        }
+
+        a {
+            font-family: $soft-alt;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 22px;
+            text-align: right;
+            text-decoration: underline;
+            color: $dark-lilac;
+
+            margin-left: auto;
+
+            @include breakpoint(large){
+                font-size: 16px;
+            }
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__form-container {
+        background-color: $white;
+        .grid-row { 
+            margin: 0 auto;
+            max-width: 1170px;
+            background-color: $white;
+            padding-bottom: 40px;
+        }
+    }
+
+    &__your-order {
+        max-width: 390px;
+
+        hr.separator {
+            @include breakpoint(medium) {
+                display: none;
+            }
+        }
+
+        &-products {
+            .product-in-cart-description {
+                justify-content: initial;
+                flex-direction: column;
+
+                .product-in-cart__name {
+                    max-width: initial;
+                }
+            }
+        }
+    }
+
+    &__checkout-details {
+        margin-top: 12px;
+        max-width: 390px;
+        margin-left: auto;
+
+        @include breakpoint(medium){
+            margin-top: 0;
+        }
+        hr {
+            border: 1px solid $hr-grey;
+        }
+
+        h2 {
+            display: flex;
+
+            span {
+                display: block;
+            }
+        }
+
+        &-delivery {
+            font-family: $soft-alt;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 25px;
+
+            text-align: left;
+
+            margin-bottom: 10px;
+        }
+
+        &-adress {
+            font-family: $soft-alt-medium;
+            font-size: 18px;
+            line-height: 23px;
+            margin-bottom: 12px;
+
+            @include breakpoint(medium) {
+                font-size: 18px;
+            }
+        }
+
+        &-visa-card {
+            display: flex;
+            align-items: center;
+
+            &__number {
+                margin-left: 12px;
+            }
+        }
+
+        &-total-amount {
+            margin-top: 20px;
+
+            &-subtotal {
+                display: flex;
+                justify-content: space-between;
+
+                span {
+                    font-family: $soft-alt;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: 0.03em;
+                    text-transform: uppercase;
+                }
+            }
+
+            &-subtotal.totalorder {
+                margin-top: 15px;
+                flex-wrap: wrap;
+
+                .checkout-review__checkout-details-total-amount-subtotal-label {
+                    margin-top: auto;
+                    margin-bottom: 4px;
+                    span {
+                        font-family: $soft-alt;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 19px;
+
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
+
+                        display: block;
+                        margin-top: auto;
+                    }
+
+                    @include breakpoint(medium) {
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+                }
+
+                .checkout-review__checkout-details-total-amount-subtotal-value {
+                    display: flex;
+                    justify-content: center;
+
+                    span {
+                        font-family: $soft-alt;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 22px;
+                        line-height: 26px;
+                        text-align: right;
+
+                        @include breakpoint(medium) {
+                            font-size: 28px;
+                            line-height: 34px;
+                        }
+                    }
+
+                    @include breakpoint(medium) {
+                        font-size: 28px;
+                    }
+                }
+
+                .inkl {
+                    width: 100%;
+                    text-transform: none;
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    &__place-order {
+        display: block;
+        text-align: center;
+        width: 100%;
+        background-color: white;
+        border: none;
+        margin-top: 22px;
+
+        @include breakpoint(medium) {
+            margin-top: 32px;
+        }
+
+        .btn__container {
+            span {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 5px;
+                color: $white;
+            }
+        }
+    }
+
+    hr{
+        border: 1px solid $hr-grey;
+    }
+
+    .form-container {
+        .small-input-container {
+            max-width: 135px;
+    
+            @include breakpoint(small) {
+                max-width: 165px;
+            }
+            @include breakpoint(medium) {
+                max-width: 200px;
+            }
+        }
+        .small-input-container.large {
+            max-width: 270px;
+    
+            @include breakpoint(medium) {
+                // min-width: 240px;
+            }
+            @include breakpoint(large) {
+                min-width: 270px;
+            }
+        }
+    }
+}

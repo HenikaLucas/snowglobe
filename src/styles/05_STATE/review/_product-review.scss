@@ -1,0 +1,7 @@
+.product-review {
+    &--active {
+        &::before {
+            content: '\e013';
+        }
+    }
+}

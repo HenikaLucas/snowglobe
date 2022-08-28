@@ -1,0 +1,349 @@
+
+.btn {
+    &--primary {
+        background-color: $alpine-sky;
+        color: $dark-lilac !important;
+        position: relative;
+        font-weight: bold;
+        z-index: 1;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $alpine-sky;
+            border-radius: 22px;
+            z-index: -1;
+            transition: .3s;
+        }
+
+        @include hover {
+            &::before {
+                opacity: 0;
+            }
+        }
+        
+        @include hover {
+            background-image: linear-gradient(
+                180deg, 
+                rgba(197, 234, 250, 0) 20%, 
+                $alpine-sky-active 100%
+            );
+        }
+
+        &:active {
+            color: $white;
+            background-color: $alpine-sky-active;
+        }
+
+        &-disabled {
+            pointer-events: none;
+            cursor: default !important;
+            background-color: $mid-lilac !important;
+        }
+    }
+
+    &--secondary {
+        &-white {
+            background-color: $white;
+            color: $dark-lilac;
+            position: relative;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: $white;
+                border-radius: 22px;
+                z-index: -1;
+                transition: .3s;
+            }
+    
+            @include hover {
+                &::before {
+                    opacity: 0;
+                }
+            }
+
+            @include hover {
+                background-image: linear-gradient(
+                    180deg, 
+                    rgba(240, 239, 248, 0) 0%, 
+                    $light-lilac 100%
+                );
+            }
+
+            &:active {
+                background-color: $light-lilac;
+            }
+
+            &-disabled {
+                pointer-events: none;
+                cursor: default !important;
+                background-color: $light-lilac !important;
+            }
+        }
+
+        &-dark {
+            background-color: $dark-lila;
+            color: $white;
+            position: relative;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: $dark-lila;
+                border-radius: 22px;
+                z-index: -1;
+                transition: .3s;
+            }
+
+            &.darker::before {
+                background-color:#0A2962;  
+            }
+
+            &.alert {
+
+                &::before {
+                    background-color:#CF1316;  
+                }
+
+                &:hover {
+                    background-image: linear-gradient(180deg, #9C0E11 0%, #9C0E11 100%, #9C0E11 100%);
+                }
+            }
+    
+            @include hover {
+                &::before {
+                    opacity: 0;
+                }
+            }
+
+            @include hover {
+                background-image: linear-gradient(
+                    180deg, 
+                    rgba(59, 39, 116, 0) 0%, 
+                    $dark-lilac 100%, 
+                    $dark-lilac 100%
+                );
+            }
+
+            &:active {
+                background-color: $dark-lilac;
+            }
+
+            &-disabled {
+                pointer-events: none;
+                cursor: default !important;
+                background-color: $dark-lilac !important;
+            }
+        }
+
+        &-lilac {
+            background-color: $mid-dark-lil;
+            color: $white;
+            position: relative;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: $mid-dark-lil;
+                border-radius: 22px;
+                z-index: -1;
+                transition: .3s;
+            }
+    
+            @include hover {
+                &::before {
+                    opacity: 0;
+                }
+            }
+
+            @include hover {
+                background-image: linear-gradient(
+                    180deg, 
+                    rgba(125, 105, 172, 0) 0%, 
+                    $dark-lilac 100%
+                );
+            }
+
+            &:active {
+                background-color: $dark-lilac;
+            }
+
+            &-disabled {
+                pointer-events: none;
+                cursor: default !important;
+                background-color: $dark-lilac !important;
+            }
+        }
+
+        &-light {
+            background-color: $mid-lilac;
+            color: $white;
+            position: relative;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: $mid-lilac;
+                border-radius: 22px;
+                z-index: -1;
+                transition: .3s;
+            }
+    
+            @include hover {
+                &::before {
+                    opacity: 0;
+                }
+            }
+
+            @include hover {
+                background-image: linear-gradient(
+                    180deg, 
+                    rgba(125, 105, 172, 0) 0%, 
+                    $mid-dark-lil 100%
+                );
+            }
+
+            &:active {
+                background-color: $mid-dark-lil;
+            }
+
+            &-disabled {
+                pointer-events: none;
+                cursor: default !important;
+                background-color: $mid-dark-lil !important;
+            }
+        }
+
+        &-x-light {
+            background-color: $light-lilac;
+            color: $white;
+            position: relative;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: $light-lilac;
+                border-radius: 22px;
+                z-index: -1;
+                transition: .3s;
+            }
+    
+            @include hover {
+                &::before {
+                    opacity: 0;
+                }
+            }
+
+            @include hover {
+                background-image: linear-gradient(
+                    180deg, 
+                    rgba(125, 105, 172, 0) 0%, 
+                    $mid-lilac 100%
+                );
+            }
+
+            &:active {
+                background-color: $mid-lilac;
+            }
+
+            &-disabled {
+                pointer-events: none;
+                cursor: default !important;
+                background-color: $mid-lilac !important;
+            }
+        }
+
+        &-medow {
+            background-color: $alpine-meadow;
+            color: $white !important;
+            position: relative;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: $alpine-meadow;
+                border-radius: 22px;
+                z-index: -1;
+                transition: .3s;
+            }
+    
+            @include hover {
+                &::before {
+                    opacity: 0;
+                }
+            }
+
+            @include hover {
+                background-image: linear-gradient(180deg, $alpine-meadow, #00AABE24);
+            }
+
+            &:active {
+                background-color: #8c9f0f;
+            }
+
+            &-disabled {
+                pointer-events: none;
+                cursor: default !important;
+                background-color: #8c9f0f !important;
+            }
+        }
+
+        &-disabled {
+            pointer-events: none;
+            cursor: default !important;
+            background-color: $grey !important;
+        }
+    }
+
+    &--link {
+        background-color: transparent !important;
+        // min-width: auto;
+        
+        .btn__text {
+            font-family: $soft-regular;
+            text-decoration: underline;
+            color: $dark-lilac;
+            letter-spacing: 1px; 
+        }
+
+        &-disabled {
+            pointer-events: none;
+            cursor: default !important;
+        }
+    }
+}

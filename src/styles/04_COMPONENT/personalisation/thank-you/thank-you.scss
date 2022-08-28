@@ -1,0 +1,80 @@
+.personalise-thanks {
+    &__preview {
+        padding-left: 14px;
+        padding-right: 14px;
+
+        @include breakpoint(large) {
+            padding-left: 0;
+            padding-right: 20px;
+            border-right: 1px solid $light-lilac;
+        }
+    }
+    &__images {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        
+        @include breakpoint(large) {
+            padding-bottom: 0;
+            justify-content: flex-start;
+        }
+    }
+
+    &__image {
+        margin-top: 10px;
+        width: 100%;
+        max-width: calc(50% - 3px);
+
+
+        @include breakpoint(large) {
+            margin-right: 5px;
+        }
+
+        // &.one {
+        //     width: 70%;
+        //     max-width: none;
+        // }
+    }
+
+    &__text {
+        padding-left: 14px;
+        padding-right: 14px;
+
+        @include breakpoint(large) {
+            padding: 0 10px 0 80px;
+        }
+    }
+
+    &__title {
+        font-family: $recol-medium;
+        color: $milka-lilac;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    &__par {
+        color: $milka-lilac;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    &__cta {
+        margin-top: 40px;
+        
+        @include breakpoint(large) {
+            width: 80%;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+        }
+
+        .btn {
+            &__container {
+                margin-top: 22px;
+                width: 100%;
+            }
+        }
+    }
+}

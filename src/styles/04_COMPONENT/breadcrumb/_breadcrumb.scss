@@ -1,0 +1,46 @@
+.breadcrumb {
+    &__container {
+        display: none;
+        margin-top: 15px;
+        width: 100%;
+
+        @include breakpoint(medium) {
+            display: block;
+            padding-left: 20px;
+        }
+
+        @include breakpoint(large) {
+            padding-left: 0;
+        }
+    }
+
+    &__item {
+        text-transform: uppercase;
+        font-family: $item-font-family;
+
+        @include breakpoint(large) {
+            font-size: 18px;
+            letter-spacing: 2.77px;
+        }
+
+        @include breakpoint(x-large) {
+            font-size: 20px;
+        }
+
+        &::after {
+            content: '/';
+            margin: 0 5px;
+        }
+
+        &:nth-last-child(1) {
+            font-family: $last-item-font-family;
+            &::after {
+                content: ''
+            }
+        }
+
+        a {
+            color: $dark-lilac;
+        }
+    }
+}

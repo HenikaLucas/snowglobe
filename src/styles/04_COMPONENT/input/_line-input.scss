@@ -1,0 +1,13 @@
+.line {
+    &__input {
+        width: 100%;
+
+        border: none;
+        border-bottom: 1px solid $milka-lilac;
+        font-family: $soft-alt-regular;
+
+        padding: 10px 5px;
+        margin: 0 5px 0 20px;
+        background-color: transparent;
+    }
+}

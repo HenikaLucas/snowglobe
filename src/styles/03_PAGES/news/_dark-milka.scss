@@ -1,0 +1,127 @@
+.dark-milka {
+    &__container {
+        background-color: $dark-milka;
+
+        .breadcrumb {
+            &__container {
+                margin: 0 0 30px;
+            }
+            &__item {
+                color: $white;
+                a {
+                    color: $white;
+                }
+            }
+        }
+
+        .product-highlight {
+            &__container {
+                background-color: $dark-milka;
+
+                .page__title, .page__intro >* {
+                    color: $white;
+                }
+            }
+
+            &__title, &__big, &__description {
+                color: $white;
+            }
+        }
+
+        .mosaique {
+            &__container  {
+                background-color: transparent;
+                margin: 0 auto;
+
+                padding: 30px 15px;
+                @include breakpoint(medium) {
+                    // max-width: 905px;
+                    padding: 0;
+                }
+            }
+
+            &__title {
+                font-family: $recoleta;
+                color: $dark-lilac;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 31px;    
+                text-align: center;
+                width: 100%;
+        
+                @include breakpoint(medium) {
+                    font-size: 40px;
+                    line-height: 46px;
+                    padding-bottom: 35px;
+                }
+            }
+        }
+
+        .heritage {
+            &__container {
+                padding-top: 60px;
+            }
+        }
+
+        .page {
+            &__label {
+                padding: 40px 15px 0;
+            }
+        }
+
+        .national-park {
+            &__times {
+                margin: 0;
+                padding: 0 10px 30px;
+
+                .page {
+                    &__image {
+                        img {
+                            margin-top: 0;
+                            width: 60%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+
+            &__pastures-bg {
+                padding-top: 80px;
+            }
+        }
+    }
+
+    &__start {
+        &-text {
+            font-family: $soft-alt;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 26px;
+            color: $dark-lilac;
+            padding: 10px 20px;
+        }
+
+        &-image {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        &-story {
+            background-image: url(../images/Shapes/master-paper-texture_white.jpg);
+            background-repeat: repeat;
+            padding: 0 0 63px;
+
+            @include breakpoint(medium) {
+                padding-top: 83px;
+            }
+        }
+    }
+
+    .separator__curve--banner-dark::after {
+        bottom: -10px;
+    }
+}

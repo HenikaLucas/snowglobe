@@ -1,0 +1,147 @@
+.review-overlay{
+
+    &__container {
+        align-self: flex-start;
+        margin: 50px 0;
+        text-align: center;
+        position: relative;
+
+        padding: 0 30px 110px;
+        
+        .overlay__close {
+            position: absolute;
+            top: -35px;
+            right: 0;
+            color: $white;
+        }
+        
+        h1, h3, label {
+            font-family: $recol-regular;
+        }
+
+        input[type="text"] {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    &__sub-container {
+        padding: 25px 0;
+        margin: 0 0 10px;
+        border-bottom: 1px solid rgba(126, 105, 172, 0.2);
+        position: relative;
+
+        .review-overlay__subtitle {
+            margin-top: 0;
+        }
+    }
+
+    &__title{
+        margin-top: 10px;
+        font-size: 30px;
+        color: $dark-lil;
+    }
+
+    &__subtitle{
+        margin-top: 10px;
+        font-size: 25px;
+        color: $dark-lila;
+    }
+
+    &__text {
+        font-family: $soft-alt-regular;
+        font-size: 20px;
+        color: $dark-lilac;
+
+        padding-top: 10px;
+    }
+
+    &__foot {
+        height: 95px;
+        width: 100%;
+        padding: 0 30px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        border-radius: 0 0 10px 10px;
+
+        .btn__container {
+            // min-width: auto;
+
+            &:not(:only-child) {
+                margin: 0;
+            }
+        }
+
+        input[type="submit"] {
+            border: none;
+            font-family: $soft-alt-medium;
+            font-size: 20px;
+            color: $dark-lilac;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        label {
+            width: 100%;
+            text-align: left;
+            display: block;
+        }
+
+        input, textarea {
+            color: $mid-dark-lil;
+            border-color: $mid-dark-lil;
+            margin: 10px 0 0;
+
+            &::-webkit-input-placeholder {
+                color: $mid-dark-lil;
+            }
+        }
+
+        & > div {
+            width: 100%
+        }
+    }
+
+    &__limit-indicator {
+        font-size: 14px;
+        text-align: left;
+        margin-top: 5px;
+        color: $dark-lilac;
+    }
+
+    &__vote {
+        .review-overlay__subtitle {
+            margin: 0;
+        }
+    }
+}
+
+#review-thank-you {
+    .review-overlay__foot {
+        justify-content: center;
+    }
+}
+
+    #review-form {
+        .review-overlay__foot {
+            flex-direction: column;
+            justify-content: space-around;
+
+            @include breakpoint(start-medium-tablet) {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+
+@import "../../../05_STATE/overlay/review/review-overlay.scss";

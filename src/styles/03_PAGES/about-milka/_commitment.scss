@@ -1,0 +1,243 @@
+.commitment {
+    background-image: url($local-images+'/Shapes/master-paper-texture_grey.jpg');
+    background-repeat: repeat;
+    .breadcrumb {
+        &__container {
+            margin-top: 0;
+        }
+    }
+
+    &__sustainability {
+        margin: 50px 15px 0;
+
+        @include breakpoint(medium) {
+            max-width: 680px;
+            margin: 50px auto 0;
+        }
+
+        @include breakpoint(large) {
+            max-width: 980px;
+        }
+
+        .page {
+            &__intro {
+                p {
+                    width: 100%;
+                    font-size: 18px;
+                    @include breakpoint(medium) {
+                        font-size: 20px;
+                        line-height: 26px;
+                    }
+                }
+            }
+            &__paragraph {
+                p {
+                    font-size: 18px;
+                    @include breakpoint(medium) {
+                        font-size: 20px;
+                    }
+                }
+                @include breakpoint(large) {
+                    padding: 0 35px 0 0;
+                }
+            }
+        }
+    }
+
+    &__cocoa {
+        margin: 50px 15px 0;
+        padding: 60px 0 80px;
+
+        @include breakpoint(medium) {
+            max-width: 680px;
+            margin: 50px auto 0;
+        }
+
+        @include breakpoint(large) {
+            max-width: 980px;
+        }
+
+        &-bg {
+            background-image: url($local-images+'/Shapes/master-paper-texture_white.jpg');
+            background-repeat: repeat;
+        }
+    }
+
+    &__partners {
+        margin: 50px 15px 0;
+
+        @include breakpoint(medium) {
+            max-width: 680px;
+            margin: 50px auto 0;
+        }
+
+        @include breakpoint(large) {
+            max-width: 1175px;
+        }
+
+        &-largeP {
+            @include breakpoint(large) {
+                padding-right: 80px;
+            }
+        }
+
+        .page {
+            &__subtitle {
+                max-width: 586px;
+                > * {
+                    text-align: left;
+                }
+            }
+            &__intro {
+                > * {
+                    text-align: left;
+                    width: 100%;
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+
+    &__cocoa-life {
+        margin: 50px 15px 0;
+
+        @include breakpoint(medium) {
+            max-width: 680px;
+            margin: 50px auto 0;
+            padding: 81px 0 45px;
+        }
+
+        @include breakpoint(large) {
+            max-width: 1185px;
+        }
+        &-bg {
+            background-image: url($local-images+'/Shapes/master-paper-texture_white.jpg');
+            background-repeat: repeat;
+        }
+
+        &-image {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .page {
+            &__subtitle {
+                @include breakpoint(large) {
+                    padding-left: 100px;
+                }
+            }
+            &__intro {
+                > * {
+                    width: 100%;
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+            }
+        }
+
+        .row {
+            .page__intro {
+                @include breakpoint(large) {
+                    padding-left: 100px;
+                }
+            }
+        }
+    }
+
+    &__children {
+        margin: 50px 15px 0;
+
+        @include breakpoint(medium) {
+            max-width: 680px;
+            margin: 50px auto 0;
+            padding: 81px 0 45px;
+        }
+
+        @include breakpoint(large) {
+            max-width: 1185px;
+        }
+
+        img {
+            max-width: 290px;
+            height: auto;
+            margin-top: -30px;
+        }
+
+        .page {
+            &__subtitle {
+                h3 {
+                    text-align: left;
+                }
+            }
+            &__intro {
+                p {
+                    text-align: left;
+                    padding-bottom: 15px;
+                    font-size: 18px;
+                    @include breakpoint(medium) {
+                        font-size: 20px;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__palm {
+        margin: 50px 15px 0;
+        padding: 40px 0;
+
+        @include breakpoint(medium) {
+            max-width: 680px;
+            margin: 50px auto 0;
+            padding: 81px 0 113px;
+        }
+
+        @include breakpoint(start-medium) {
+            max-width: 980px;
+        }
+
+        @include breakpoint(large) {
+            max-width: 1185px;
+        }
+        &-bg {
+            background-image: url($local-images+'/Shapes/master-paper-texture_white.jpg');
+            background-repeat: repeat;
+        }
+        .page {
+            &__intro {
+                p {
+                    font-size: 18px;
+                    @include breakpoint(medium) {
+                        font-size: 20px;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+    }
+
+    .quote-banner {
+        p {
+            font-size: 26px;
+            @include breakpoint (medium) {
+                font-size: 40px;
+            }
+        }
+    }
+
+    .page {
+        &__paragraph {
+            p {
+                font-size: 18px; 
+                @include breakpoint (medium) {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+}

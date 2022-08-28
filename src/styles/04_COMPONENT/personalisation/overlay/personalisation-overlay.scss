@@ -1,0 +1,93 @@
+.personalisation-overlay {
+    &__container {
+        position: relative;
+        max-width: 95%;
+        
+        @include breakpoint(medium) {
+            max-width: 1170px;
+        }
+
+        .overlay {
+            &__close {
+                position: absolute;
+                top: -50px;
+                right: -10px;
+                color: $white;
+
+                @include breakpoint (large) {
+                    top: -35px;
+                    right: -50px;
+                }
+            }
+        }
+
+        .icon {
+            &-arrow {
+                &-left {
+                    cursor: pointer;
+                    position: relative;
+                    left: calc(50% - 50px);
+                    top: 15px;
+
+                    font-size: 40px;
+                    color: $white;
+
+                    @include breakpoint(large) {
+                        margin-top: 0;
+                        position: absolute;
+                        left: -60px;
+                        top: calc(50% - 20px);
+                    }
+                }
+                
+                &-right {
+                    cursor: pointer;
+                    position: relative;
+                    left: calc(50% - 10px);
+                    top: 15px;
+
+                    font-size: 40px;
+                    color: $white;
+
+                    
+                    @include breakpoint(large) {
+                        margin-top: 0;
+                        position: absolute;
+                        left: auto;
+                        right: -60px;
+                        top: calc(50% - 20px);
+                    }
+                }
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        * {
+            flex-shrink: 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: none;
+            max-width: 90vw;
+            max-height: 90vh;
+
+            @include breakpoint(medium) {
+                height: 80vh;
+                width: auto;
+            }
+        }
+    }
+}
+
+#perso-error-overlay {
+    background-color: $white;
+    padding: 50px;
+    border-radius: 23px;
+}

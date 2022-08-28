@@ -1,0 +1,179 @@
+$title-font-size: 60px;
+$title-color: $dark-lilac;
+$info-font-size: 25px;
+$bullet-font-size: 20px;
+
+.product {
+    &__description {
+        @include breakpoint(medium) {
+            padding: 50px 0;
+        }
+        @include breakpoint(large) {
+            flex-wrap: nowrap;
+        }
+
+        .to-cart__container {
+            align-self: center;
+            margin-bottom: 40px;
+
+            @include breakpoint(medium) {
+                align-self: initial;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    &__details {
+        font-family: $soft-alt-regular;
+
+        @include breakpoint(medium) {
+            padding-left: 15px;
+            padding-right: 35px;
+        }
+
+        @include breakpoint(large) {
+            padding-left: initial;
+        }
+    }
+
+    &__title {
+        color: $title-color;
+        font-family: $recol-medium;
+        font-size: 25px;
+        text-align: center;
+
+        @include breakpoint(medium) {
+            text-align: initial;
+            font-size: $title-font-size - 15px;
+        }
+
+        @include breakpoint(large) {
+            font-size: $title-font-size;
+        }
+    }
+
+    &__info {
+        text-align: center;
+        color: $dark-lilac;
+        font-family: $recol-regular;
+        font-size: $info-font-size - 6px;
+        margin-bottom: 20px;
+
+        @include breakpoint(medium) {
+            margin-bottom: initial;
+            text-align: initial;
+            font-size: $info-font-size - 4px;
+        }
+
+        @include breakpoint(large) {
+            line-height: 1.3em;
+            margin: 10px 0;
+            font-size: $info-font-size;
+        }
+
+        a {
+            display: none;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &__bullets {
+        color: $dark-lilac;
+        font-family: $soft-alt-regular;
+
+        list-style-type: disc;
+        font-size: 17px;
+        line-height: 19px;
+
+        @include breakpoint(medium) {
+            margin-top: 10px;
+            font-size: $bullet-font-size - 4px;
+        }
+
+        @include breakpoint(large) {
+            line-height: 1.3em;
+            font-size: $bullet-font-size;
+        }
+
+        li {
+            margin: 5px 0;
+
+            @include breakpoint(medium) {
+                margin: initial;
+            }
+        }
+    }
+
+    &__customise {
+        .btn__container {
+            background-color: $alpine-meadow; // TODO: REFACTOR THIS CSS 
+        }
+    }
+
+    &__actions {
+        order: -1;
+
+        @include breakpoint(medium) {
+            order: initial;
+        }
+    }
+
+    &__display {
+        overflow: hidden;
+        padding-top: 50px;
+    }
+
+    &-details {
+        .popular-products {
+            &__content {
+                .product {
+                    &__name {
+                        color: $dark-lilac;
+                    }
+                    &__price {
+                        color: $dark-lilac;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#nutritional {
+    background-image: url($local-images+'/Shapes/mask.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+
+    .product-accordion {
+        .js-product-accordion-multiple-content {
+            border-top: none;
+        }
+        
+        &__title {
+            padding-bottom: 2%;
+        }
+
+        &__content {
+            margin-top: 0;
+        }
+
+        &__separator {
+            background-image: url(../images/Shapes/master-paper-texture_grey.jpg);
+            background-repeat: repeat;
+            height: 10px;
+            width: 112%;
+            margin-left: -5%;
+            margin-top: 20px;
+            display: none;
+            border-top: none;
+
+            &.product-accordion--opened {
+                display: block;
+            }
+        }
+    }
+}

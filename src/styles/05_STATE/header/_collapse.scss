@@ -1,0 +1,28 @@
+.header {
+    &__menu--open {
+        left: 0;
+    }
+
+    &__head {
+        &--lilac {
+            [class^="icon-"] {
+                color: #fff !important;
+                
+            }
+            
+            .icon-shopping-bag::before {
+                color: $milka-lilac !important;
+            }
+
+            .select-country {
+                &__text {
+                    color: $milka-lilac !important;
+                }
+
+                &__container {
+                    border-color: $milka-lilac !important;
+                }
+            }
+        }
+    }
+}

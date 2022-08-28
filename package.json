@@ -1,0 +1,58 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "flatpickr": "^4.6.6",
+    "html-react-parser": "^0.13.0",
+    "i18next": "^19.7.0",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^16.13.1",
+    "react-elastic-carousel": "^0.11.5",
+    "react-google-invisible-recaptcha": "^0.2.11",
+    "react-gtm-module": "^2.0.10",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^11.7.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-slick": "^0.29.0",
+    "react-theme-context": "^2.0.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
+    "swiper": "^6.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node server/index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+.gift-110 {
+    // make KONVA Generated CANVAS responsive
+    .konvajs-content {
+        padding-bottom: 91.3%; // height/width*100%
+    }
+
+    #front-photo-1 {
+        .cropit-preview-image-container {
+            clip-path: url(#front1);
+        }
+    }
+
+    #back-photo-1 {
+        .cropit-preview-image-container {
+            clip-path: url(#back1);
+        }
+    }
+
+    #back-photo-2 {
+        .cropit-preview-image-container {
+            clip-path: url(#back2);
+        }
+    }
+
+    #back-photo-3 {
+        .cropit-preview-image-container {
+            clip-path: url(#back3);
+        }
+    }
+
+    #front {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            &__guide {
+                position: absolute;
+                border-color: $white;
+                transform: rotate(21.02deg);
+
+                &:nth-of-type(1){
+                    width: 45.38%;
+                    height: 18.405%;
+                    left: 48.175%;
+                    top: 33.057%;
+
+                    @include breakpoint(medium) {
+                        left: 48.175%;
+                        top: 30.057%;
+                    }
+                }
+
+                &:nth-of-type(2){
+                    width: 24.653%;
+                    height: 16.677%;
+                    left: 38.185%;
+                    top: 53.303%;
+                }
+
+                &:nth-of-type(3){
+                    transform: rotate(0);
+                    border-color: transparent;
+                    width: 24.319%;
+                    height: 24.319%;
+                    left: 57.482%;
+                    top: 63.306%;
+                }
+
+            }
+        }
+    }
+
+    #back {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            &__guide {
+                position: absolute;
+                border-color: $white;
+                transform: rotate(19.34deg);
+
+                &:nth-of-type(1){
+                    width: 27.651%;
+                    height: 22.324%;
+                    left: 41.5408%;
+                    top: 63.923%;
+
+                    @include breakpoint(large) {
+                        height: 24.324%;
+                        left: 41.5408%;
+                        top: 61.923%;
+                    }
+                }
+
+                &:nth-of-type(2){
+                    transform: rotate(0);
+                    border-color: transparent;
+                    width: 25.136%;
+                    height: 25.136%;
+                    left: 1.904%;
+                    top: 63.138%;
+                }
+
+                &:nth-of-type(3){
+                    transform: rotate(0);
+                    border-color: transparent;
+                    width: 27.302%;
+                    height: 27.302%;
+                    left: 38.088%;
+                    top: 13.327%;
+                }
+
+                &:nth-of-type(4){
+                    transform: rotate(0);
+                    border-color: transparent;
+                    width: 26.7006%;
+                    height: 26.7006%;
+                    left: 72.278%;
+                    top: 44.418%;
+                }
+
+            }
+        }
+    }
+}

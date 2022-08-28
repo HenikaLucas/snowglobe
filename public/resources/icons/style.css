@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ey07v5');
+  src:  url('fonts/icomoon.eot?ey07v5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ey07v5') format('truetype'),
+    url('fonts/icomoon.woff?ey07v5') format('woff'),
+    url('fonts/icomoon.svg?ey07v5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Language-Selector--White--Desktop-AT:before {
+  content: "\e033";
+  color: #fff;
+}
+.icon-heart:before {
+  content: "\e040";
+  color: #fff;
+}
+.icon-ArrowLeft:before {
+  content: "\e030";
+  color: #7d69ac;
+}
+.icon-ArrowRight:before {
+  content: "\e031";
+  color: #7d69ac;
+}
+.icon-Language-Selector--White--Desktop-1:before {
+  content: "\e029";
+  color: #fff;
+}
+.icon-btn-icon-down:before {
+  content: "\e027";
+  color: #7d69ac;
+}
+.icon-zoom-in:before {
+  content: "\e026";
+  color: #fff;
+}
+.icon-zoom-out:before {
+  content: "\e025";
+  color: #fff;
+}
+.icon-close-overlay:before {
+  content: "\e024";
+  color: #fff;
+}
+.icon-arrowleft:before {
+  content: "\e022";
+  color: #7d69ac;
+}
+.icon-arrowright:before {
+  content: "\e023";
+  color: #7d69ac;
+}
+.icon-increase-size:before {
+  content: "\e020";
+  color: #fff;
+}
+.icon-reduce-size:before {
+  content: "\e021";
+  color: #fff;
+}
+.icon-btn-icon-back:before {
+  content: "\e017";
+  color: #fff;
+}
+.icon-btn-icon-next:before {
+  content: "\e018";
+  color: #fff;
+}
+.icon-add-button:before {
+  content: "\e016";
+}
+.icon-minus-button:before {
+  content: "\e015";
+}
+.icon-review-star-filled:before {
+  content: "\e013";
+  color: #3b2774;
+}
+.icon-review-start:before {
+  content: "\e014";
+  color: #3b2774;
+}
+.icon-shopping-bag:before {
+  content: "\e008";
+  color: #fff;
+}
+.icon-milka-logo:before {
+  content: "\e001";
+}
+.icon-Facebook_Icon:before {
+  content: "\e002";
+  color: #7d69ac;
+}
+.icon-Insta_Icon:before {
+  content: "\e003";
+  color: #7d69ac;
+}
+.icon-MDLZ_Logo:before {
+  content: "\e004";
+  color: #fff;
+}
+.icon-Youtube_Icon .path1:before {
+  content: "\e005";
+  color: rgb(125, 105, 172);
+}
+.icon-Youtube_Icon .path2:before {
+  content: "\e006";
+  margin-left: -1.41015625em;
+  color: rgb(255, 255, 255);
+}
+.icon-customize:before {
+  content: "\e009";
+  color: #fefefe;
+}
+.icon-profile:before {
+  content: "\e010";
+  color: #fff;
+}
+.icon-home:before {
+  content: "\e011";
+}
+.icon-new-search:before {
+  content: "\e012";
+  color: #fff;
+}
+.icon-personalisation-completed:before {
+  content: "\e019";
+  color: #fff;
+}
+.icon-uniE900:before {
+  content: "\e028";
+  color: #7d6baa;
+}
+.icon-pinterest-icon:before {
+  content: "\e032";
+  color: #7e69ac;
+}

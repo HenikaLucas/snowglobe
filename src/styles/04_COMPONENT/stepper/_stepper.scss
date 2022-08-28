@@ -1,0 +1,27 @@
+.stepper {
+    &__container {
+        font-family: $soft-alt-black;
+
+        @include breakpoint(medium) {
+            // margin-top: 15px;
+        }
+    }
+
+    &__controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+        
+        .icon-less, .icon-add {
+            font-size: 32px;
+        }
+    }
+
+    &__display {
+        text-align: center;
+        min-width: 20px;
+        margin: 0 10px;
+        font-size: 18px;
+    }
+}

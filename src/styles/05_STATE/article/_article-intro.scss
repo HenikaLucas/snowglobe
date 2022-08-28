@@ -1,0 +1,18 @@
+.article-intro {
+    &__container {
+        &--side {
+            width: unset;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin-top: 20px;
+
+            .article-intro__img {
+                img {
+                    width: 75%;
+                    height: auto;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

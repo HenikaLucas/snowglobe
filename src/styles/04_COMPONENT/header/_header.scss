@@ -1,0 +1,295 @@
+.header {
+    &__container {
+        // max-width: 1518px;
+        
+        display: flex;
+
+        width: 100%;
+
+        flex-direction: column;
+
+        position: fixed;
+        top: 0;
+        z-index: 999;
+
+        //* FOR REUSABILITY, SITECORE INTEGRATED DOM USES SAME CLASS DESKTOP HEADER
+        .header-md__navigation {
+            text-transform: uppercase;
+            font-family: $soft-alt-medium;  
+            color: #7d69ac;
+            font-weight: 700;
+        }
+    }
+
+    &__head {
+        
+        width: 100%;
+        min-height: 70px;
+        max-height: 100px;
+
+        position: relative;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 0 20px;
+        transition: 0.5s;
+
+        .icon-home {
+            color: $milka-lilac;
+            font-size: 22px;
+        }
+    }
+
+    &__menu {
+        
+        cursor: pointer;
+        position: relative;
+        width: 30px;
+        height: 30px;
+
+        .menu {
+            &-line {
+                background-color: $white;
+            }
+        }
+    }
+
+    &__pull {
+        
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        width: auto;
+        height: 100%;
+        transition: 0.2s;
+    }
+    
+    &__logo {
+        
+        position: absolute;
+        right: calc(50% - 50px);
+        max-height: 100px;
+        z-index: 1;
+        width: 100px;
+
+        a {
+            width: 100%;
+            font-size: 50px;
+            color: $white;
+        }
+    }
+
+    &__icons {
+        
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        
+        & > * {
+            margin: 0 5px;
+        }
+        
+        a {
+            span {
+                font-size: 30px;
+                color: $white;
+            }
+        }
+
+        .js-shopping-bag {
+            position: relative;
+            margin: 0 5px 0 15px;
+            
+            .icon-shopping-bag {
+                font-size: 20px;
+                position: relative;
+
+                &:before {
+                    font-size: 33px;
+                }
+                &:after {
+                    content: attr(data-count);
+                    text-align: center;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: -2px;
+                }
+            }
+        }
+
+        .select-country {
+            &__text {
+                color: $white;
+            }
+
+            &__container {
+                border-color: $white;
+            }
+        }
+    }
+    
+    &__content {
+        
+        position: fixed;
+        transition: 0.5s;
+        left: -250vh;
+        max-height: 100vh;
+        width: 100%;
+        background-image: url($local-images+'/Pages/bg-pattern/bg-paper-purple.png');
+        max-height: 100%;
+        background-size: cover;
+    }
+
+    &__navigations {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 15px;
+        
+        ul {
+            width: 100%;
+        }
+
+        li {
+            text-align: center;
+            width: 100%;
+            padding: 20px 0;
+            font-weight: 600;
+            font-size: 28.5926px;
+            line-height: 260%;
+        }
+        
+        a {
+            font-family: $recoleta;  
+            color: #fff;
+            text-transform: none;
+        }
+    }
+
+    &__navigation {
+        
+        text-transform: uppercase;
+        font-family: $soft-alt-medium;  
+        color: #7d69ac;
+        font-weight: 700;
+    }
+
+    &__form {
+        
+        border-top: 1px solid #7d69ac;
+        border-bottom: 1px solid #7d69ac;
+
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+
+        margin: 2px 0;
+        padding: 0 5px;
+        padding-top: 22px;
+        padding-bottom: 32px;
+
+        input {
+            color: $milka-lilac;
+        }
+
+        span {
+            font-size: 30px;
+            color: $milka-lilac;
+        }
+    }
+
+    &__end {
+        
+        width: 100%;
+
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        min-height: 60px;
+        border-top: 1px solid #7d69ac;
+
+        .header__navigation {
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+
+        span {
+            position: absolute;
+            right: 20%;
+            top: -50%;
+            font-size: 30px;
+        }
+    }
+
+    &__search {
+        
+        margin: 0 10px;
+        
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__cart-value {
+        
+        position: absolute;
+        font-size: 20px!important;
+        right: 8px;
+        top: 8px;
+
+        @include breakpoint(large) {
+            right: 10px;
+            top: 10px;
+        }
+    }
+}
+
+.navigation {
+    &__logo {
+        position: absolute;
+        right: 20px;
+        top: calc(50% - 20px);
+    }
+}
+
+.error__page {
+    .header__container {
+        path {
+            stroke: $white;
+        }
+    }
+}
+
+.header-product-added {
+    pointer-events: none;
+    opacity: -1;
+    position: fixed;
+    top: 90px;
+    right: 0;
+    z-index: 9999;
+    @include breakpoint (large) {
+        top: 85px;
+        right: 125px;
+        width: 600px;
+    }
+
+    .in-cart__main {
+        padding-bottom: 10px;
+    }
+}
+.header-product-added.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+//! HEADER STATES 
+@import "../../05_STATE/header/collapse";

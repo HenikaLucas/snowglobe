@@ -1,0 +1,321 @@
+$offset-top-left: 8%;
+$offset-top-right: 13%;
+$offset-side: -12%;
+$deco-width-left: 33%;
+$deco-width-right: 46%;
+
+.container {
+	&--simple-deco {
+		position: relative;
+
+		&::before {
+			display: none;
+			position: absolute;
+			z-index: -1;
+			left: $offset-side;
+			top: $offset-top-left;
+			height: 105% + $offset-top-left;
+			width: $deco-width-left;
+			content: "";
+
+			background-image: url($local-images + "/Pages/home/simple-deco-left.png");
+			background-repeat: no-repeat;
+			background-size: 50%;
+
+			@include breakpoint(large) {
+				display: block;
+			}
+
+			@include breakpoint(x-large) {
+				left: $offset-side - 8;
+			}
+
+			@media (min-width: 1700px) {
+				left: $offset-side - 12;
+			}
+
+			@media (min-width: 1800px) {
+				left: $offset-side - 16;
+			}
+
+			@media (min-width: 1900px) {
+				left: $offset-side - 22;
+			}
+		}
+
+		&::after {
+			display: none;
+			position: absolute;
+			z-index: -1;
+			right: $offset-side;
+			top: $offset-top-right;
+			height: 105% + $offset-top-right;
+			width: $deco-width-right;
+			content: "";
+
+			background-image: url($local-images + "/Pages/home/simple-deco-right.png");
+			background-repeat: no-repeat;
+			background-size: 50%;
+			background-position: top right;
+
+			@include breakpoint(large) {
+				display: block;
+			}
+
+			@include breakpoint(x-large) {
+				right: $offset-side - 8;
+				top: $offset-top-left;
+			}
+
+			@media (min-width: 1700px) {
+				right: $offset-side - 12;
+			}
+
+			@media (min-width: 1800px) {
+				right: $offset-side - 16;
+			}
+
+			@media (min-width: 1900px) {
+				right: $offset-side - 22;
+			}
+		}
+	}
+
+	&--beach-deco {
+		position: relative;
+
+		&::before {
+			display: none;
+			position: absolute;
+			z-index: -1;
+			left: $offset-side;
+			top: 2%;
+			height: 105%;
+			width: $deco-width-left;
+			content: "";
+
+			background-image: url($local-images + "/Pages/home/beach-deco-left.png");
+			background-repeat: no-repeat;
+			background-size: 50%;
+
+			@include breakpoint(large) {
+				display: block;
+			}
+
+			@include breakpoint(x-large) {
+				left: $offset-side - 52;
+			}
+		}
+
+		&::after {
+			display: none;
+			position: absolute;
+			z-index: -1;
+			right: $offset-side;
+			top: 2%;
+			height: 105%;
+			width: 65%;
+			content: "";
+
+			background-image: url($local-images + "/Pages/home/beach-deco-right.png");
+			background-repeat: no-repeat;
+			background-size: 50%;
+			background-position: top right;
+
+			@include breakpoint(large) {
+				display: block;
+			}
+
+			@include breakpoint(x-large) {
+				right: $offset-side - 52;
+			}
+		}
+	}
+}
+.content-home {
+	text-align: center;
+	h2[class="step-title"] {
+		position: relative;
+		top: 2em;
+		color: #3b2774;
+	}
+}
+.content-faq__rewe .content-faq .s-content-copy__item {
+	padding-bottom: 0;
+	@media only screen and (max-width: 768px) {
+		background-color: unset;
+	}
+	.headings {
+		margin: 25px 0;
+	}
+	p {
+		padding: 0;
+	}
+}
+.content-faq__rewe .steps_container {
+	.step__item {
+		.step__item__text {
+			margin-top: -211px;
+		}
+		.step__item__text__kassenbon {
+			margin-top: -138px;
+		}
+		p {
+			color: #3b2772;
+			width: 55%;
+			font-weight: bold;
+
+			strong {
+				font-family: "Intervogue Soft Alt Bold";
+				font-weight: 900;
+			}
+		}
+		p[class="step__item__text step__item__text__4"] {
+			color: #ffffff;
+			@media only screen and (max-width: 1425px) {
+				width: 7em;
+			}
+		}
+		@media only screen and (max-width: 768px) {
+			margin: 0 auto;
+			.step__item__text {
+				margin-top: -171px;
+			}
+			.step__item__img1,
+			.step__item__img3 {
+				width: 21em !important;
+			}
+			.step__item__text__1,
+			.step__item__text__3 {
+				margin-top: -9em;
+				margin-left: 5em;
+			}
+		}
+	}
+}
+.kaufland {
+	.content-home {
+		text-align: center;
+		p a {
+			text-decoration: underline;
+		}
+		p {
+			font-size: 20px;
+		}
+
+
+		.content-slider-wrapper .swiper-container-horizontal > .swiper-pagination-bullets {
+			@media only screen and (max-width:640px){
+				top:28%!important;
+			}			
+			@media only screen and (max-width: 470px) {
+				top:40%!important;
+			}
+
+		}
+	}
+}
+.muller {
+	.content-prize {
+		text-align: center;
+		.s-content-title > * {
+			margin: 15px auto;
+		}
+		h2 {
+			max-width: 20em;
+			line-height: 28px;
+			font-weight: normal;
+			@media only screen and (max-width: 480px) {
+				width: 100%;
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+		p {
+			max-width: 27em;
+			@media only screen and (max-width: 480px) {
+				font-size: 17px;
+			}
+		}
+	}
+	.content-home{
+		.content-slider-wrapper .swiper-container-horizontal > .swiper-pagination-bullets {
+			@media only screen and (max-width:640px){
+				top:30%!important;
+			}			
+			@media only screen and (max-width: 425px) {
+				top:42%!important;
+			}
+		}
+	}
+}
+.text-bottom {
+	margin: 5em auto;
+	padding: 5em 0;
+	max-width: 784px;
+	font-size: 20px;
+	line-height: 26px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+	color: #3b2774;
+	@media only screen and (max-width: 850px) {
+		margin: 5em 1em;
+	}
+}
+.purple-line-bottom-text {
+	border-top: 1px #3b2774 solid;
+	max-width: 1200px;
+}
+
+.content-home__container {
+	.btn__container{
+		max-width: 500px;
+	}
+}
+
+.s-content-title{
+	p{
+		font-family: $recoleta;
+	}
+}
+
+.content-prize{
+	.s-content-title{
+		p{
+			font-family: $soft-alt;
+		}
+	}
+}
+
+.swiper-button-next, .swiper-button-prev {
+	margin-top: -22px;
+}
+
+.parent-holder{
+	position: relative;
+	z-index: 1;
+}
+
+.home-overlap{
+	position: relative;
+	top: -200px;
+	background-image: url($local-images+'/Pages/bg-pattern/bg-curved-purple.png');
+	&__uitleg{
+		z-index: 2;
+		object-fit: contain;
+	}
+}
+
+.videoHolder{
+	video{
+		width: 304px;
+		height: 540px;
+		@media only screen and (max-width: 768px) {
+			width: 220px;
+			height: 392px;
+		}
+	}
+}

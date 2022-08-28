@@ -1,0 +1,67 @@
+.custom-checkbox {
+    &__container {
+        position: relative;
+        margin-top: 15px;
+        padding-left: 40px;
+
+        span.form-input__error {
+            padding-left: 0;
+        }
+    }
+    
+    &__label {
+        cursor: pointer;
+        line-height: 19px;
+        color: $dark-lilac;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            // top: calc(50% - 14px);
+
+            width: 25px;
+            padding-left: 3px;
+
+            height: 23px;
+            padding-top: 5px;
+
+            border: 1px solid $dark-lilac;
+            border-radius: 5px;
+
+            font-size: 15px;
+            color: $dark-lilac;
+        }
+
+        a {
+            color: $dark-lilac;
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__label.notvalid::before {
+        border-color: $error-red!important;
+    }
+
+    &__label.active::before {
+        content: "\e019";
+        font-family: "icomoon";
+    }
+
+    &__input:checked + &__label:before {
+        content: "\e019";
+        font-family: "icomoon";
+    }
+
+    &__input {
+        display: none;
+    }
+
+}
+
+@import "../../05_STATE/input/custom-checkbox.scss";

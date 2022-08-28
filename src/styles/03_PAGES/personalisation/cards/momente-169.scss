@@ -1,0 +1,91 @@
+.momente-169 {
+    // make KONVA Generated CANVAS responsive
+    .konvajs-content {
+        padding-bottom: 50%; // height/width*100%
+    }
+    
+
+    #front {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            &__guide {
+                position: absolute;
+                border-color: $white;
+                transform: rotate(0deg);
+
+                &:nth-of-type(1){
+                    width: 39.673%;
+                    height: 23.674%;
+                    left: 30.1428%;
+                    top: 18.8101%;
+                }
+
+            }
+        }
+    }
+
+    
+    #back {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            &__guide {
+                position: absolute;
+                border-color: $white;
+                transform: rotate(0deg);
+
+                &:nth-of-type(1){
+                    width: 82.285%;
+                    height: 40.867%;
+                    left: 32.638%;
+                    top: 66.59%;
+
+                    @include breakpoint(medium) {
+                        left: 10.384%;
+                        top: 28.122%;
+                    }
+                }
+
+                &:nth-of-type(2){
+                    width: 28.653%;
+                    height: 20.338%;
+                    left: 37.078%;
+                    top: 67.85%;
+
+                    @include breakpoint(medium) {
+                        left: 37.078%;
+                        top: 67.85%;
+                    }
+                }
+
+            }
+        }
+    }
+}

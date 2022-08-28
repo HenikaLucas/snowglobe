@@ -1,0 +1,163 @@
+.holding-page {
+    &__container {
+        padding-top: 50px;
+    }
+
+    &__intro {
+        padding: 0 15px;
+
+        @include breakpoint(small) {
+            padding: 0;
+            margin: 0 auto;
+            max-width: 345px;
+        }
+
+        @include breakpoint(medium) {
+            max-width: 700px;
+        }
+
+        @include breakpoint(large) {
+            max-width: 1175px;
+
+            .page__subtitle {
+                max-width: 980px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__content {
+        padding: 0 15px;
+
+        @include breakpoint(small) {
+            padding: 0;
+            margin: 0 auto;
+            max-width: 345px;
+        }
+
+        @include breakpoint(medium) {
+            max-width: 700px;
+        }
+
+        @include breakpoint(large) {
+            // max-width: 980px;
+            max-width: 60%;
+        }
+    }
+
+    &__prize {
+        padding: 250px 0 30px;
+        margin-top: -70px;
+        margin-bottom: -10px;
+        background-image: url($local-images+'/Shapes/background-prizes-MOB.png');
+        background-size: cover;
+
+        @include breakpoint(medium) {
+            padding: 300px 0 30px;
+            margin-top: -100px;
+        }
+
+        @include breakpoint(start-medium-tablet) {
+            padding: 450px 0 30px;
+            margin-top: -200px;
+        }
+
+        @include breakpoint(large) {
+            margin-top: 0;
+            padding: 350px 0 80px;
+            background-image: url($local-images+'/Shapes/background-prizes.png');
+        }
+
+        @include breakpoint(x-large) {
+            padding-top: 450px;
+        }
+
+        @media (min-width: 2000px) {
+            padding-top: 550px;
+        }
+
+        @media (min-width: 2500px) {
+            padding-top: 650px;
+        }
+
+        img {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .page {
+            &__subtitle {
+                max-width: 345px;
+                margin: 0 auto;
+                
+                &>* {
+                    color: $white;
+                }
+
+                @include breakpoint(medium) {
+                    max-width: none;
+                }
+
+                @include breakpoint(large) {
+                    margin-bottom: 0 !important;
+                    &>* {
+                        font-size: 60px;
+                        line-height: 65px;
+                    }
+                }
+            }
+        }
+
+        &--small {
+            @include breakpoint(large) {
+                padding: 130px 0 80px;
+                background-image: url($local-images+'/Shapes/background-prizes2.png');
+            }
+        }
+    }
+
+    &__product {
+        &-image {
+            padding: 0 15px;
+
+            img {
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+        &-cta {
+            max-width: 300px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+
+            @include breakpoint(start-medium-tablet) {
+                max-width: 640px;
+            }
+        }
+    }
+
+    .page {
+        &__title--small {
+            margin-bottom: 18px;
+        }
+        &__subtitle {
+            .pink {
+                color: $pink;
+            }
+            margin-bottom: 34px;
+        }
+        &__intro {
+            margin: 0 auto;
+            max-width: 280px;
+
+            @include breakpoint(medium) {
+                max-width: 650px;
+            }
+
+            @include breakpoint(large) {
+                max-width: 980px;
+            }
+        }
+    }
+
+}

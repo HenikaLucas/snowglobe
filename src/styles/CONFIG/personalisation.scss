@@ -1,0 +1,16 @@
+//* FONTS
+@import "../00_MODULES/fonts/variables/index";
+
+//* REUSABLE MODULES CSS
+@import "../00_MODULES/variables/settings/default/default";
+@import "../00_MODULES/variables/breakpoints";
+@import "../00_MODULES/mixins/breakpoints";
+@import "../00_MODULES/mixins/object-fit";
+@import "../00_MODULES/mixins/flex";
+@import "../00_MODULES/mixins/hover";
+@import "../00_MODULES/mixins/header-color";
+
+// * Personalisation Page
+@import "../03_PAGES/personalisation/index";
+
+@import "../04_COMPONENT/personalisation/index";

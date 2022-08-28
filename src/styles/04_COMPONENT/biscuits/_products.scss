@@ -1,0 +1,57 @@
+.products {
+    &__container {
+        background-image: url($local-images+'/Pages/home/product-background-mobile.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 40px;
+
+        @include breakpoint(large) {
+            padding-top: 110px;
+            padding-bottom: 20px;
+            background-image: url($local-images+'/Pages/home/product-background.png');
+        }
+
+        h5, p {
+            color: $dark-lilac;
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            
+            @include breakpoint(large) {
+                width: 60%;
+            }
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 24px;
+            
+            @include breakpoint(large) {
+                font-size: 30px;
+                line-height: 31px;
+            }
+        }
+
+        .container {
+            & > a {
+                display: inline-block;
+                width: 80%;
+                margin: 15px 10% 40px;
+
+                @include breakpoint(medium) {
+                    width: 40%;
+                    margin: 0 30% 30px;
+                    margin-top: 20px;
+                }
+            }
+
+            & > * {
+                @include breakpoint(large) {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

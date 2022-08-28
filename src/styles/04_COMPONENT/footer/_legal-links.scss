@@ -1,0 +1,32 @@
+.legal {
+    &__link {
+        color: #7d69ac;
+        border-right: 1px solid;
+        padding-right: 10px;
+        margin-right: 10px;
+        font-size: 12px;
+        text-transform: uppercase;
+
+        @include breakpoint(medium) {
+            font-size: 14px;
+            word-break: keep-all;
+        }
+
+        // @include breakpoint(large) {
+        //     overflow-wrap: break-word;
+        // }
+
+        @include hover() {
+            text-decoration: underline;
+        }
+
+        &:nth-last-child(1) {
+            border-right: none;
+            padding-right: 0;
+        }
+
+        a {
+            color: #7d69ac;
+        }
+    }
+}

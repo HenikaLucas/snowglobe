@@ -1,0 +1,11 @@
+.search {
+    &--show {
+        @include breakpoint(medium) {
+            top: 88px;
+        }
+    }
+
+    &--added {
+        z-index: 999;
+    }
+}

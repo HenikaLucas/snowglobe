@@ -1,0 +1,37 @@
+.filter-mb {
+    &__content {
+        &--open {
+            padding-bottom: 10px;
+            max-height: 1000px;
+        }
+    }
+
+    &__title {
+        .filter-mb__icon {
+            &--open {
+                top: calc(25%);
+                transform: rotate(45deg);
+            }
+        }
+    }
+
+    &__category {
+        .filter-mb__title {
+            .filter-mb__icon {
+                &--open {
+                    transform: rotate(-135deg);
+                    top: calc(50%);
+                }
+            }
+        }
+        
+    }
+
+    &__item {
+        &--sort {
+            &::after {
+                display: none;
+            }
+        }
+    }
+}

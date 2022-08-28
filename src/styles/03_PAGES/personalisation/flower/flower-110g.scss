@@ -1,0 +1,105 @@
+.flower-110 {
+    // make KONVA Generated CANVAS responsive
+    .konvajs-content {
+        padding-bottom: 91.3%; // height/width*100%
+    }
+
+    #front-photo-1 {
+        .cropit-preview-image-container {
+            clip-path: url(#front1);
+        }
+    }
+
+    #back-photo-1 {
+        .cropit-preview-image-container {
+            clip-path: url(#back1);
+        }
+    }
+
+    #back-photo-2 {
+        .cropit-preview-image-container {
+            clip-path: url(#back2);
+        }
+    }
+
+    #back-photo-3 {
+        .cropit-preview-image-container {
+            clip-path: url(#back3);
+        }
+    }
+    
+
+    &#front {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+
+                    }
+                }
+            }
+
+            &__guide {
+                position: absolute;
+                border-color: $white;
+                transform: rotate(15.33deg);
+
+                &:nth-of-type(1){
+                    width: 34.6105%;
+                    height: 9.041%;
+                    left: 34.826%;
+                    top: 38.664%;
+                }
+
+                &:nth-of-type(2){
+                    width: 38.403%;
+                    height: 8.646%;
+                    left: 32.301%;
+                    top: 48.857%;
+                }
+
+            }
+        }
+    }
+
+    &#back {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            &__guide {
+                position: absolute;
+                border-color: $white;
+                transform: rotate(11.54deg);
+
+                &:nth-of-type(1){
+                    width: 33.465%;
+                    height: 14.582%;
+                    left: 36.506%;
+                    top: 63.225%;
+                }
+
+            }
+        }
+    }
+}

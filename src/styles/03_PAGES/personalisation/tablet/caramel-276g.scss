@@ -1,0 +1,32 @@
+.caramel-276 {    
+    // make KONVA Generated CANVAS responsive
+    .konvajs-content {
+        padding-bottom: 35%; // height/width*100%
+    }
+    
+    #front-photo-1 {
+        .cropit-preview-image-container {
+            clip-path: url(#front1);
+        }
+    }
+
+    
+    #front {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

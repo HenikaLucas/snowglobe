@@ -1,0 +1,59 @@
+.article-intro {
+    &__container {
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 15px 0;
+        margin: 0 auto;
+
+        @include breakpoint(medium) {
+            width: 70%;
+        }
+
+        p {
+            text-align: left;
+            font-family: $recol-regular;
+            font-size: 25px;
+        }
+
+        & > .article-intro__img {
+            margin-bottom: 20px;
+            img {
+                width: 40%;
+                margin: 0 auto;
+            }
+
+        }
+    }
+
+    &__title {
+        font-family: $soft-alt-bold;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-basis: 40%;
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .btn__container {
+            // width: 75%;
+        }
+    }
+
+    &__img {
+        flex-basis: 60%;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@import "../../05_STATE/article/article-intro";

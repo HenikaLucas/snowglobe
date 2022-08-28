@@ -1,0 +1,184 @@
+.checkout-delivery {
+    background-image: url($local-images + '/Pages/CartPage-Background.png');
+    @include header-color($milka-lilac);
+
+    &__container {
+        padding-top: 100px;
+        h1 {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 100%;
+            text-align: center;
+            color: $dark-lilac;
+            
+            margin: 0 auto;
+            max-width: 1170px;
+
+            @include breakpoint(large){
+                font-size: 45px;
+                line-height: 61px;
+                text-align: left;
+            }
+        }
+    }
+
+    &__content {
+        margin-top: -5px;
+        padding: 8px 0 0;
+        background-image: url($local-images + '/Pages/Cart-Background-Mobile.png');        
+        background-size: cover;
+
+        @include breakpoint(medium) {
+            padding: 52px 0 22px;
+            background-image: url($local-images + '/Pages/Cart-Background.png');        
+        }
+        @include breakpoint(large) {
+            padding: 55px 0 38px;       
+        }
+        @include breakpoint(medium) {
+            margin-top: -10px;
+        }
+    }
+
+    &__go-to-payment {
+        width: 100%;
+        background-color: white;
+        border: none;
+        margin-bottom: -5px;
+        display: block;
+        text-align: center;
+
+        .btn__container {
+            span {
+                color: $milka-lilac;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 5px;
+            }
+        }
+    }
+    &__form-container {
+        background-color: $white;
+        margin: 0 auto;
+        max-width: 1170px;
+        background-color: $white;
+        padding-bottom: 40px;
+
+        .custom-checkbox {
+            &__label {    
+                a {
+                    color: $dark-lilac;
+                    text-decoration: underline;
+    
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    &__form {
+        max-width: 490px;
+    }
+    &__form-delivery-option {
+        max-width: 390px;
+
+        hr{
+            border: 1px solid $hr-grey;
+            margin: 15px 0;
+
+            @include breakpoint(medium) {
+                margin: 20px 0;
+            }
+        }
+
+        @include breakpoint(medium){
+            margin-top: -22px;
+        }
+    }
+
+    
+    .form-input__dropdown:after {
+        content: '';
+    }
+
+    .error-delivery_option {
+        color: red;
+    }
+
+}
+
+.subtitle {
+    font-family: $recoleta;
+    font-style: normal;
+    // font-weight: 500;   This was the value in figma
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: $dark-lilac;
+
+    @include breakpoint(medium) {
+        font-size: 25px;
+        line-height: 34px;
+    }
+}
+
+.checkout-faster {
+    background-color: #F7F4F4;
+    width: 110%;
+    margin: 0 -15px -22px;
+    padding: 0 0 15px;
+
+    @include breakpoint(medium) {
+        background-color: $white;
+    }
+
+    span {
+        margin: 15px 15px 0;
+    }
+
+    .custom-checkbox {
+        &__container {
+            padding-left: 55px;
+        }
+        &__label {
+            @include breakpoint(small) {
+                line-height: 30px;
+            }
+            color: $dark-lilac;
+
+            &::before {
+                left: 15px;
+
+                border: 1px solid $mid-dark-lil;
+                border-radius: 9px;
+                box-sizing: border-box;
+
+                width: 28px;
+                height: 28px;
+
+                line-height: 1;
+            }
+
+            a {
+                color: $dark-lilac;
+                text-decoration: underline;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.delivery-option {
+    width: 100%;
+    color: $dark-lilac;
+    margin-top: 10px;
+}

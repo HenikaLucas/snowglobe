@@ -1,0 +1,13 @@
+.shop-highlight {
+    &__category {
+        &--active {
+            .product-category__content {
+                background-color: $dark-lilac;
+                color: $white;
+            }
+        }
+    }
+    &__actions {
+        z-index: 2;
+    }
+}

@@ -1,0 +1,731 @@
+@font-face{
+    font-family:'Intervogue Soft Alt Thin';
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-Thin.eot);
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-Thin.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Thin.woff2) format("woff2"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Thin.woff) format("woff"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Thin.ttf) format("truetype");
+    font-weight:100;
+    font-style:normal
+}
+@font-face{
+    font-family:'Intervogue Soft Thin';
+    src:url(/resources/fonts/Intervogue/IntervogueSoft-Thin.eot);
+    src:url(/resources/fonts/Intervogue/IntervogueSoft-Thin.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Intervogue/IntervogueSoft-Thin.woff2) format("woff2"),url(/resources/fonts/Intervogue/IntervogueSoft-Thin.woff) format("woff"),url(/resources/fonts/Intervogue/IntervogueSoft-Thin.ttf) format("truetype");
+    font-weight:100;
+    font-style:normal
+}
+@font-face{
+    font-family:'Intervogue Soft Alt Bold';
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-Bold.eot);
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-Bold.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Bold.woff2) format("woff2"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Bold.woff) format("woff"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Bold.ttf) format("truetype");
+    font-weight:700;
+    font-style:normal
+}
+@font-face{
+    font-family:'Intervogue Soft Alt Medium';
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-Medium.eot);
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-Medium.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Medium.woff2) format("woff2"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Medium.woff) format("woff"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Medium.ttf) format("truetype");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:'Intervogue Soft Regular';
+    src:url(/resources/fonts/Intervogue/IntervogueSoft-Regular.eot);
+    src:url(/resources/fonts/Intervogue/IntervogueSoft-Regular.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Intervogue/IntervogueSoft-Regular.woff2) format("woff2"),url(/resources/fonts/Intervogue/IntervogueSoft-Regular.woff) format("woff"),url(/resources/fonts/Intervogue/IntervogueSoft-Regular.ttf) format("truetype");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:'Intervogue Soft Medium';
+    src:url(/resources/fonts/Intervogue/IntervogueSoft-Medium.eot);
+    src:url(/resources/fonts/Intervogue/IntervogueSoft-Medium.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Intervogue/IntervogueSoft-Medium.woff2) format("woff2"),url(/resources/fonts/Intervogue/IntervogueSoft-Medium.woff) format("woff"),url(/resources/fonts/Intervogue/IntervogueSoft-Medium.ttf) format("truetype");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:'Intervogue Soft Alt Regular';
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-Regular.eot);
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-Regular.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Regular.woff2) format("woff2"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Regular.woff) format("woff"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Regular.ttf) format("truetype");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:'Intervogue Soft Medium Oblique';
+    src:url(/resources/fonts/Intervogue/IntervogueSoft-MediumOblique.eot);
+    src:url(/resources/fonts/Intervogue/IntervogueSoft-MediumOblique.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Intervogue/IntervogueSoft-MediumOblique.woff2) format("woff2"),url(/resources/fonts/Intervogue/IntervogueSoft-MediumOblique.woff) format("woff"),url(/resources/fonts/Intervogue/IntervogueSoft-MediumOblique.ttf) format("truetype");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:'Intervogue Soft Alt Black';
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-Black.eot);
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-Black.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Black.woff2) format("woff2"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Black.woff) format("woff"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-Black.ttf) format("truetype");
+    font-weight:900;
+    font-style:normal
+}
+@font-face{
+    font-family:'Intervogue Soft Alt Medium Oblique';
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-MediumOblique.eot);
+    src:url(/resources/fonts/Intervogue/IntervogueSoftAlt-MediumOblique.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-MediumOblique.woff2) format("woff2"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-MediumOblique.woff) format("woff"),url(/resources/fonts/Intervogue/IntervogueSoftAlt-MediumOblique.ttf) format("truetype");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:'Recoleta Alt';
+    src:url(/resources/fonts/Recoleta/RecoletaAlt-Regular.woff2) format("woff2"),url(/resources/fonts/Recoleta/RecoletaAlt-Regular.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:'Recoleta Medium';
+    src:url(/resources/fonts/Recoleta/Recoleta-Medium.woff2) format("woff2"),url(/resources/fonts/Recoleta/Recoleta-Medium.woff) format("woff");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:'Recoleta Regular';
+    src:url(/resources/fonts/Recoleta/Recoleta-Regular.woff2) format("woff2"),url(/resources/fonts/Recoleta/Recoleta-Regular.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:'Moments Regular';
+    src:url(/resources/fonts/Moments/moments-regular.eot);
+    src:url(/resources/fonts/Moments/moments-regular.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Moments/moments-regular.woff2) format("woff2"),url(/resources/fonts/Moments/moments-regular.woff) format("woff"),url(/resources/fonts/Moments/moments-regular.ttf) format("truetype");
+    font-weight:100;
+    font-style:normal
+}
+@font-face{
+    font-family:'Moonshiner Regular';
+    src:url(/resources/fonts/Moonshiner/moonshiner-regular.eot);
+    src:url(/resources/fonts/Moonshiner/moonshiner-regular.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/Moonshiner/moonshiner-regular.woff2) format("woff2"),url(/resources/fonts/Moonshiner/moonshiner-regular.woff) format("woff"),url(/resources/fonts/Moonshiner/moonshiner-regular.ttf) format("truetype");
+    font-weight:100;
+    font-style:normal
+}
+@font-face{
+    font-family:icomoon;
+    src:url(/resources/fonts/icons/icomoon.eot);
+    src:url(/resources/fonts/icons/icomoon.eot) format("embedded-opentype"),url(/resources/fonts/icons/icomoon.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:block
+}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline
+}
+@font-face{
+    font-family:slick;
+    src:url(fonts/slick.eot);
+    src:url(fonts/slick.eot?#iefix) format("embedded-opentype"),url(fonts/slick.woff) format("woff"),url(fonts/slick.ttf) format("truetype"),url(fonts/slick.svg#slick) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+.header-md__container{
+    display:none;
+    position:fixed;
+    top:0;
+    width:100%;
+    height:100%;
+    align-items:center;
+    justify-content:space-between;
+    max-height:100px;
+    transition:.5s;
+    z-index:3
+}
+.header-md__logo{
+    display:flex;
+    flex-grow:0;
+    flex-shrink:0;
+    flex-basis:15%;
+    justify-content:center;
+    height:100%
+}
+.header-md__content{
+    position:relative;
+    right:0;
+    transition:.5s;
+    display:flex;
+    flex-grow:1;
+    flex-shrink:0;
+    flex-basis:60%;
+    justify-content:flex-end
+}
+.header-md__navigations{
+    display:flex;
+    align-items:center
+}
+.header-md__navigation{
+    margin:0 15px;
+    font-family:"Intervogue Soft Alt Regular";
+    text-transform:uppercase;
+    color:#fff
+}
+.header-md__icons{
+    display:flex;
+    align-items:center
+}
+.header-md__icon{
+    margin:0 15px
+}
+.header-md__menu{
+    cursor:pointer;
+    position:absolute;
+    right:50px;
+    top:calc(50% - 15px);
+    opacity:0;
+    transition:.5s;
+    z-index:-1
+}
+.header-md__contact{
+    margin:0;
+    margin-right:2px;
+    margin-left:15px
+}
+.header-md__in-cart{
+    position:fixed;
+    top:-800px;
+    right:0;
+    transition:.5s
+}
+.header-md__in-cart.active{
+    z-index:999;
+    top:90px
+}
+.header__container{
+    display:flex;
+    width:100vw;
+    flex-direction:column;
+    position:fixed;
+    top:0;
+    z-index:4
+}
+.header__head{
+    width:100%;
+    min-height:100px;
+    max-height:100px;
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 20px;
+    transition:.5s
+}
+.header__menu{
+    cursor:pointer;
+    position:relative;
+    width:30px;
+    height:30px
+}
+.header__pull{
+    opacity:0;
+    position:absolute;
+    left:0;
+    width:auto;
+    height:100%;
+    transition:.2s
+}
+.header__logo{
+    position:absolute;
+    right:calc(50% - 50px);
+    max-height:100px;
+    z-index:1;
+    width:100px
+}
+.header__icons{
+    z-index:1;
+    display:flex;
+    align-items:center
+}
+.header__content{
+    position:fixed;
+    transition:.5s;
+    left:-250vh;
+    height:100%;
+    width:100%;
+    background:#f7f4f4;
+    max-height:100%;
+    overflow-y:scroll
+}
+.header__navigations{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:30px 15px
+}
+.header__navigation{
+    text-transform:uppercase;
+    font-family:"Intervogue Soft Alt Medium";
+    color:#7d69ac;
+    font-weight:700
+}
+.header__form{
+    border-top:1px solid #7d69ac;
+    border-bottom:1px solid #7d69ac;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin:2px 0;
+    padding:0 5px;
+    padding-top:22px;
+    padding-bottom:32px
+}
+.header__end{
+    width:100%;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:60px;
+    border-top:1px solid #7d69ac
+}
+.header__search{
+    margin:0 10px;
+    display:flex;
+    align-items:flex-end
+}
+.header__cart-value{
+    position:absolute;
+    font-size:20px!important;
+    right:8px;
+    top:8px
+}
+.search__overlay{
+    display:none;
+    position:fixed;
+    top:0;
+    z-index:10;
+    background:#000;
+    opacity:.3;
+    height:100vh;
+    width:100%
+}
+.search__container{
+    width:100%;
+    max-width:95%;
+    display:flex;
+    justify-content:center;
+    display:none;
+    background-color:#fff;
+    border-radius:10px;
+    right:0;
+    margin:0 45px 0 auto;
+    z-index:50
+}
+.search__content{
+    font-family:"Intervogue Soft Alt Regular"
+}
+.search__result{
+    margin-top:25px;
+    max-height:600px;
+    overflow-y:scroll
+}
+.search__result-products{
+    justify-content:space-around
+}
+.search-result__list{
+    justify-content:center;
+    margin:30px 0 35px
+}
+.search-result__more{
+    width:400px
+}
+.js-search__result{
+    display:none
+}
+.article-category span{
+    font-family:"Intervogue Soft Alt Regular";
+    font-style:normal;
+    font-weight:500;
+    font-size:16px;
+    line-height:19px;
+    letter-spacing:.03em;
+    text-transform:uppercase;
+    color:#3c2772
+}
+.article-title span{
+    font-family:"Recoleta Regular";
+    font-style:normal;
+    font-weight:500;
+    font-size:30px;
+    line-height:41px;
+    letter-spacing:.03em;
+    color:#3c2772
+}
+.article-content span{
+    font-family:"Intervogue Soft Alt Regular";
+    font-style:normal;
+    font-weight:400;
+    font-size:18px;
+    line-height:25px;
+    color:#3b2774
+}
+.popular-search__container{
+    width:100%;
+    font-family:"Intervogue Soft Medium";
+    display:flex;
+    justify-content:baseline;
+    margin:15px 0 10px;
+    padding-left:25px
+}
+.popular-search__title{
+    font-family:"Intervogue Soft Alt Regular";
+    font-style:normal;
+    font-weight:400;
+    font-size:18px;
+    line-height:22px;
+    letter-spacing:.03em;
+    text-transform:uppercase;
+    color:#3c2772
+}
+.popular-search__suggestions{
+    display:flex;
+    align-items:flex-end
+}
+.popular-search__suggestion{
+    font-family:"Intervogue Soft Alt Regular";
+    font-style:normal;
+    font-weight:500;
+    font-size:18px;
+    line-height:22px;
+    letter-spacing:.03em;
+    color:#3c2772
+}
+.popular-products__container{
+    margin-top:50px;
+    padding-bottom:20px
+}
+.popular-products__container .product__card{
+    height:100%;
+    justify-content:flex-start
+}
+.popular-products__container .product__name{
+    color:#f7f4f4
+}
+.popular-products__container .product__price{
+    color:#f7f4f4
+}
+.popular-products__container .product__icon{
+    justify-content:space-between;
+    top:calc(50% - 20px)
+}
+.popular-products__content{
+    display:flex;
+    align-items:center;
+    width:100%
+}
+.popular-products__content>*{
+    flex-shrink:1
+}
+.popular-products__content .slick-track{
+    display:flex;
+    align-items:center
+}
+.popular-products__content .slick-slide{
+    transform:scale(.8)
+}
+.popular-products__content .slick-current{
+    transform:initial
+}
+.popular-products__title{
+    color:#3b2774;
+    font-family:"Recoleta Medium";
+    text-align:center;
+    width:100%
+}
+.image__container{
+    position:relative;
+    height:100%;
+    overflow:hidden;
+    width:100%
+}
+.image__img{
+    z-index:-1;
+    width:50%;
+    height:50%
+}
+.image__img img{
+    transition:0s;
+    height:50%;
+    width:50%;
+    object-fit:cover;
+    position:relative
+}
+.image__text{
+    color:#fff;
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    line-height:1em
+}
+.image__title{
+    font-size:32px;
+    text-align:center;
+    font-family:"Recoleta Regular"
+}
+.image__subtitle{
+    font-size:54.4px;
+    text-align:center;
+    font-family:"Recoleta Medium"
+}
+.select-country__container{
+    cursor:pointer;
+    font-family:"Intervogue Soft Alt Regular";
+    border-radius:50%;
+    border:1.5px solid #684fa3;
+    width:33px;
+    height:33px;
+    min-width:33px;
+    min-height:33px;
+    max-width:33px;
+    max-height:33px
+}
+.select-country__text{
+    position:relative;
+    top:8px;
+    left:5px;
+    color:#684fa3;
+    font-size:16px;
+    font-weight:600
+}
+.in-cart__container{
+    background:#fff;
+    border-radius:10px
+}
+.in-cart__main{
+    padding:15px 0 0
+}
+.in-cart__products{
+    display:none
+}
+.in-cart__product{
+    display:flex;
+    flex-direction:row
+}
+.in-cart__product-img{
+    width:103px;
+    height:77px
+}
+.in-cart__product-img img{
+    max-width:100%
+}
+.in-cart__product-details{
+    display:flex;
+    flex-direction:column;
+    max-height:100%
+}
+.in-cart__product-details-price{
+    margin-top:5px
+}
+.in-cart__view-cart{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    margin-top:13px
+}
+.in-cart__view-cart-cta a .btn__container{
+    background:#684fa3;
+    min-width:0;
+    max-width:100%;
+    height:35px
+}
+.in-cart__view-cart-cta a .btn__container span{
+    color:#fff;
+    font-size:14px;
+    line-height:16px;
+    text-align:center;
+    letter-spacing:.2em
+}
+.in-cart__view-cart-added{
+    display:flex;
+    align-items:center
+}
+.in-cart__view-cart-added-label span{
+    display:block;
+    margin:auto 0 auto 10px;
+    font-family:"Intervogue Soft Alt Regular";
+    font-style:normal;
+    font-weight:500;
+    font-size:15px;
+    line-height:18px;
+    text-align:right;
+    color:#aabd23!important
+}
+.mini-cart__contents{
+    padding:0 15px
+}
+.mini-cart__contents hr{
+    border:1px solid rgba(126,105,172,.2)
+}
+.mini-cart__contents-order-total-amount,.mini-cart__contents-order-total-delivery{
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.mini-cart__contents-order-total-amount-label span,.mini-cart__contents-order-total-delivery-label span{
+    font-family:"Intervogue Soft Alt Regular";
+    font-style:normal;
+    font-weight:700;
+    font-size:16px;
+    line-height:19px;
+    letter-spacing:.03em;
+    text-transform:uppercase;
+    color:#000!important;
+    opacity:.5
+}
+.mini-cart__contents-order-total-amount-value span,.mini-cart__contents-order-total-delivery-value span{
+    font-family:"Intervogue Soft Alt Regular";
+    font-style:normal;
+    font-weight:700;
+    font-size:22px;
+    line-height:26px;
+    text-align:right;
+    color:#513c79
+}
+.mini-cart__contents-order-total-amount-free,.mini-cart__contents-order-total-delivery-free{
+    max-width:100px
+}
+.mini-cart__contents-order-total-amount-free span,.mini-cart__contents-order-total-delivery-free span{
+    font-family:"Intervogue Soft Alt Regular";
+    font-style:normal;
+    font-weight:400;
+    font-size:15px;
+    line-height:18px;
+    color:#636363!important
+}
+.mini-cart__contents-order-total-amount-inkl,.mini-cart__contents-order-total-delivery-inkl{
+    max-width:150px
+}
+.mini-cart__contents-order-total-amount-inkl span,.mini-cart__contents-order-total-delivery-inkl span{
+    font-family:"Intervogue Soft Alt Regular";
+    font-style:normal;
+    font-weight:400;
+    font-size:15px;
+    line-height:18px;
+    text-align:right;
+    display:block;
+    color:#636363!important
+}
+.mini-cart__contents .partial-loader__container{
+    position:relative
+}
+.mini-cart__contents .partial-loader__container .simple-loader__indicator{
+    top:25%;
+    left:45%
+}
+.mini-cart__bottom{
+    background-color:#f7f4f4;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px
+}
+.mini-cart__bottom-ctas{
+    margin-top:20px;
+    padding:15px 15px;
+    display:flex;
+    flex-direction:column
+}
+.mini-cart__bottom-ctas-cart{
+    margin-bottom:15px
+}
+.mini-cart__bottom-payment{
+    padding:15px 0;
+    max-width:300px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between
+}
+.mini-cart__bottom-payment-paypal{
+    width:130px
+}
+.mini-cart__bottom-payment-paypal .mini-cart-cta div{
+    background-color:#eee;
+    min-width:0
+}
+.mini-cart__bottom-payment-paypal .mini-cart-cta div .btn__image{
+    background-image:url(../images/icons/Paypal.png);
+    background-repeat:no-repeat;
+    background-size:80%;
+    background-position:center;
+    height:100%;
+    width:100%
+}
+.mini-cart__bottom-payment-paypal .mini-cart-cta div::before{
+    background-color:transparent
+}
+.mini-cart__bottom-payment-amazon{
+    width:130px
+}
+.mini-cart__bottom-payment-amazon .mini-cart-cta div{
+    background-color:#f4d17c;
+    min-width:0
+}
+.mini-cart__bottom-payment-amazon .mini-cart-cta div .btn__image{
+    background-image:url(../images/icons/Amazon.png);
+    background-repeat:no-repeat;
+    background-size:80%;
+    background-position:center;
+    height:100%;
+    width:100%;
+    margin-top:8px;
+    margin-bottom:-2px
+}
+.mini-cart__bottom-payment-amazon .mini-cart-cta div::before{
+    background-color:transparent
+}
+.mini-cart__bottom hr{
+    border:1px solid rgba(126,105,172,.2);
+    margin:0 15px
+}
+.mini-cart-cta{
+    margin:20px auto 12px;
+    min-width:250px;
+    max-width:100%
+}
+.mini-cart-cta span{
+    color:#3b2774!important;
+    font-size:20px!important;
+    line-height:22px;
+    text-align:center;
+    letter-spacing:5px
+}
+ .popup-main-loader__container {
+     display:none;
+     width: 100%;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     background-color:#7D69AC;
+     z-index: 99999;
+}
+ .popup-main-loader__container.active {
+     display: block;
+}
+ .popup-main-loader--search {
+     z-index: 9999;
+}
+ .popup-main-loader__indicator {
+     position: absolute;
+     top: 50%;
+     left: calc(50% - 30px);
+     transform: translate(-50%,-50%);
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     border: 4px solid #AFA6D2;
+     border-right-color: transparent;
+     transform-origin: center;
+     animation: rotate 1s linear infinite;
+}
+ .popup-main-loader__logo {
+     position: absolute;
+     top: 40%;
+     left: calc(50% - 50px);
+}

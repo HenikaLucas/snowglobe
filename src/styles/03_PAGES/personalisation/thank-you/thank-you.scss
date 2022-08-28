@@ -1,0 +1,13 @@
+.personalise-thank-you {
+    @include header-color($milka-lilac);
+
+    main {
+        padding-bottom: 65px;
+
+        .grid-6-m {
+            @include breakpoint (IE-only) {
+                flex-basis: calc(50% - 90px);
+            }
+        }
+    }
+}

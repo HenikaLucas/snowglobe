@@ -1,0 +1,55 @@
+$load-more-color: $more-background-color;
+$load-more-text-color: $more-color;
+
+.load-more {
+    &__container {
+        cursor: pointer;
+        color: $load-more-text-color;
+        font-family: $more-font-family;
+        width: 80%;
+        margin: 40px auto 0;
+
+        @include breakpoint(medium) {
+            width: 35%;
+        }
+
+        .btn__container {
+            background-color: $load-more-color;
+        }
+
+        span {
+            font-family: $more-span-font-family;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    &__text {
+        text-align: center;
+        color: $dark-lilac;
+    }
+
+    &__indicator {
+        position: relative;
+        width: 70%;
+        height: 10px;
+        overflow: hidden;
+
+        border: .5px solid $dark-lilac;
+        border-radius: 10px;
+
+        margin: 15px auto 40px;
+
+        span {
+            position: absolute;
+            height: 100%;
+            width: 0px;
+
+            background-color: $dark-lilac;
+            transition: 0s;
+        }
+    }
+}

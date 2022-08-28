@@ -1,0 +1,51 @@
+.popular-search {
+    &__container {
+        
+        width: 100%;
+        font-family: $soft-medium;
+        display: flex;
+        justify-content: baseline;
+
+        margin: 15px 0 10px;
+        padding-left: 25px;
+    }
+
+    &__title {
+        
+        font-family: $soft-alt-regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $dark-lil;
+
+        &::after {
+            content: ':';
+        }
+    }
+
+    &__suggestions {
+        
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__suggestion {
+        
+        font-family: $soft-alt;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.03em;
+        color: #3C2772;
+
+        @include breakpoint(medium) {
+            font-size: 18px;
+            margin: 0 20px 20px;
+        }
+    }
+
+}

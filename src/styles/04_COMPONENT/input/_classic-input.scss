@@ -1,0 +1,16 @@
+.classic {
+    &__input {
+        width: 100%;
+        border: 1px solid grey;
+
+        @include breakpoint(medium) {
+            padding: 10px;
+            border-radius: 22px;
+            // min-height: 50px;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

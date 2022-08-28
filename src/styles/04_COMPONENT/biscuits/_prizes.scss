@@ -1,0 +1,116 @@
+.prizes {
+	&__container {
+		background-image: url($local-images + "/Pages/home/background-prizes-mobile.png");
+		background-position: top;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-top: 250px;
+		padding-bottom: 20px;
+		margin-top: -100px;
+
+		@include breakpoint(medium) {
+			padding-top: 420px;
+			margin-top: -250px;
+		}
+
+		@include breakpoint(start-medium) {
+			padding-top: 550px;
+		}
+
+		@include breakpoint(large) {
+			z-index: -1;
+			margin-top: -200px;
+			padding-top: 350px;
+			background-image: url($local-images + "/Pages/home/background-prizes.png");
+		}
+
+		@include breakpoint(x-large) {
+			padding-top: 600px;
+		}
+
+		h5,
+		p {
+			color: $white;
+			text-align: center;
+		}
+
+		p {
+			width: 80%;
+			margin: 0 auto;
+			font-size: 20px;
+			line-height: 24px;
+
+			@include breakpoint(large) {
+				width: 60%;
+				font-size: 30px;
+				line-height: 31px;
+			}
+		}
+
+		ul {
+			> * {
+				font-family: $soft;
+				font-style: normal;
+				font-size: 20px;
+				line-height: 24px;
+				color: $white;
+
+				@include breakpoint(medium) {
+					font-size: 25px;
+					line-height: 31px;
+				}
+			}
+
+			margin: 0 15px;
+			padding-left: 25px;
+			text-align: left;
+			> li {
+				text-align: left;
+				list-style-type: none;
+				margin: 0;
+				padding: 0 0 0 0.5rem;
+				text-indent: -1.2rem;
+				&::before {
+					content: "-";
+					display: inline-block;
+					margin: 0 0.5rem 0.3rem 0;
+					text-align: right;
+					width: 5px;
+					height: 5px;
+				}
+			}
+
+			@include breakpoint(large) {
+				max-width: 800px;
+				margin: 0 auto;
+			}
+		}
+
+		.pink {
+			font-weight: 900;
+		}
+
+		.container {
+			& > a {
+				display: inline-block;
+				width: 80%;
+				margin: 0 10%;
+				margin-bottom: 15px;
+
+				@include breakpoint(medium) {
+					width: 40%;
+					margin: 0 30%;
+					margin-bottom: 15px;
+				}
+			}
+
+			p {
+				font-size: 18px;
+
+				a {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

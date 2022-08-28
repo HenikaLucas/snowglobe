@@ -1,0 +1,223 @@
+.error__page {
+    background: $sticky-header-back;
+
+    .container {
+        padding: 0 20px 50px;
+
+        @include breakpoint(large) {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+
+    main {
+        p, li, #cookie-policy-description {
+            color: $white;
+            line-height: 1.3em;
+            font-size: 18px !important;
+
+            @include breakpoint(medium) {
+                font-size: 20px !important;
+            }
+        }
+    }
+
+    .image {
+        &__text {
+            &--bottom-left {
+                align-items: flex-end;
+            }
+        }
+
+        &__titles {
+            width: 80%;
+            margin-bottom: 20%;
+            position: relative;
+
+            @include breakpoint(medium) {
+                width: 45%;
+                padding-left: 30px;
+            }
+
+            @include breakpoint(large) {
+                margin-bottom: 10%;
+                padding-left: 70px;
+            }
+
+            .banner__btn {
+                position: absolute;
+                left: -90%;
+
+                @include breakpoint(medium) {
+                    position: relative;
+                    left: initial;
+                }
+
+                .btn__container {
+                    // width: auto;
+
+                    @include breakpoint(medium) {
+                        margin-top: 20px;
+                        // width: 65%;
+                    }
+                }
+            }
+        }
+
+        &__title {
+            font-size: 30px;
+            text-align: left;
+            font-family: $soft-alt-thin;
+            word-break: break-all;
+            text-shadow: 2px 2px 50px #000;
+        
+        
+            
+            @include breakpoint(medium) {
+                margin-right: 25%;
+                font-size: 48px;
+                width: 100%;
+            }
+        }
+
+        &__subtitle {
+            margin-top: 10px;
+            
+            text-align: left;
+            font-size: 16px;
+            font-family: $soft-alt-regular;
+            text-shadow: 2px 2px 50px #000;
+            
+            @include breakpoint(medium) {
+                margin-bottom: 30px;
+                width: 80%;
+                position: relative;
+            }
+        }
+    }
+
+    .cookie {
+        &__content {
+            color: $white;
+            font-family: $soft-alt-medium;
+            margin-top: 15px;
+            position: relative;
+
+            &--right {
+                @include breakpoint(large) {
+                    margin-left: 25%;
+                    margin-bottom: 100px;
+                }
+            }
+            &--spaced {
+                position: relative;
+                margin-top: 15px;
+                padding-bottom: 30px;
+
+                @include breakpoint(large) {
+                    margin-top: 10px;
+                    padding-bottom: 50px;
+                }
+            }
+            
+            p {
+                font-family: $soft-regular;
+                line-height: 1.3em;
+                margin-top: 5px;
+            }
+            
+            a {
+                color: $white;
+                
+                @include hover(){
+                    text-decoration: underline;
+                }
+            }
+
+            table {
+                margin: 25px auto;
+
+                tr {
+                    line-height: 1.5em;
+                    border-top: 1px solid $white;
+
+                    &:first-child {
+                        border-top: none;
+                    }
+
+                    td {    
+                        word-break: break-all;
+
+                        &:nth-child(1) {
+                            border-right: 1px solid $white;
+                            text-align: right;
+                            padding: 10px 20px;
+                        }
+
+                        &:nth-child(2) {
+                            padding-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__title {
+            color: $white;
+            font-family: $recol-medium;
+        }
+
+        &__subtitle {
+            margin-top: 20px;
+            font-family: $recol-medium;
+        }
+
+        &__anchor {
+            position: relative;
+            width: 100%;
+            padding-left: 15px;
+            @include breakpoint(large) {
+                width: auto;
+                margin-top: 100px;
+                margin-left: 25%;
+            }
+            &::after {
+                content: '\e018';
+                font-family: "icomoon";
+                position: absolute;
+                right: -25px;
+                top: 0;
+            }
+        }
+
+        &__image {
+            &--left {
+                position: relative;
+                top: auto;
+                left: auto;
+
+                @include breakpoint(large) {
+                    position: absolute;
+                    top: 0;
+                    left: -33%;
+                }
+
+                &-other {
+                    @include breakpoint(large) {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    #ot-sdk-cookie-policy a {
+        color: $white;
+
+        &:hover {
+            color: $white;
+        }
+    }
+}

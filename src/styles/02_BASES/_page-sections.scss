@@ -1,0 +1,94 @@
+// * Allow footer to remain at the bottom of page
+
+body {
+    font-family: $soft-alt-regular;
+    position: relative;
+
+    @include breakpoint(medium) {
+        min-height: 100vh;
+
+        // @media not all and (min-resolution:.001dpcm) {
+        //     @supports (-webkit-appearance:none) {
+        //         padding-bottom: 99vh;
+        //     }
+        // }
+    }
+
+    // @include breakpoint(large) {
+    //     padding-bottom: 104vh;
+    // }
+    
+    // @include breakpoint(x-large) {
+    //     padding-bottom: 71vh;
+    // }
+
+    * {
+        font-family: $soft-alt-regular;
+    }
+
+    strong {
+        font-weight: bold;
+        font-family: inherit;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    a {
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+main {
+    display: block;
+    & > .container:first-child {
+        padding-top: 150px;
+    }
+
+    &.main-content {
+        // background-image: url($local-images+'/pages/bg-pattern/bg-paper-beige.jpg');
+        background:#fff;
+        background-repeat: repeat;
+    }
+}
+
+footer {
+    background-color: $redish-white ;
+
+    width: 100%;
+
+    @include breakpoint(large) {
+        position: relative;
+        bottom: 0;
+        // min-height: 105vh;
+        max-height: 105vh;
+    }
+
+    @media not all and (min-resolution:.001dpcm) {
+        @supports (-webkit-appearance:none) {
+            max-height: 120vh;
+        }
+    }
+}
+
+* {
+    transition: 0.2s;
+}
+
+main {
+    overflow: hidden;
+}
+
+picture {
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+.no-back {
+    background-color: transparent !important;
+    background-image: none !important;
+}

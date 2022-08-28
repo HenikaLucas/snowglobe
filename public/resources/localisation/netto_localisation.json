@@ -1,0 +1,446 @@
+{
+    "Meta": {
+        "title": "Gewinnen und gemeinsam Klimaschutz fördern – mit Milka & Netto",
+        "description": "Kaufe 3x Milka bei Netto und gewinne mit etwas Glück 500€ – zusätzlich leisten wir täglich einen Klimaschutz-Beitrag für die Pflanzung von 50 Bäumen in Deutschland an PLANT-MY-TREE®.",
+        "ogTitle": "3x Milka kaufen und eine von fünfzig 500€-Barauszahlungen gewinnen",
+        "ogDescription": "Kaufe 3x Milka bei Netto und gewinne mit etwas Glück eine von fünfzig 500€-Barauszahlungen",
+        "ogUrl": "https://netto.milka.de",
+        "ogSitename": "www.netto.milka.de",
+        "ogImage": ""
+    },
+
+    "Page": {
+        "Holding": {
+            "title": "Habe noch ein bisschen Geduld …",
+            "subTitle": {
+                "mobile": "Bald kannst du ein Familienwochenende in einem Baumhaushotel gewinnen und gleichzeitig unser Klima schützen.",
+                "desktop": "Bald kannst du ein Familienwochenende in einem Baumhaushotel gewinnen und gleichzeitig unser Klima schützen."    
+            },
+            "paragraph": "Zwischen dem 14.03. und 17.04.2022 in einem Kaufakt für 5€ Milka Produkte bei Netto kaufen, Kassenbon bis zum 17.04.2022 hochladen und mit etwas Glück gewinnen. Der Hauptpreis ist 1 von 2 Trips ins Baumhaushotel im Wert von je 3000€ von mydays. Jeder Teilnehmer erhält dafür eine Baumurkunde für einen Baum per Mail und hilft so <span class=\"s-content-title--sign\"><a href=\"https://www.plant-my-tree.de\" target=\"_blank\">PLANT-MY-TREE<span>®</span></a>.</span> bei der Pflanzung von insgesamt 3.000 Bäumen in Deutschland (Teilnahmezeitraum 14.03. bis 17.04.2022).",
+            "linkText": {
+                "mobile": "MEHR ENTDECKEN",
+                "desktop": "ENTDECKE MEHR VON MILKA"
+            },
+            "subTitle2": null,
+            "bottomBanner": {
+                "desktop": "/resources/images/rewe/products.png",
+                "mobile": "/resources/images/rewe/products-sm.png"
+            }
+        },
+
+        "Home": {
+            "title": "Gewinnen & Gutes tun",
+            "subTitle": "Sichere dir die Chance auf ein Familienwochenende in einem Baumhaushotel mit Milka bei Netto und unterstütze gleichzeitig unser Klima.",
+            "paragraph": "Mitmachen ist ganz einfach: Bei Netto vom 14.03. bis 17.04.2022 in einem Kaufakt für 5€ Milka Produkte deiner Wahl kaufen und den Kassenbon hier hochladen. Als Hauptpreis winkt 1 von 2 Baumhaushotel-Gutscheinen im Wert von je 3000€ von mydays. Jeder Teilnehmer erhält eine Baumurkunde für einen Baum und hilft so <span class=\"s-content-title--sign\"><a href=\"https://www.plant-my-tree.de\" target=\"_blank\">PLANT-MY-TREE<span>®</span></a></span> bei der Pflanzung von insgesamt 3.000 Bäumen in Deutschland.",
+            "linkParticipation": "JETZT MITMACHEN!",
+            "StepTitle": "So einfach geht’s",
+            "BottomParagraph": "Naschen, gewinnen und gemeinsam den Klimaschutz fördern. Denn mit dem Kauf von deinen Milka Lieblingsprodukten für 5€ in einem Kaufakt im Zeitraum vom 14.03.2022 bis 17.04.2022 hast du jetzt die Chance auf tolle Gewinne: Milka verlost <strong>1 von 2 Baumhaushotel-Gutscheinen im Wert von je 3000€ von mydays.</strong> Doch nicht nur das: Jeder Teilnehmer erhält eine Baumurkunde für einen Baum und hilft so PLANT-MY-TREE® bei der Pflanzung von insgesamt 3.000 Bäumen in Deutschland.",
+            "slider": [
+                {
+                    "index": "slider-2",
+                    "header": "Entdecke dein liebstes Milka Osterprodukt",
+                    "text": "Der Milka Schmunzelhase aus zartschmelzender Milka Alpenmilch Schokolade gehört einfach zu Ostern und ist das ideale Mitbringsel für Jung und Alt. Da findet jeder seinen Lieblingsschmunzelhasen: klassisch aus köstlicher Milka Alpenmilch Schokolade, als OREO White 100g in weißer Milka Schokolade mit OREO oder als Dark Milka Schmunzelhase 100g für Liebhaber dunkler Schokolade.",
+                    "link": "https://www.milka.de/alle-produkte/tafel-schokolade",
+                    "linkText": "ZUM SHOP",
+                    "image": "/resources/images/rewe/slide-1.png"
+                },
+                {
+                    "index": "slider-3",
+                    "header": "Entdecke dein liebstes Milka Weihnachtsprodukt",
+                    "text": "Für Liebhaber von zarter Alpenmilch Schokolade und Weihnachts-Klassikern gibt es den <strong>Milka Weihnachtsmann 90g Alpenmilch.</strong>",
+                    "link": "https://www.milka.de/alle-produkte/tafel-schokolade",
+                    "linkText": "ZUM SHOP",
+                    "image": "/resources/images/rewe/slide-2.png"
+                },
+                {
+                    "index": "slider-4",
+                    "header": "Entdecke dein liebstes Milka Weihnachtsprodukt",
+                    "text": "Die Milka <strong>Weihnachtsmischung 226g</strong> enthält viele leckere Milka Produkte und eignet sich zum Teilen und Snacken zwischendurch. ",
+                    "link": "https://www.milka.de/alle-produkte/tafel-schokolade",
+                    "linkText": "ZUM SHOP",
+                    "image": "/resources/images/rewe/slide-3.png"
+                },
+                {
+                    "index": "slider-5",
+                    "header": "Entdecke dein liebstes Milka Weihnachtsprodukt",
+                    "text": "Die Milka <strong>Weihnachtsmischung 226g</strong> enthält viele leckere Milka Produkte und eignet sich zum Teilen und Snacken zwischendurch. ",
+                    "link": "https://www.milka.de/alle-produkte/tafel-schokolade",
+                    "linkText": "ZUM SHOP",
+                    "image": "/resources/images/rewe/slide-4.png"
+                }
+            ]
+        },
+
+        "Participation": {
+            "title": {
+                "desktop" : "Sichere dir deine Chance auf 1 von 2 <strong>Baumhaushotel-Gutscheinen im Wert von je 3000€</strong> von mydays und eine persönliche <strong>Baumurkunde.</strong>",
+                "mobile" : "Sichere dir deine Chance auf 1 von 2 <strong>Baumhaushotel-Gutscheinen im Wert von je 3000€</strong> von mydays und eine persönliche <strong>Baumurkunde.</strong>"
+            },
+            "subTitle": "Mit deinen Milka Lieblingsprodukten kannst du jetzt tolle Preise gewinnen und dich schon auf Ostern freuen. Milka verlost 1 von 2 Baumhaushotel-Gutscheinen im Wert von je 3000€ von mydays.<br /><br /> Gleichzeitig schützt du unser Klima. Denn Milka pflanzt zusammen mit <span class=\"s-content-title--sign\"><a href=\"https://www.plant-my-tree.de\" target=\"_blank\">PLANT-MY-TREE<span>®</span></a></span> pro Teilnehmer einen von insgesamt 3.000 neuen Bäumen - so unterstützt du die Aufforstung in Deutschland. Als Dankeschön bekommst du eine persönliche <strong>Baumurkunde.</strong>",
+            "paragraph": null,
+            "specificImage":{
+                "desktop": "/resources/images/edeka/participation-img-specific.png",
+                "mobile": "/resources/images/edeka/participation-img-specific-mobile.png"
+            },
+            "stepsTitle": "So einfach geht’s",
+            "description": {
+                "Caption": "* Gib deine persönlichen Daten (Vor- und Nachnamen sowie die E-Mail-Adresse, Geburtsdatum, Postadresse) ein. Lies dir bitte vorher unsere <a href=\"https://eu.mondelezinternational.com/privacy-notice?sc_lang=de-de&siteID=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\">Datenschutzhinweise</a> aufmerksam durch, damit du weißt, wie wir mit deinen personenbezogenen Daten umgehen und welche Rechte dir zustehen. Bitte nicht teilnehmende Produkte auf dem Kassenbon unkenntlich machen. Die Online-Gutscheine sind ab Ausstellungsdatum bis zum 31.12.2025 einlösbar.",
+                "Title": {
+                    "desktop": "Mitmachen ist ganz einfach:",
+                    "mobile": "Mitmachen ist ganz einfach"
+                },
+                "image": {
+                    "desktop": "/resources/images/netto/participation-img.png",
+                    "mobile": "/resources/images/netto/participation-img-mobile.png"
+                },
+                "Steps": [
+                    [
+                        {
+                            "type" : "text",
+                            "text" : "Kaufe zwischen dem <strong>14.03.</strong> und <strong>17.04.2022</strong> in einem Kaufakt für 5€ Milka Produkte bei Netto <strong>(Kassenbon bitte aufbewahren).</strong>"
+                        }
+                    ],
+                    [
+                        {
+                            "type" : "text",
+                            "text" : "Lade "  
+                        },
+                        {
+                            "type" : "link",
+                            "link" : "/mitmachen",
+                            "text" : "hier",
+                            "dataEvent" : "button-click",
+                            "dataCategory" : "Click Action",
+                            "dataAction" : "Participate"
+                        },
+                        {
+                            "type" : "text",
+                            "text" : " bis zum <strong>17.04.2022</strong> deinen Kassenbon hoch und gib deine persönlichen Daten ein*."
+                        }
+                    ],
+                    [
+                        {
+                            "type" : "text",
+                            "text" : "Schon bist du im Gewinner-Lostopf! Du hast die Chance auf <strong>1 von 2 Baumhaushotel-Gutscheinen im Wert von je 3000€ von mydays.</strong> Zusätzlich bekommt jeder Teilnehmer eine <strong>Baumurkunde</strong> und sorgt dafür, dass PLANT-MY-TREE® neue Bäume in Deutschland pflanzt.*"
+                        }
+                    ],
+                    [
+                        {
+                            "type" : "text",
+                            "text" : "Die Gewinner des Hauptpreises werden am Ende des Gewinnspiels unter allen hochgeladenen Kassenbons per Zufallsgenerator ermittelt und <strong>per E-Mail</strong> benachrichtigt. Bereits vorher erhält jeder Teilnehmer eine <strong>Baumurkunde per E-Mail.</strong>"
+
+                        }
+                    ]
+                ]
+            },
+            "Form": {
+                "Sections": {
+                    "Receipt": {
+                        "Title": "Netto Kassenbon hochladen",
+                        "CTA": "DATEI AUSWÄHLEN",
+                        "Info": "Du kannst deinen Kassenbon als .jpg oder .pdf hochladen.",
+                        "Field": {
+                            "ReceiptDate": {
+                                "Type": "text",
+                                "Label": "Kaufdatum",
+                                "Required": true
+                            },
+                            "ProductAmount": {
+                                "Type": "select",
+                                "Label": "Anzahl der gekauften Milka Produkte",
+                                "Id": "",
+                                "Default": "Anzahl der gekauften Milka Produkte ",
+                                "Required": false,
+                                "MinValue" : 3,
+                                "ErrorMessage" : "Du hast weniger als 3 Milka Produkte gekauft und kannst daher mit diesem Kassenbon nicht an der Aktion teilnehmen",
+                                "Options": [
+                                    {
+                                        "Display": "Anzahl der gekauften Milka Produkte",
+                                        "Value": "default"
+                                    },
+                                    {
+                                        "Display": "1",
+                                        "Value": "1"
+                                    },
+                                    {
+                                        "Display": "2",
+                                        "Value": "2"
+                                    },
+                                    {
+                                        "Display": "3",
+                                        "Value": "3"
+                                    },
+                                    {
+                                        "Display": "4",
+                                        "Value": "4"
+                                    },
+                                    {
+                                        "Display": "5",
+                                        "Value": "5"
+                                    },
+                                    {
+                                        "Display": "6",
+                                        "Value": "6"
+                                    },
+                                    {
+                                        "Display": "7",
+                                        "Value": "7"
+                                    },
+                                    {
+                                        "Display": "8",
+                                        "Value": "8"
+                                    },
+                                    {
+                                        "Display": "9",
+                                        "Value": "9"
+                                    },
+                                    {
+                                        "Display": "10",
+                                        "Value": "10"
+                                    },
+                                    {
+                                        "Display": ">10",
+                                        "Value": "11"
+                                    }
+                                ]
+                            },
+                            "ReceiptPrice": {
+                                "Type": "text",
+                                "Id": "receipt-sum",
+                                "Label": "Gesamte Bonsumme des Einkaufs*",
+                                "Required": true
+                            }
+                        }
+                    },
+                    "Details": {
+                        "Title": "Trage hier deine persönlichen Daten ein",
+                        "Subtitle": "So kann Milka dich kontaktieren, falls du gewinnst",
+                        "CTA": "JETZT MIMACHEN",
+                        "Info": "",
+                        "Field": {
+                            "Salutation" : {
+                                "Type": "select",
+                                "Label": "Anrede*",
+                                "Options": [
+                                    {
+                                        "Display": "Anrede*",
+                                        "Value": "default"
+                                    },
+                                    {
+                                        "Display": "Herr",
+                                        "Value": "1"
+                                    },
+                                    {
+                                        "Display": "Frau",
+                                        "Value": "2"
+                                    },
+                                    {
+                                        "Display": "Divers",
+                                        "Value": "10"
+                                    }
+                                ]
+                            },
+                            "FirstName" : {
+                                "Type": "text",
+                                "Id": "firstName",
+                                "Label": "Vorname*",
+                                "Required": true
+                            },
+                            "LastName" : {
+                                "Type": "text",
+                                "Label": "Nachname*",
+                                "Required": true
+                            },
+                            "Email" : {
+                                "Type": "email",
+                                "Label": "E-Mail*",
+                                "Required": true
+                            },
+                            "Street" :  {
+                                "Type": "text",
+                                "Label": "Straße*",
+                                "Required": true
+                            },
+                            "HouseNumber" : {
+                                "Type": "text",
+                                "Label": "Hausnummer*",
+                                "Required": true
+                            },
+                            "Address" : {
+                                "Type": "text",
+                                "Label": "Adresszusatz",
+                                "Required": false
+                            },
+                            "ZipCode" : {
+                                "Type": "text",
+                                "Label": "PLZ*",
+                                "Required": true
+                            },
+                            "City" : {
+                                "Type": "text",
+                                "Label": "Stadt*",
+                                "Required": true
+                            },
+                            "Country" : {
+                                "Type": "text",
+                                "Label": "Land*",
+                                "Value": "Deutschland"
+                            },
+                            "Birthday" : {
+                                "Label": "Geburtsdatum*",
+                                "Required": true,
+                                "Day": {
+                                    "Type": "text",
+                                    "Label": "TT"
+                                },
+                                "Month":{
+                                    "Type": "text",
+                                    "Label": "MM"
+                                },
+                                "Year": {
+                                    "Type": "text",
+                                    "Label": "JJJJ"
+                                }
+                            },
+                            "Terms": {
+                                "HTML": "Wir schätzen dein Vertrauen in unseren Umgang mit deinen personenbezogenen Daten. Wir speichern personenbezogene Daten von dir nach Maßgabe der rechtlichen Vorschriften und ausschließlich zum Zweck der Abwicklung dieses Gewinnspiels (Rechtsgrundlage: Art. 6 Abs. 1 Buchst. f) der Datenschutz-Grundverordnung EU 2016/679, DS-GVO). Es werden die E-Mail-Adresse und der Name der Teilnehmer erfasst und ausschließlich zur Verifizierung der Teilnahme/Gewinner sowie zum Versand der Gewinne gespeichert. Soweit keine gesetzlichen Aufbewahrungspflichten bestehen, erfolgt eine umgehende Löschung der Daten, nachdem das Gewinnspiel abgewickelt ist. Eine umgehende Löschung erfolgt bezüglich der Daten der Nichtgewinner. Gewinnerdaten sind aus gesetzlichen und buchhalterischen Gründen nach Maßgabe der §§ 257 HGB, 147 AO, 14b UStG aufzubewahren. Für diese Speicherung der Gewinnerdaten ist die Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. c) DS-GVO, da die Verarbeitung zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, der Mondelez Deutschland unterliegt. Weitere Informationen zum Umgang mit deinen personenbezogenen Daten findest du in unserer <a href=\"https://eu.mondelezinternational.com/privacy-notice?sc_lang=de-de&siteID=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\">Datenschutzerklärung.</a>"
+                            },
+                            "Terms2": null,
+                            "Newsletter": {
+                                "HTML": "Ich möchte den regelmäßigen Newsletter mit Informationen zu Milka Produkten, Rezepten und Aktionen per E-Mail von der Mondelēz Deutschland Services GmbH & Co. KG oder von mit der Mondelēz International Unternehmensgruppe verbundenen Unternehmen erhalten. In diesem Zusammenhang wird auch mein Kauf- und Klickverhalten auf dieser Milka Website analysiert. Diese Einwilligung kann jederzeit mit zukünftiger Wirkung <a href=\"https://contactus.mdlzapps.com/form?siteId=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\">hier</a> widerrufen werden. Bitte beachten Sie auch unsere <a href=\"https://eu.mondelezinternational.com/privacy-notice?sc_lang=de-de&siteID=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\">Datenschutzerklärung</a> für weitere Informationen."
+                            }
+                        }
+                    }
+                }
+            },
+            "Product": {
+                "Title": "Entdecke dein liebstes Milka Osterprodukt unter vielen Lieblingsprodukten",
+                "Description": "Bei Milka findet jeder sein liebstes Osterprodukt aus zartschmelzender Alpenmilch Schokolade. Ob österliche Neuheiten, klassischer Milka Schmunzelhase in vielen unterschiedlichen Sorten oder Feine Eier – Milka Alpenmilch Schokolade ist immer perfekt, zum Genießen, Teilen und Verschenken.",
+                "Image": "/resources/images/rewe/products-no-back.png",
+                "CTA": {
+                    "desktop" : "ALLE MILKA WEIHNACHTSPRODUKTE",
+                    "mobile" : "ALLE WEIHNACHTSPRODUKTE"
+                }
+            }
+        },
+
+        "Confirmation": {
+            "title": "Vielen Dank für deine Teilnahme!",
+            "subTitle": "Du hast an der Milka Osteraktion bei Netto teilgenommen und nun die Chance, <strong>1 von 2 Baumhaushotel-Gutscheinen im Wert von je 3000€ von mydays</strong> zu gewinnen. Die Gewinner werden per Zufallsgenerator ermittelt und nach Ende des Gewinnspiels per E-Mail benachrichtigt. Wenn alle Teilnahmebedingungen erfüllt sind, erhältst du zudem deine persönliche Baumurkunde.",
+            "paragraph": null,
+            "boxs" : [
+                {
+                    "img" : "/resources/images/rewe/card-img-1.png",
+                    "platzhalter" : "/resources/images/rewe/platzhalter.png",
+                    "title" : "Osterprodukte",
+                    "copy" : "Der Schmunzelhase als Limited Design Edition oder andere Highlights zum Fest: Entdecke jetzt Milkas zarte Vielfalt.",
+                    "button" : {
+                        "text" : "PRODUKTE" , 
+                        "href" : "https://www.fcmilka.de/account"
+                    }
+                },
+                {
+                    "img" : "/resources/images/rewe/card-img-2.png",
+                    "platzhalter" : null,
+                    "title" : "Lass dich inspirieren",
+                    "copy" : "Mach deinen Liebsten eine ganz besondere Freude und personalisiere deine Milka Schokolade.",
+                    "button" : {
+                        "text" : "GESCHENKIDEEN" , 
+                        "href" : "https://www.fcmilka.de/account"
+                    }
+                },
+                {
+                    "img" : "/resources/images/rewe/card-img-3.png",
+                    "platzhalter" : null,
+                    "title" : "Neues von Milka",
+                    "copy" : "Verpasse keine Neuigkeit mehr: ob tolle Aktionen, zarte Produktnews oder Infos zum Milka Engagement.",
+                    "button" : {
+                        "text" : "NEUES ENTDECKEN" , 
+                        "href" : "https://www.fcmilka.de/account"
+                    }
+                }
+            ],
+            "homepageLink": "ZURÜCK ZUR STARTSEITE",
+            "bottomBanner": {
+                "desktop": "/resources/images/rewe/products.png",
+                "mobile": "/resources/images/rewe/products-sm.png"
+            }
+        },
+
+        "Prize": {
+            "title": "Gewinnen und gemeinsam den Klimaschutz fördern",
+            "subtitle": "Sichere dir die Chance auf ein Familienwochenende in einem Baumhaushotel.", 
+            "paragraph": "Mit deiner Teilnahme hast du die Chance auf <strong>1 von 2 Baumhaushotel-Gutscheinen im Wert von je 3000€ von mydays.</strong> Die Gewinner dieses Hauptpreises werden am Ende des Aktionszeitraums vom 14.03. bis 17.04.2022 per Zufallsgenerator ermittelt. Schon vorher bekommst du als Dankeschön eine Baumurkunde, da mit deiner Teilnahme <a href=\"https://www.plant-my-tree.de\" target=\"_blank\">PLANT-MY-TREE®</a> insgesamt 3.000 neue Bäume in Deutschland pflanzt."
+        },
+
+        "Faq": {
+            "stepsTitle": {
+                "desktop" : null,
+                "mobile" : null
+            },
+            "stepsItems" : [
+                {
+                    "image" : "/resources/images/netto/steps-01.png",
+                    "text" : "3x Milka in einem Kaufakt bei <strong>Netto</strong> kaufen"
+                },
+                {
+                    "image" : "/resources/images/netto/steps-02.png",
+                    "kassenbonImage" : "/resources/images/netto/kassenbonImage.png",
+                    "text" : "<strong>Kassenbon</strong> <a href=\"/mitmachen\">hier</a> hochladen"
+                },
+                {
+                    "image" : "/resources/images/netto/steps-03.png",
+                    "text" : "Mit etwas Glück gewinnen und gemeinsam den Klimaschutz fördern"
+                }
+            ],
+            "decoration": [
+                "/resources/images/edeka/deco-2.png",
+                "/resources/images/edeka/deco-1.png",
+                "/resources/images/edeka/deco-2.png",
+                "/resources/images/edeka/deco-1.png"
+            ],
+            "content": "<div class=\"s-content-copy__item\">     <p class=\"headings\">Wie kann ich teilnehmen und den Kassenbon hochladen?</p>     <p>Die Teilnahme ist ganz einfach:</p>     <ol>         <li>         Kaufe zwischen dem <strong>14.03.</strong> und <strong>17.04.2022</strong> in einem Kaufakt Milka Produkte für 5€ bei Netto <strong>(Kassenbon bitte aufbewahren).</strong>         </li>         <li>             Lade <a href=\"#\">hier</a> bis zum <strong>17.04.2022</strong> deinen Kassenbon hoch und gib deine persönlichen Daten ein*.         </li>         <li>             Schon bist du im Gewinner-Lostopf! Du hast die Chance auf <strong>1 von 2 Baumhaushotel-Gutscheinen im Wert von je 3000€ von mydays.</strong> Zusätzlich bekommt jeder Teilnehmer eine Baumurkunde und sorgt dafür, dass <a href=\"https://www.plant-my-tree.de\" target=\"_blank\">PLANT-MY-TREE®</a> neue Bäume in Deutschland pflanzt.         </li>         <li>             Die Gewinner des Hauptpreises werden am Ende des Gewinnspiels unter allen hochgeladenen Kassenbons per Zufallsgenerator ermittelt und per E-Mail benachrichtigt. Bereits vorher erhält jeder Teilnehmer eine Baumurkunde per E-Mail.         </li>     </ol> </div>  <div class=\"s-content-copy__item\">     <p class=\"headings\">Kann ich auch teilnehmen, wenn ich für weniger als 5€ Milka Produkte bei Netto gekauft habe?</p>     <p>Nein, um an diesem Gewinnspiel teilzunehmen, musst du für mindestens 5€ Milka Produkte in einem Kaufakt bei Netto kaufen.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Mit welchen Produkten kann ich teilnehmen?</p>     <p>Du kannst mit allen Milka Produkten teilnehmen, die du im Aktionszeitraum vom <strong>14.03.</strong> bis <strong>17.04.2022</strong> bei Netto kaufst. Vielleicht entdeckst du schon ein paar schokoladige Überraschungen für dein Osternest oder das deiner Lieben.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Wie lange kann ich an der Aktion teilnehmen?</p>     <p>Du kannst bis einschließlich 17.04.2022 deinen Kassenbon hochladen und teilnehmen.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Wie oft kann ich teilnehmen?</p>     <p>Du kannst beliebig oft teilnehmen, allerdings ist jeder Kassenbon nur einmal gültig. Während des Aktionszeitraums ist ein Gewinn und eine Baumspende pro Teilnehmer möglich.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Kann ich einen Kassenbon mehrmals nutzen?</p>     <p>Nein, jeder Kassenbon ist nur einmal gültig.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Kann jeder an der Aktion teilnehmen?</p>     <p>Teilnehmen kann jede natürliche Person ab 18 Jahren mit Wohnsitz in Deutschland.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Was wird verlost?</p>     <p>Im Aktionszeitraum vverlost Milka 2 Baumhaushotel-Gutscheine im Wert von je 3000€ von mydays. Zusätzlich kann jeder Teilnehmer täglich eine Baumurkunde gewinnen, für die Netto zusammen mit <a href=\"https://www.plant-my-tree.de\" target=\"_blank\">PLANT-MY-TREE®</a> insgesamt 3.000 neue Bäume pflanzt.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Wann werden die Gewinne verlost?</p>     <p>Nach Prüfung der Teilnahmebedingungen erhält jeder Teilnehmer seine persönliche Baumurkunde und kommt in den Lostopf für die Hauptgewinne. Die Gewinnerziehung per Zufallsgenerator erfolgt am Ende des Gewinnspiels unter allen gültigen Teilnahmen.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Endet die Gewinnchance am 17.04.2022?</p>     <p>Ja, bis einschließlich 17.04.2022 kannst du Kassenbons deiner Netto Einkäufe <a href=\"#\">hier</a> hochladen und hast die Chance, zu gewinnen. Danach ist die Aktion beendet.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Wie bekomme ich meinen Gewinn?</p>     <p>Die Gewinner werden nach Ende des Teilnahmezeitraums per Zufallsprinzip aus allen Teilnehmern der Aktion ermittelt und nach Prüfung der Richtigkeit des Kassenbons, sowie der Teilnahmebedingungen per Email von der mit derAbwicklung des Gewinnspiels beauftragten Agentur, der Baudek & Schierhorn GmbH, über den Gewinn benachrichtigt.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Wo kann ich meinen Gewinn einlösen und wie lange ist der Hotel-Gutschein gültig?</p>     <p>Unter allen Teilnehmern, die im Teilnahmezeitraum einen gültigen Netto-Kassenbon hochgeladen haben, werden per Zufall am Ende des Teilnahmezeitraums 2 x 1 Baumhaushotel-Gutschein im Wert von je 3.000 €, einzulösen bei mydays.de bis zum 31.12.2025, verlost.</p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">Kann ich meine Daten löschen?</p>     <p>             Nach Ende der Aktion werden die Teilnehmerdaten gelöscht. Soweit keine gesetzlichen Aufbewahrungspflichten bestehen, erfolgt eine umgehende Löschung der Daten, nachdem das Gewinnspiel abgewickelt ist. Eine umgehende Löschung erfolgt bezüglich der Daten der Nichtgewinner. Gewinnerdaten sind aus gesetzlichen und buchhalterischen Gründen nach Maßgabe der §§ 257 HGB, 147 AO, 14b UStG aufzubewahren. Für diese Speicherung der Gewinnerdaten ist die Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. c) DSGVO, da die Verarbeitung zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, der Mondelez Deutschland unterliegt. Aber falls du deine Daten bereits während des Aktionszeitraums löschen möchtest, ist das natürlich möglich. Dazu wendest du dich bitte direkt an unseren <a href=\"https://contactus.mdlzapps.com/form?siteId=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\" rel=\"noopener noreferrer\">Verbraucherservice*.</a>             <br /> <br /> Eine Teilnahme am Gewinnspiel ist dann leider nicht mehr möglich. Weitere Informationen zum Umgang mit deinen Daten im Rahmen dieser Aktion findest du in den Teilnahmebedingungen.     </p> </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">An wen kann ich mich wenden, wenn ich weitere Fragen habe?</p>     <p>Vielleicht hast du noch weitere Fragen, die hier nicht beantwortet worden sind. Dann wende dich am besten direkt an unseren <a href=\"https://contactus.mdlzapps.com/form?siteId=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\" rel=\"noopener noreferrer\">Verbraucherservice*.</a> <br/><br/> *Falls der hier hinterlegte Link zum Verbraucherservice nicht funktioniert, kannst du über den Kontaktlink im Bereich „Service“ den Verbraucherservice erreichen. </p> </div>"
+        },
+
+        "Terms": {
+            "content": "<div class=\"s-content-copy__item\">       <p>         Mondelez Deutschland GmbH<br />         Konsul Smidt Str. 21<br />         28217 Bremen      </p>     <p>          Telefon: 00800 83 00 00 36 (kostenfrei)<br/>         E-Mail: Verbraucherservice@mdlz.com      </p>     <p>          Sitz: Bremen, AG Bremen HRB 11373<br/>         Umsatzsteueridentifikationsnummer: DE 114397121<br/>         Geschäftsführer: Maximilian Eckardt, Martin Kaufmann, Niko Warmbrunn, Hartmut Wilkens      </p>   </div>   <div class=\"s-content-copy__item\">     <p class=\"headings\">I. Teilnahmebedingungen </p>      <p class=\"headings sub\">Teilnahmebedingungen der Gewinnspiel- und Baumspendeaktion „Milka Osterpromotion mit PLANT-MY-TREE®“</p>     <p>         Die folgenden Teilnahmebedingungen regeln die Bedingungen der Teilnahme an          der Gewinnspiel- und Baumspendeaktion bei Netto MD. Eine Teilnahme an der          <strong>„Milka Osterpromotion mit PLANT-MY-TREE®“</strong> erfolgt ausschließlich nach          Maßgabe der nachfolgend aufgeführten Teilnahmebedingungen und          Datenschutzhinweisen. Mit der Teilnahme erkennt der Teilnehmer diese          Teilnahmebedingungen ausdrücklich an. Bei einem Verstoß gegen diese          Teilnahmeberechtigungen behält sich Mondelez Deutschland das Recht vor,          Personen vom Gewinnspiel auszuschließen.       </p>     <p> Aus Gründen der besseren Lesbarkeit verwenden wir nachstehend einheitlich die      Bezeichnung Teilnehmer oder Gewinner. Es sind hiervon selbstverständlich alle      Geschlechter (m/w/d) umfasst.        </p>       <p> Mit der Durchführung und Abwicklung des Gewinnspiels wurde die Baudek &          Schierhorn GmbH, Banksstraße 4, 20097 Hamburg (Agentur) und die BE:TWO          GmbH, Konsul-Smidt-Straße 8L, 28217 Bremen (Agentur) beauftragt.     </p>     <p>         Der Teilnehmer geht mit der Teilnahme am Gewinnspiel über die Teilnahme hinaus          keine vertraglichen oder sonstigen rechtlichen Verpflichtungen gegenüber          Mondelez Deutschland ein. Die Teilnahme am Gewinnspiel ist kostenlos, mit          Ausnahme der Übermittlungskosten, die nach dem von Ihnen gewählten Tarif Ihres          Mobilfunk- bzw. Internetanbieters entstehen.     </p>     <p class=\"headings sub\">1. Angaben zum Veranstalter </p>     <p>Veranstalterin des Gewinnspiels ist die Mondelez Deutschland GmbH, Konsul-Smidt-Str. 21, 28217 Bremen, Deutschland (nachstehend als „Mondelez Deutschland“ oder „Veranstalter“ bezeichnet).</p>               <p class=\"headings sub\">2. Teilnahmeberechtigung </p>     <p> Teilnehmen kann jede natürliche Person ab 18 Jahren mit Wohnsitz in          Deutschland. Ausgenommen sind Mitarbeiter der beteiligten Unternehmen und der          an der Durchführung des Gewinnspiels beteiligte Dienstleister und jeweils deren          Angehörige.       </p>          <p> Bei einem Verstoß gegen diese Teilnahmebedingungen, das geltende Recht oder      die Regeln von Sitte und Anstand behält sich Mondelez Deutschland das Recht vor,      Personen vom Gewinnspiel auszuschließen.     </p>          <p>         Mondelez Deutschland behält sich außerdem vor, Teilnehmer auszuschließen,      wenn festgestellt wird, dass sie falsche Angaben im Registrierungsprozess machen      und/oder den Teilnahmevorgang manipulieren und/oder sonst in unfairer und/oder      unlauterer Weise versuchen, den Teilnahmevorgang zu beeinflussen. Bereits      zuerkannte Gewinne werden in diesem Fall aberkannt.     </p>          <p>In dem Fall wird per Los ein Ersatzgewinner ermittelt. Für den Fall, dass die      Rückgabe des Gewinns nicht mehr möglich ist, behält sich Mondelez Deutschland      die Forderung von Schadensersatzleistungen vor.     </p>      <p>         Ferner gilt: Alle Einsendungen müssen direkt von der Person vorgenommen          werden, die sich an der Werbeaktion beteiligt. Masseneinsendungen durch          gewerbliche Absender, Verbrauchergruppen oder Dritte werden nicht akzeptiert.          Unvollständige oder unleserliche Einsendungen, Einsendungen durch oder über          Dritte oder Syndikate, Einsendungen durch Makros oder andere automatisierte          Methoden (einschließlich programmierbare Teilnahme-Systeme) sowie          Einsendungen, die den Vorgaben dieser Teilnahmebedingungen nicht          vollumfänglich entsprechen, werden von der Teilnahme ausgeschlossen und nicht          berücksichtigt. Stellt sich heraus, dass ein Teilnehmer einen oder mehrere          Computer zur Umgehung dieser Bestimmungen nutzt, beispielsweise durch den          Einsatz von „Skripten“, die „Brute-Force“-Methode, die Verschleierung seiner          Identität durch Manipulation von IP-Adressen, willkürliches Erraten von Codes oder          sonstige automatisierte Mittel, die die Anzahl seiner Einsendungen für diese          Werbeaktion auf eine Weise erhöhen sollen, die nicht mit dem Geist dieser          Werbeaktion im Einklang steht, werden die Einsendungen dieser Person von der          Teilnahme ausgeschlossen und jeder eventuelle Gewinn wird für nichtig erklärt und          zurückgefordert. Dasselbe gilt für Beiträge, die den Teilnahmevorgang          manipulieren und/oder sonst in unfairer und/oder unlauterer Weise versuchen, den          Teilnahmevorgang zu beeinflussen.     </p>     <p class=\"headings sub\">3. Durchführung, Gewinne und Abwicklung </p>     <p class=\"headings sub\">3.1 Durchführung </p>     <p>Teilnahmezeitraum ist vom 14.03.-17.4.2022 </p>          <p>         Die Teilnahme erfolgt beim Kauf von Milka Produkten im Wert von mind. 5 € in          einem Kaufakt bei Netto MD-Märkten und Hochladen eines Fotos des Kassenbons          (gut leserlich) sowie die Angabe der personenbezogenen Daten (Email-Adresse,          Name, Vorname, Geburtsdatum, Straße/Hausnummer und Postleitzahl und Ort)          auf der Webseite: netto.milka.de, jeweils im Teilnahmezeitraum. Produkte, die          nicht an der Promotion teilnehmen (also keine Milka Produkte sind), sollten auf          dem Kassenbon unkenntlich gemacht werden, zum Beispiel indem sie geschwärzt          werden. Den Original-Kassenbon bitte aufbewahren. Mondelez Deutschland behält          sich vor, den Original-Kassenbon zur Überprüfung der Einhaltung der          Teilnahmebedingungen anzufordern.     </p>          <p> Jeder Teilnehmer (d.h. eine natürliche Person) kann mehrfach teilnehmen,      allerdings darf jeder Kassenbon nur einmal hochgeladen werden. Es kann jedoch      pro Teilnehmer nur ein Gewinn im gesamten Teilnahmezeitraum gewonnen werden     und es erfolgt auch nur eine Baumspende pro Teilnehmer. Weitere Teilnahmen      derselben Person unter derselben Adresse, aber mit einer anderen als der bei der      ersten Teilnahme angegebenen E-Mail-Adresse werden nicht berücksichtigt. Eine      weitere Teilnahme derselben natürlichen Person unter einer neuen/anderen Emai-Adresse als die bei der ersten Teilnahme angegebene Email Adresse wird als      Verstoß gegen diese Teilnahmebedingungen angesehen. Sollte dem Teilnehmer      aufgrund einer weiteren Teilnahme noch ein/mehrere Preise zuerkannt oder      bereits übergeben worden sein, kann der Veranstalter den Preis/die Preise      aberkennen und auf Kosten des Teilnehmers zurückverlangen.     </p>          <p>  Eine Online-Registrierung ist erforderlich. Hinweise dazu, wie wir mit Ihren          personenbezogenen Daten umgehen, sind unter II. zu finden.     </p>      <p>         Unmittelbar nach der Registrierung inkl. Hochladen des Kassenbon-Fotos und          Abschicken mittels des Buttons „Absenden“ wird dem Gewinnspielteilnehmer          online mitgeteilt, dass er an dem Gewinnspiel teilnimmt.      </p>       <p> Einsendungen, die als nicht mit diesen Bedingungen übereinstimmend betrachtet          werden, werden verworfen. Eine Teilnahme ist in diesen Fällen ausgeschlossen.     </p>     <p>         Darüber hinaus gilt auch: In dem Fall, dass ein Gewinner entweder     </p>     <p>         - diese Teilnahmebedingungen nicht erfüllt,<br/>          - seine Kontaktdaten nicht vollständig oder unrichtig angibt,<br/>         - den Preis wie hierin beschrieben aus irgendeinem, vom Gewinner zu          vertretenden Grund, nicht in Anspruch nehmen kann oder möchte, hiervon          gehen wir aus, wenn der Gewinner sich auf unsere Gewinnbenachrichtigung          über den Gewinn des Baumhaushotel-Aufenthalts nicht innerhalb von 12         Tagen zurückmeldet und die für die Organisation und Abwicklung          erforderlichen Daten und Dokumente innerhalb dieser Frist zur Verfügung          stellt oder<br/>         - der Gewinn unter der von dem Gewinner angegebenen Adresse auch nach          zweifachem Versuch binnen 4 Wochen nach dem ersten Zustellversuch nicht          zustellbar ist,     </p>     <p>     verfällt der Gewinn automatisch und kann an einen anderen Teilnehmer      übermittelt werden, der unter denselben Bedingungen ermittelt wurde.     </p>     <p>         Teilnahmeschluss ist der 17.04.2022.     </p>      <p class=\"headings sub\">3.2 Gewinne</p>     <p> Am Ende des Teilnahmezeitraums der Aktion werden unter allen Teilnehmern         nachstehende Preise per Zufall verlost:       </p>     <p>Unter allen Teilnehmern, die im Teilnahmezeitraum einen gültigen Netto MD-Kassenbon hochgeladen haben, werden per Zufall am Ende des  Teilnahmezeitraums 2 x 1 Baumhaushotel-Gutschein im Wert von je 3.000 €, einzulösen bei mydays.de bis zum 31.12.2025, verlost.</p>          <p> Zusätzlich gilt für alle Teilnehmer, die gültige Kassenbons von Netto MD     hochgeladen haben:     </p>     <p>      Pro Teilnehmer erfolgt max. eine Baumspende im Wert von je 9€ von Mondelez an      <strong>PLANT-MY-TREE®</strong> für nachhaltige Baumpflanzungen auf den hauptsächlich      eigenen Flächen von <strong>PLANT-MY-TREE®.</strong> Mondelez leistet im Rahmen der Aktion      einen Klimaschutzbeitrag an PLANT-MY-TREE® für die Pflanzung von maximal      3.000 Bäumen in Deutschland.     </p>                <p> Der Veranstalter ist nicht verpflichtet, den Gewinn zur Verfügung zu stellen und          kann ihn durch einen anderen Gewinn mit gleichem oder höherem Wert ersetzen,          sollte der Gewinn aus Gründen, die außerhalb der Verantwortung des Veranstalters          liegen, wie insbesondere die derzeitige COVID 19 Situation und sich aus ihr          ergebende Restriktionen oder Hindernisse für die Inanspruchnahme des Gewinns,          nicht verfügbar oder die Verfügbarkeit des Gewinns eingeschränkt sein. Es gelten          zudem die jeweils aktuell gültigen Zutrittsregelungen des jeweiligen Hotels, über          die sich der Gewinner selbständig informieren muss. Der Gewinner hat in diesen          Fällen auch keinen Anspruch auf eine Barauszahlung oder eine anderweitige          Kompensation. Maximal ein Hauptpreis pro Person. Barauszahlung und Rechtsweg          sind ausgeschlossen. Nicht kombinierbar mit anderen Aktionen.     </p>       <p>         Die Gewinne können, sofern nichts anderes angegeben wurde, nicht gegen Bargeld          oder sonstige Formen der Entschädigung eingelöst werden. Der Umtausch ist          ausgeschlossen. Auch ein Umtausch eines Preises aufgrund eines Kaufs bei einem          Händler gegen einen Preis, der für die Teilnahme nach einem Kauf bei einem          anderen Händler vorgesehen ist, ist ausgeschlossen. Falls der Nutzer ein          Gewinnelement aus irgendeinem Grund nicht innerhalb des vom Veranstalter          vorgegebenen Zeitrahmens einlöst, verfällt dieses Angebotselement für den Nutzer          und es wird keine Geldzahlung oder sonstige Form von Entschädigung als Ersatz          für dieses Element geliefert, soweit nichts anderes vereinbart wurde. Für den Fall,          dass das Angebot aus unvorhersehbaren Gründen nicht zur Verfügung steht,          behält sich der Veranstalter das Recht vor, es nach alleinigem Ermessen durch ein          anderes gleichartiges Angebot zu ersetzen.      </p>     <p>Der Gewinnanspruch der Teilnehmer ist nicht übertragbar.</p>     <p class=\"headings sub\">3.3 Gewinnermittlung und -übergabe</p>          <p>Die Gewinner werden nach Ende des Teilnahmezeitraums per Zufallsprinzip aus          allen Teilnehmern der Aktion ermittelt und nach Prüfung der Richtigkeit des          Kassenbons, sowie der Teilnahmebedingungen per Email von der mit der          Abwicklung des Gewinnspiels beauftragten Agentur, der Baudek & Schierhorn          GmbH, über den Gewinn benachrichtigt. Der Gewinnanspruch steht jedoch          zunächst unter der aufschiebenden Bedingung, dass der Teilnehmer zunächst noch          einmal die bei der Teilnahme angegebenen Daten innerhalb einer Frist von 12         Tagen schriftlich bestätigt. Sofern die Teilnehmer dies unterlassen, können Sie den          Gewinn nicht mehr in Anspruch nehmen und der Veranstalter kann den Gewinn          nach eigenem Ermessen verfallen lassen oder an einen weiteren Teilnehmer, der          unter denselben Bedingungen ermittelt wird, vergeben. Sofern die Teilnehmer die          bei der Teilnahme angegebenen Daten fristgemäß bestätigen werden die Gewinner          bei der Organisation des Baumhaushotelaufenthalts durch das Agenturpersonal          begleitet.     </p>      <p> Mondelez Deutschland behält sich das Recht vor den Gewinn einzubehalten, wenn der Teilnehmer seine Kontaktdaten nicht vollständig oder unrichtig angibt.      </p>     <p class=\"headings sub\">4. Haftung / Gewährleistung</p>          <p>          Für einen Mangel oder mehrere Mängel an einem Gewinn übernimmt Mondelez          Deutschland weder eine Gewährleistung noch stehen dem Gewinner im Falle eines          Mangels oder mehrerer Mängel an dem Gewinn Umtausch- oder Rückgaberechte          zu, es sei denn, es liegt ein Mondelez Deutschland zurechenbarer Fall von Vorsatz          oder arglistiger Täuschung vor.      </p>           <p> Der Veranstalter haftet auch nicht für Produkte oder Dienstleistungen Dritter. Bei      der Inanspruchnahme der Leistungen Dritter gelten deren allgemeine      Geschäftsbedingungen. Dies gilt im Rahmen dieses Gewinnspiels für die      Leistungen von mydays.de sowie des jeweils ausgesuchten Baumhaushotels.     </p>      <p> Der Veranstalter haftet auch nicht im Falle einer Insolvenz des Dritten und leistet      keinen Ersatz im Falle einer in der Zukunft liegenden, derzeit nicht absehbaren      Eröffnung eines Insolvenzverfahrens über das Vermögen des Dritten.     </p>      <p> Der Veranstalter übernimmt keine Verantwortung für verspätet eingehende,      unvollständige, inkorrekt eingesandte, schadhafte oder falsch zugestellte      Einsendungen, Ansprüche oder Mitteilungen, unabhängig davon, ob diese durch      Fehler, Unterlassung, Veränderung, Manipulation, Löschung, Diebstahl,      Zerstörung, Übertragungsunterbrechung, Kommunikationsausfall oder      anderweitig bedingt wurden.     </p>      <p> Der Veranstalter haftet nicht für Schäden aufgrund von technischen Störungen,          für Verzögerungen oder Unterbrechungen von Übertragungen oder für Schäden,          die im Zusammenhang mit der Teilnahme an dem Gewinnspiel stehen, es sei denn          der Veranstalter handelt vorsätzlich oder grob fahrlässig. Hiervon unberührt          bleiben etwaige Ersatzansprüche aufgrund von Produkthaftung und der Verletzung          von Leben, Körper und Gesundheit sowie von wesentlichen Vertragspflichten. Im          Fall der Verletzung von wesentlichen Vertragspflichten, d.h. solcher Pflichten, die          die ordnungsgemäße Durchführung des Vertrages erst ermöglichen und auf deren          Erfüllung der Nutzer vertrauen darf, ist die Haftung auf den vertragstypisch          vorhersehbaren Schaden begrenzt.       </p>          <p> Die Teilnehmer erkennen durch ihre Teilnahme an, dass die Beteiligung an dieser          Werbeaktion auf alleiniges Risiko des Teilnehmers erfolgt. Der Veranstalter, seine          Organmitglieder, Direktoren, Beschäftigten und Agenten geben, soweit rechtlich          zulässig, keinerlei Garantien oder Zusicherungen über die Richtigkeit oder          Vollständigkeit der Inhalte auf netto.milka.de der auf mit diesen Websites         verlinkten Seiten ab und übernehmen keine Haftung oder Verantwortung für:     </p>      <p>          a. Fehler, Irrtümer oder Ungenauigkeiten von Inhalten;<br/>         b. Sachschäden jeglicher Art, die aus der Teilnahme an der Werbeaktion herrühren;<br/>         c. Todesfälle oder Personenschäden, die sich als direkte Folge der Teilnahme          an der Werbeaktion ergeben, sofern diese nicht durch zumindest          Fahrlässigkeit von Mondelez International, seinen Organmitgliedern,          Direktoren, Beschäftigten und Agenten verursacht werden;<br/>         d. Unterbrechungen oder Abbrüche der Übertragung an oder von www.milka.com;<br/>         e. Softwarefehler, Viren usw., die an oder durch www.milka.com an einen          Dritten übertragen werden, und/oder<br/>         f. Verluste oder Schäden jeglicher Art, die sich aus der Nutzung geposteter,          per E-Mail versandter, übertragener oder anderweitig über www.milka.com          zur Verfügung gestellter Inhalte ergeben,<br/>         g. Datenverluste, insbesondere auf dem Weg der Datenübertragung.      </p>     <p> Gewinne können nicht gegen Bargeld oder sonstige Formen der Entschädigung          eingelöst werden, sofern nichts anderes angegeben wurde. Falls der Nutzer einen          Teil eines Gewinns aus irgendeinem Grund nicht innerhalb des vom Veranstalter          vorgegebenen Zeitrahmens einlöst, verfällt dieses Gewinnelement für den Nutzer          und es wird keine Geldzahlung oder sonstige Form von Entschädigung als Ersatz          für dieses Element geliefert, soweit nichts anderes vereinbart wurde. Für den Fall,          dass der Gewinn aus unvorhersehbaren Gründen nicht zur Verfügung steht, behält          sich der Veranstalter das Recht vor, es nach alleinigem Ermessen durch einen          anderen gleichartigen Gewinn zu ersetzen oder ganz zu streichen.     </p>     <p class=\"headings sub\">5. Vorzeitige Beendigung des Gewinnspiels / Änderung der Teilnahmebedingungen</p>     <p> Mondelez Deutschland behält sich vor, die Aktionen zu jedem Zeitpunkt ohne      Vorankündigung und ohne Angabe von weiteren Gründen abzubrechen oder zu      beenden.     </p>     <p>Mondelez Deutschland behält sich ebenso das Recht vor, diese      Teilnahmebedingungen jederzeit ohne weitere Ankündigung zu ändern, wenn die      Änderung erforderlich und unter Berücksichtigung der Interessen von Mondelez      Deutschland für den Teilnehmer zumutbar ist.      </p>     <p class=\"headings sub\">6. Sonstiges</p>     <p>Der Rechtsweg ist ausgeschlossen.</p>     <p>         Sollten einzelne dieser Teilnahmebedingungen ungültig sein oder werden, bleibt          die Gültigkeit der übrigen Teilnahmebedingungen hiervon unberührt. Diese          Teilnahmebedingungen können jederzeit von Mondelez Deutschland geändert          werden. Wir empfehlen daher, die Teilnahmebedingungen bei Relevanz zeitnah          aufzurufen. Es gilt Ziffer 5 dieser Teilnahmebedingungen.     </p>     <p> Diese Teilnahmebedingungen unterliegen in Deutschland einschlägigem      deutschem Recht unter Ausschluss des UN Kaufrechts, wobei alle Streitigkeiten      bezüglich der Auslegung dieser Teilnahmebedingungen der ausschließlichen      Zuständigkeit der deutschen Gerichte unterliegen.     </p>     <p class=\"headings sub\">7. Angaben zu Streitschlichtungsverfahren</p>          <p> Wir weisen unsere Teilnehmer aus Deutschland gemäß <strong>§ 36      Verbraucherstreitbeilegungsgesetz (VSBG)</strong> darauf hin, dass wir nicht      verpflichtet und nicht bereit sind, an einem Streitbeilegungsverfahren vor einer      Verbraucherschlichtungsstelle teilzunehmen.     </p>      <p> Sie können sich aber jederzeit an unseren Verbraucherservice wenden. </p>     <p> Informationen zur Online-Streitbeilegung: </p>     <p>     Die EU-Kommission stellt unter folgendem Link eine Internetplattform zur Online-Beilegung von Streitigkeiten (sog. „OS-Plattform“) bereit, die als Anlaufstelle zur      außergerichtlichen Beilegung von Streitigkeiten betreffend vertragliche      Verpflichtungen, die aus Online-Kaufverträgen erwachsen, dient:      <a href=\"https://ec.europa.eu/consumers/odr/main/?event=main.home.howitworks\" target=\"_blank\">https://ec.europa.eu/consumers/odr/main/?event=main.home.howitworks</a>     </p>   </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">II. Datenschutzhinweise </p>     <p>         Verantwortliche Stelle für die Verarbeitung Ihrer personenbezogenen Daten <u>im          Rahmen dieses Gewinnspiels</u> ist die Mondelez Deutschland GmbH, Konsul-Smidt-Str. 21, 28217 Bremen (Mondelez Deutschland). Mit der Durchführung des          Gewinnspiels sind die folgenden Agenturen beauftragt: Die Baudek & Schierhorn          GmbH, Banksstraße 4, 20097 Hamburg (Agentur) und Die BE:TWO GmbH,         Konsul-Smidt-Straße 8L, 28217 Bremen (Agentur), welche die personenbezogen          Daten auf einem Server in Deutschland speichern. Die Agenturen unterliegen          sämtlichen anwendbaren Datenschutzgesetzen.     </p>     <p> Beide Agenturen sind im Rahmen einer Auftragsverarbeitung nach Art. 28 der          Datenschutzgrundverordnung („DSGVO“) für uns tätig und an die Anforderungen          entsprechender Verträge gebunden. Eine darüberhinausgehende Weitergabe Ihrer          personenbezogenen Daten an Dritte erfolgt nicht.     </p>      <p> Wir speichern personenbezogene Daten von Ihnen nach Maßgabe der rechtlichen      Vorschriften und ausschließlich zum Zweck der Abwicklung dieses Gewinnspiels      (Rechtsgrundlage: Art. 6 Abs. 1 Buchst. f) der Datenschutzgrundverordnung EU      2016/679, DS-GVO). Es werden die E-Mailadresse, der Name, Geburtsdatum und      die Adressdaten der Teilnehmer erfasst und ausschließlich zur Verifizierung der      Teilnahme / Gewinner gespeichert. Sie können Ihre Teilnahme an dem Gewinnspiel      jederzeit ohne Angabe von Gründen widerrufen. Hierzu genügt eine formlose E-Mail an verbraucherservice@mdlz.com. Im Falle eines Widerrufs werden Ihre      personenbezogenen Daten selbstverständlich gelöscht.     </p>      <p> Soweit keine gesetzlichen Aufbewahrungspflichten bestehen, erfolgt eine          umgehende Löschung der Daten, nachdem das Gewinnspiel abgewickelt ist. Eine          umgehende Löschung erfolgt bezüglich der Daten der Nichtgewinner.          Gewinnerdaten sind aus gesetzlichen und buchhalterischen Gründen nach          Maßgabe der §§ 257 HGB, 147 AO, 14b UStG aufzubewahren. Für diese          Speicherung der Gewinnerdaten ist die Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. c)          DS-GVO, da die Verarbeitung zur Erfüllung einer rechtlichen Verpflichtung          erforderlich ist, der Mondelez Deutschland unterliegt.     </p>     <p> Ihre Rechte im Zusammenhang mit personenbezogenen Daten:  </p>          <p>          Sie sind unter anderem berechtigt (i) zu überprüfen, ob und welche          personenbezogenen Daten wir über Sie gespeichert haben und Kopien dieser          Daten zu erhalten, (ii) die Berichtigung, Ergänzung oder das Löschen Ihrer          personenbezogenen Daten, die falsch sind oder nicht rechtskonform verarbeitet          werden, zu verlangen, (iii) von uns zu verlangen, die Verarbeitung Ihrer          personenbezogenen Daten einzuschränken, und (iv) der Verarbeitung Ihrer          personenbezogenen Daten zu widersprechen, (v) Datenübertragbarkeit zu          verlangen, (vi) in Deutschland bei der deutschen (für weitere Informationen, siehe          <a href=\"https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html\" target=\"_blank\">https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a> Beschwerde zu erheben     </p>          <p> Unsere Kontaktdaten:</p>     <p>          Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich in Deutschland bitte an:     </p>     <p> Mondelez Deutschland GmbH, Konsul Smidt Str. 21, 28217 Bremen, Deutschland  </p>     <p> E-Mail: Verbraucherservice@mdlz.com </p>     <p>         Unseren Datenschutzbeauftragten in Deutschland können Sie postalisch unter:          Mondelez Deutschland GmbH, zu Händen des Datenschutzbeauftragten, Konsul          Smidt Str. 21, 28217 Bremen, Deutschland oder per E-Mail unter:          datenschutz@mdlz.com erreichen.     </p>     <p>          Weitere Informationen zu dem Umgang von Mondelez Deutschland mit Ihren          personenbezogenen Daten im Rahmen der Nutzung dieser Webseite und zu Ihren          gesetzlichen Rechten und wie Sie diese ausüben können, entnehmen Sie bitte          unserer <a href=\"https://eu.mondelezinternational.com/privacy-notice?sc_lang=de-de&siteId=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\">Datenschutzerklärung </a> für Teilnehmer aus Deutschland.        </p>   </div>"
+        },
+
+        "End": {
+            "title": "Die Aktion ist beendet.<br /> Freue dich auf viele weitere Milka Aktionen, die kommen werden.",
+            "link": {
+                "mobile": "MEHR ENTDECKEN",
+                "desktop": "ENTDECKE MEHR VON MILKA"
+            },
+            "CardContent1":{
+				"imgSrc":"/resources/images/rewe/group308-1.png",
+				"title":"FC Milka Q2 Kampagne",
+				"paragraph":"Der Schmunzelhase als Limited Design Edition oder andere Highlights zum Fest: Entdecke jetzt Milkas zarte Vielfalt.",
+				"button":{
+					"text":"PRODUKTE",
+					"link":""
+				}
+			},
+			"CardContent2":{
+				"imgSrc":"/resources/images/rewe/group308-2.png",
+				"title":"Lass dich inspirieren",
+				"paragraph":"Mach deinen Liebsten eine ganz besondere Freude und personalisiere deine Milka Schokolade.",
+				"button":{
+					"text":"GESCHENKIDEEN",
+					"link":""
+				}
+			},
+			"CardContent3":{
+				"imgSrc":"/resources/images/rewe/group308-3.png",
+				"title":"Neues von Milka",
+				"paragraph":"Verpasse keine Neuigkeit mehr: ob tolle Aktionen, zarte Produktnews oder Infos zum Milka Engagement.",
+				"button":{
+					"text":"NEUES ENTDECKEN",
+					"link":""
+				}
+			}
+        },
+
+        "Cookie": ""
+    }
+}

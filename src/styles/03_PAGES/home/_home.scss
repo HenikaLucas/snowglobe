@@ -1,0 +1,167 @@
+.home-page {
+		overflow-x: hidden;
+		background-image: url($local-images+'/Shapes/master-paper-texture_grey.jpg');
+
+		.banner {
+				&__container {
+						.btn {
+								&__text {
+										letter-spacing: 5px;
+										font-size: 20px;
+										color:  $dark-lilac;
+								}
+						}
+
+						margin-bottom: 20px;
+				}
+		}
+
+		.image {
+				&__titles {
+						color: $white;
+
+						@include breakpoint(medium) {
+								width: 50%;
+						}
+				}
+
+				&__text {
+						&--bottom {
+								&-center {
+
+										.btn {
+												&__container {
+														max-width: 300px;
+														padding: 10px 15px 8px;
+
+														@include breakpoint(medium) {
+																max-width: none;
+																padding: 10px 30px 8px;
+														}
+												}
+												&__text {
+														font-size: 16px;
+														letter-spacing: 2px;
+												}
+										}
+								}
+								&-left>* {
+										margin-top: 40%;
+				
+										@include breakpoint(medium) {
+												margin-top: 9%;
+										}
+				
+										@include breakpoint(large) {
+												margin-top: 25%;
+										}
+								}
+						}
+				}
+		}
+
+		.shop-highlight {
+				&__container {
+						// background-image: url($local-images+'/Shapes/lila-texture.svg'); 
+						background-image: url($local-images+'/Shapes/lilac-tear.jpg'); 
+						background-repeat: repeat;
+						background-size: 100%;
+						background-position-y: 10%;
+
+						@include breakpoint(x-small) {
+								background-size: 230%;
+						}
+						@include breakpoint(medium-down) {
+								background-size: 200%;
+						}
+				}
+		}
+
+		.mosaique {
+				&__container {
+						// background-image: url($big-lilac-texture);
+						background-size: 110%;
+						background-position-y: -10px;
+						background-repeat: no-repeat;
+				}
+
+				&-column {
+						@include breakpoint(mozilla-only) {
+								overflow: hidden;
+								.grid-5 {
+										max-height: 40%;
+								}
+								.grid-7 {
+										max-height: 60%;
+								}
+						}
+				}
+		}
+
+		.announcement-banner__container {
+			margin-top: 50px;
+		}
+
+		&__intro {
+			p {
+				color: $dark-lilac;
+				a {
+					color: $dark-lilac;
+					text-decoration: underline;
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+		}
+}
+
+@media only screen 
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px) 
+	and (orientation : portrait) { 
+
+		.home-page {
+
+			.steps__img img {
+				display: block;
+				margin: 0 auto;
+				padding-top: 20px;
+			}
+
+			.steps__description--big {
+				margin-top: -290px;
+    		padding: 318px 0;
+			}
+
+			.steps__description--small {
+				margin-top: -244px;
+    		padding: 264px 0;
+			}
+		}
+}
+
+@media only screen 
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px) 
+	and (orientation : landscape) { 
+
+		.home-page {
+
+			.steps__img img {
+				display: block;
+				margin: 0 auto;
+				padding-top: 20px;
+			}
+
+			.steps__description--big {
+				margin-top: -290px;
+    		padding: 318px 0;
+			}
+
+			.steps__description--small {
+				margin-top: -244px;
+    		padding: 264px 0;
+			}
+		}
+}

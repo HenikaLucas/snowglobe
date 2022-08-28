@@ -1,0 +1,45 @@
+.small-only {
+    @include breakpoint(medium) {
+        display: none;
+    }
+}
+
+.medium-only {
+    @include breakpoint(small-only) {
+        display: none;
+    }
+
+    @include breakpoint(medium-l) {
+        display: none;
+    }
+
+}
+
+.medium-l-only {
+
+    @include breakpoint(small-only) {
+        display: none;
+    }
+
+    @include breakpoint(medium-only) {
+        display: none;
+    }
+
+    @include breakpoint(large) {
+        display: none;
+    }
+}
+
+.large-only {
+    @include breakpoint(small-only) {
+        display: none;
+    }
+
+    @include breakpoint(medium-only) {
+        display: none;
+    }
+
+    @include breakpoint(medium-l-only) {
+        display: none;
+    }
+}

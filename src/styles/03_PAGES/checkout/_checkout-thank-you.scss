@@ -1,0 +1,311 @@
+.checkout-thank-you {
+    background-image: url($local-images + '/Pages/Checkout-Thank-You-Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    // @include breakpoint(large) {
+    //     padding-bottom: 105vh;
+    // }
+
+    &__container {
+        padding-top: 140px;
+        h1 {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 100%;
+            text-align: center;
+            color: $white;
+            
+            margin: 0 auto;
+            max-width: 980px;
+    
+            @include breakpoint(large){
+                font-size: 45px;
+                line-height: 61px;
+                text-align: left;
+            }
+        }
+    }
+    &__content {
+        background-color: $white;
+        border-radius: 30px;
+
+        max-width: 300px;
+        margin: 10px auto 0;
+        padding: 15px 0;
+
+        color: $dark-lilac;
+
+        @include breakpoint(small) {
+            max-width: 350px;
+        }
+
+        @include breakpoint(medium) {
+            max-width: 750px;
+        }
+
+        @include breakpoint(large) {
+            max-width: 1175px;
+        }
+
+        p {
+            font-family: $soft-alt;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+
+            @include breakpoint(medium) {
+                font-size: 20px;
+                line-height: 25px;
+            }
+            @include breakpoint(large) {
+                max-width: 980px;
+                margin: 20px auto 0;
+                text-align: left;
+            }
+        }
+
+        hr {
+            border: 1px solid $hr-grey;
+
+            @include breakpoint(large) {
+                max-width: 980px;
+                margin: 35px auto;
+            }
+        }
+
+        .grid-row {
+            @include breakpoint(large) {
+                max-width: 980px;
+                margin: 0 auto;
+            }
+
+            .checkout-total-order {
+                width: 100%;
+
+                display: flex;
+                justify-content: space-between;
+
+                .order-total-label {
+                    font-size: 18px;
+                    line-height: 22px;
+                    letter-spacing: 0.03em;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+                .order-total-amount {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: right;
+
+                    @include breakpoint(large) {
+                        font-size: 28px;
+                        line-height: 34px;
+                    }
+                }
+            }
+
+            .checkout-order {
+                margin: 0;
+                padding: 0 10px;
+                min-width: 280px;
+                position: relative;
+
+                @include breakpoint(small) {
+                    min-width: 350px;
+                }
+
+                @include breakpoint(large) {
+                    margin: 0 auto 0 0;
+                    max-width: 490px;
+                }
+
+                h2 {
+                    font-family: $recoleta;
+                    font-size: 20px;
+                    line-height: 27px;
+                    margin-bottom: 0;
+    
+                    @include breakpoint(medium) {
+                        font-size: 25px;
+                        line-height: 34px;
+                    }
+                }
+            }
+
+            .checkout-shipping-details {
+                margin: 0;
+                padding: 0 10px;
+
+                h2 {
+                    font-family: $recoleta;
+                    font-size: 20px;
+                    line-height: 27px;
+
+                    @include breakpoint(medium) {
+                        font-size: 25px;
+                        line-height: 34px;
+                    }
+                }
+
+                .checkout-delivery-details {
+                    font-family: $soft-alt;
+                    font-size: 18px;
+                    line-height: 25px;
+
+                    text-align: left;
+
+                    margin-bottom: 10px;
+                }
+
+                .checkout-adress-details  {
+                    font-family: $soft-alt-medium;
+                    text-align: left;
+                    font-size: 18px;
+                    line-height: 23px;
+                    margin-bottom: 12px;
+
+                    @include breakpoint(medium) {
+                        font-size: 18px;
+                    }
+                }
+
+                .checkout-payment-visa-card {
+                    display: flex;
+                }
+
+                .checkout-thank-you__checkout-details-visa-card {
+                    display: flex;
+                    align-items: center;
+        
+                    &__number {
+                        margin-left: 12px;
+                    }
+                }
+
+                .checkout-total-order {
+                    margin-top: 15px;
+                }
+            }
+
+            hr.separator {
+                width: 120%;
+                margin-left: -10px;
+                margin-right: -8px;
+
+                @include breakpoint(medium) {
+                    width: auto;
+                    margin: 20px 0;
+                }
+            }
+
+            h2 {
+                margin: 0 0 5px;
+                @include breakpoint(medium) {
+                    margin: 0 0 20px;
+                }
+            }
+        }
+
+        &:after {
+            content: url($local-images + '/Pages/checkout/Vector.png');
+            position: absolute;
+            left: 50%;
+        }
+    }
+    &__cow {
+        max-width: 1175px;
+        margin: 0 auto;
+
+        &-image {
+            max-width: 55%;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    &__remember-details {
+        .custom-checkbox {
+            &__container {
+                padding-left: 55px;
+            }
+            &__label {
+                font-family: $soft-alt;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 19px;
+                color: $dark-lilac;
+
+                @include breakpoint(small) {
+                    line-height: 30px;
+                }
+                @include breakpoint(medium) {
+                    line-height: 19px;
+                }
+                @include breakpoint(large) {
+                    line-height: 30px;
+                }
+    
+                &::before {
+                    left: 15px;
+    
+                    border: 1px solid $mid-dark-lil;
+                    border-radius: 9px;
+                    box-sizing: border-box;
+    
+                    width: 28px;
+                    height: 28px;
+    
+                    line-height: 1;
+                }
+            }
+        }
+    }
+    &__home {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: -105px auto 35px;
+
+        @include breakpoint(medium) {
+            margin: -110px auto 20px;
+        }
+        @include breakpoint(large) {
+            margin: -150px auto 30px;
+        }
+        &-link {
+            display: block;
+            text-align: center;
+            .btn__text {
+                font-family: $soft-alt;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 5px;
+                color: $dark-lilac;
+            }
+        }
+    }
+
+    .mobile {
+        @include breakpoint(medium) {
+            display: none;
+        }
+    }
+    .desktop {
+        display: none;
+        @include breakpoint(medium) {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.delivery-payment {
+    &__description {
+        color: $dark-lilac;
+        flex-basis: 50%;
+    }
+    
+    &__title {
+        margin-top: 15px;
+        color: $dark-lilac;
+        font-family: $soft-alt-medium;
+    }
+}
+
+#product-provider {
+    .product-accordion__content {
+        flex-direction: column;
+    }
+}

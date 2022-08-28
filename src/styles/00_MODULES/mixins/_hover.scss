@@ -1,0 +1,15 @@
+
+@mixin hover {
+    &:hover {
+        // Assign Hover event on supporting devices
+        @media (hover: hover) {
+            @content;
+        }
+    }
+
+    @include breakpoint(IE-only) {
+        &:hover {
+            @content;
+        }
+    }
+}

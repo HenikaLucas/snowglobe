@@ -1,0 +1,28 @@
+.ordered-products {
+    &__list {
+        padding: 10px 0;
+
+        @include breakpoint(start-medium-tablet) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__container {
+        flex-shrink: 0;
+        flex-basis: calc(100%/4 - 10px);
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    &__name {
+        color: $milka-lilac;
+        font-family: $soft-alt;
+    }
+    
+    &__image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}

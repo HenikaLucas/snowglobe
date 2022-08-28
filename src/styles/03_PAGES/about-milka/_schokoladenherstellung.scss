@@ -1,0 +1,199 @@
+.schokoladenherstellung {
+    &__intro {
+        max-width: 980px;
+        margin: 60px auto 0;
+        .page {
+            &__intro--small {
+                margin: 20px 20px 50px;
+
+                p {
+                    width: 100%;
+                    margin: 0;
+                }
+            }
+
+            &__paragraph {
+                p {
+                    margin: 30px 15px 0;
+                    @include breakpoint(medium) {
+                        margin: 0;
+                    }
+                }
+            }
+
+            &__lastparagraph {
+                p {
+                    margin: 0 15px 50px;
+                }
+            }
+        }
+
+        @include breakpoint(medium) {
+            margin-bottom: 70px;
+        }
+    }
+    
+    &__steps {
+        padding: 10px 0 0;
+    }
+
+    &__step {
+        padding: 40px 20px;
+
+        @include breakpoint(medium) {
+            padding: 85px 0;
+        }
+
+        &.cream {
+            background-image: url($local-images+'/Shapes/Textur-Paper-Cream-MOB.png');
+            background-size: cover;
+            background-position: bottom;
+            padding-bottom: 50px;
+
+            &--last {
+                background-image: url($local-images+'/Shapes/master-paper-texture_white.jpg');
+                background-repeat: repeat;
+            }
+
+            @include breakpoint(medium) {
+                background-image: url($local-images+'/Shapes/Textur-Paper-Cream.png');
+                padding-bottom: 150px;
+            }
+        }
+
+        &-content {
+            max-width: 980px;
+            margin: 0 auto;
+
+            .page {
+                &__paragraph {
+                    >* {
+                        text-align: center;
+
+                        @include breakpoint(medium) {
+                            text-align: left;
+                        }
+                    }
+                }
+
+                &__enumeration {
+                    margin-bottom: 5px;
+                    @include breakpoint(medium) {
+                        margin-bottom: 10px;
+                    }
+
+                    >* {
+                        text-align: center;
+                        max-width: 200px;
+                        margin: 0 auto;
+
+                        @include breakpoint(medium) {
+                            text-align: left;
+                            max-width: none;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+
+            .row.left {
+                .page {
+                    &__paragraph {
+                        @include breakpoint(medium) {
+                            padding-left: 80px;
+                        }
+                    }
+                }
+            }
+
+            .row.right {
+                .page {
+                    &__paragraph {
+                        @include breakpoint(medium) {
+                            padding-right: 80px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .grid-8 {
+            order: 1;
+
+            @include breakpoint(medium) {
+                order: initial;
+            }
+        }
+
+        .grid-4 {
+            order: 2;
+
+            @include breakpoint(medium) {
+                order: initial;
+            }
+        }
+    }
+
+    .image {
+        &__title {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 28px;
+            text-align: center;
+
+            @include breakpoint(medium) {
+                font-size: 54px;
+                line-height: 54px;
+            }
+        }
+
+        &__subtitle {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: 0.4375px;
+
+            @include breakpoint(small) {
+                font-size: 30px;
+            }
+
+            @include breakpoint(medium) {
+                font-size: 75px;
+                line-height: 88px;
+            }
+        }
+    }
+
+    .page {
+        &__paragraph {
+            // margin: 0 15px;
+            p {
+                font-family: $soft-alt;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 23px;
+                text-align: center;
+
+                color: $dark-lila;
+
+                @include breakpoint(medium) {
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    .banner {
+        &__container {
+            height: auto;
+        }
+    }
+}

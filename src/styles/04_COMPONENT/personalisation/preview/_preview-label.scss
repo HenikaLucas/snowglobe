@@ -1,0 +1,14 @@
+.preview-label {
+    &__container {
+        margin: 15px 0;
+        display: flex;
+        justify-content: center;
+
+        span {
+            background-color: $natural;
+            padding: 5px 20px;
+            font-family: $soft-alt-medium;
+            color: $milka-lilac;
+        }
+    }
+}

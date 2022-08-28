@@ -1,0 +1,221 @@
+.alpenmilka {
+    background-image: url($local-images+'/Shapes/master-paper-texture_grey.jpg');
+    background-repeat: repeat;
+    .breadcrumb {
+        &__container {
+            margin-top: 0;
+        }
+    }
+    .main-content {
+        padding: 0 10px;
+        .page__subtitle {
+            max-width: 900px;
+        }
+
+        .container {
+
+            &__video {
+                width: 100%;
+                height: 240px;
+                @include breakpoint(medium) {
+                    height: 600px;
+                }
+                @include breakpoint(large) {
+                    height: 100%;
+                }
+                .video-card__container {
+                    height: 100%;
+                }
+            }
+
+            &__chocolate{
+                h4 {
+                    @include breakpoint(large) {
+                        max-width: 500px;
+                    }
+                }
+                p {
+                    @include breakpoint(large) {
+                        max-width: 600px;
+                    }
+                }
+                @include breakpoint(large) {
+                    padding-bottom: 0px;
+                }
+            }
+
+            &__text-center {
+                @include breakpoint(large) {
+                    margin-right: 0px;
+                    padding-top: 0px;
+                }
+                p {
+                    color: $dark-lilac;
+                    padding-bottom: 20px;
+                    @include breakpoint(large) {
+                        max-width: 800px;
+                    }
+                }
+                &>* {
+                    @include breakpoint(large) {
+                        padding-bottom: 0px;
+                        padding-top: 0px;
+                    }
+                }
+            }
+
+            &__coop {
+                @include breakpoint(large) {
+                    padding-top: 50px;
+                }
+                p {
+                    @include breakpoint(large) {
+                        max-width: 620px;
+                    }
+                }
+                @include breakpoint(large) {
+                    .page__paragraph>* {
+                        padding-left: 60px;
+                    }
+                }
+            }
+
+            &__ski {
+                width: 100%;
+                text-align: center;
+                h4 {
+                    font-family: $recoleta;
+                    color: $dark-lilac;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 22px;
+                    @include breakpoint(medium) {
+                        font-size: 40px;
+                        line-height: 46px;
+                    }
+                }
+
+                p {
+                    color: $dark-lilac;
+                    padding-bottom: 20px;
+                    width: 100%;
+                    max-width: 780px;
+                    margin: 0 auto;
+                }
+                @include breakpoint(large) {
+                    padding-bottom: 50px;
+                }
+            }
+
+            &__img-ski {
+                @include breakpoint(medium) {
+                    display: -webkit-box;   
+                    display: -moz-box; 
+                    display: -ms-flexbox;  
+                    display: -webkit-flex;
+                    display: flex;  
+                    
+                    -webkit-justify-content: center;
+                    -moz-justify-content: center;
+                    justify-content: center;
+                    -webkit-align-items: center;
+                    -moz-align-items: center;
+                    align-items: center;
+                    -webkit-flex-wrap: wrap;
+                    -moz-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                div {
+                    @include breakpoint(medium) {
+                        margin: 0 10px;
+                    }
+                }
+            }
+
+            &__more-action {
+                margin: 0 auto;
+                @include breakpoint(large) {
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                }
+                h4 {
+                    font-family: $recoleta;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 22px;
+                    text-align: center;
+                    color: $dark-lilac;
+                    @include breakpoint(medium) {
+                        font-size: 60px;
+                        line-height: 65px;
+                    }
+                }
+            }
+
+            &__img-more-action{
+                img {
+                    width: 100%;
+                }
+                @include breakpoint(medium) {
+                    display: -webkit-box;   
+                    display: -moz-box; 
+                    display: -ms-flexbox;  
+                    display: -webkit-flex;
+                    display: flex;  
+                    
+                    -webkit-justify-content: center;
+                    -moz-justify-content: center;
+                    justify-content: center;
+                    -webkit-align-items: center;
+                    -moz-align-items: center;
+                    align-items: center;
+                    -webkit-flex-wrap: wrap;
+                    -moz-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                }
+                @include breakpoint(large) {
+                    padding-bottom: 100px;
+                }
+                h4,h3,a {
+                    color: $white;
+                }
+
+            }
+        }
+        .article-card {
+            &__image {
+                margin: 0;
+            }
+            &__link:before {
+                background-color: $white;
+            }
+            &__content {
+                margin: 0;
+            }
+        }
+        .shop-card {
+            &__image {
+                margin: 0;
+                overflow: hidden;
+                height: auto;
+            }
+            &__content {
+                margin: 0;
+            }
+            &__footer {
+                position: absolute;
+                bottom: 0;
+            }
+            &__container {
+                height: 100%;
+                min-height: 150px;
+            }
+        }
+    }
+}

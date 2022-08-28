@@ -1,0 +1,77 @@
+.strawberry {
+    &__container {
+        background-image: url($local-images+'/Shapes/master-paper-texture_grey.jpg');
+        background-repeat: repeat;
+
+        .product-highlight{
+            &__container {
+                background-color: transparent;
+                @include breakpoint(large) {
+                    .js-product-hightlights-txt {
+                        flex-basis: 41.66%;
+                    }
+                    .js-product-hightlights-img {
+                        flex-basis: calc(58.33% - 30px);
+                    }
+                }
+            }
+            
+            &__title {
+                text-align: center;
+
+                @include breakpoint(medium) {
+                    text-align: left;
+                }
+            }
+            
+            &__description {
+                text-align: center;
+
+                @include breakpoint(medium) {
+                    text-align: left;
+                }
+
+                @include breakpoint(large) {
+                    font-size: 25px;
+                }
+            }
+
+            &__text {
+                padding: 0 15px;
+                width: 100%;
+
+                @include breakpoint(large) {
+                    padding: 0 5px;
+                }
+            }
+        }
+
+        .mosaique {
+            &__container  {
+                &--centered {
+                    padding: 0 15px 50px;
+
+                    .mosaique__title {
+                        margin-bottom: 20px;
+                        padding: 0;
+                    }
+
+                    @include breakpoint(large) {
+                        padding-bottom: 90px;
+                    }
+
+                    @include breakpoint(start-large) {
+                        padding: 0 0 90px;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner__container {
+        .image__text {
+            justify-content: flex-start;
+            padding-top: 105px;
+        }
+    }
+}

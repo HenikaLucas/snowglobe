@@ -1,0 +1,102 @@
+$font-location: '/resources/fonts/Intervogue/';
+
+@font-face {
+    font-family: 'Intervogue Soft Alt Thin';
+    src:    url($font-location + 'IntervogueSoftAlt-Thin.eot'),
+            url($font-location + 'IntervogueSoftAlt-Thin.woff2') format('woff2'),
+            url($font-location + 'IntervogueSoftAlt-Thin.woff') format('woff'),
+            url($font-location + 'IntervogueSoftAlt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Thin';
+    src:    url($font-location + 'IntervogueSoft-Thin.eot'),
+            url($font-location + 'IntervogueSoft-Thin.woff2') format('woff2'),
+            url($font-location + 'IntervogueSoft-Thin.woff') format('woff'),
+            url($font-location + 'IntervogueSoft-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt Bold';
+    src:    url($font-location + 'IntervogueSoftAlt-Bold.eot'),
+            url($font-location + 'IntervogueSoftAlt-Bold.woff2') format('woff2'),
+            url($font-location + 'IntervogueSoftAlt-Bold.woff') format('woff'),
+            url($font-location + 'IntervogueSoftAlt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt Medium';
+    src:    url($font-location + 'IntervogueSoftAlt-Medium.eot'),
+            url($font-location + 'IntervogueSoftAlt-Medium.woff2') format('woff2'),
+            url($font-location + 'IntervogueSoftAlt-Medium.woff') format('woff'),
+            url($font-location + 'IntervogueSoftAlt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Intervogue Soft Regular';
+    src:    url($font-location + 'IntervogueSoft-Regular.eot'),
+            url($font-location + 'IntervogueSoft-Regular.woff2') format('woff2'),
+            url($font-location + 'IntervogueSoft-Regular.woff') format('woff'),
+            url($font-location + 'IntervogueSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Medium';
+    src:    url($font-location + 'IntervogueSoft-Medium.eot'),
+            url($font-location + 'IntervogueSoft-Medium.woff2') format('woff2'),
+            url($font-location + 'IntervogueSoft-Medium.woff') format('woff'),
+            url($font-location + 'IntervogueSoft-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt Regular';
+    src:    url($font-location + 'IntervogueSoftAlt-Regular.eot'),
+            url($font-location + 'IntervogueSoftAlt-Regular.woff2') format('woff2'),
+            url($font-location + 'IntervogueSoftAlt-Regular.woff') format('woff'),
+            url($font-location + 'IntervogueSoftAlt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Medium Oblique';
+    src:    url($font-location + 'IntervogueSoft-MediumOblique.eot'),
+            url($font-location + 'IntervogueSoft-MediumOblique.woff2') format('woff2'),
+            url($font-location + 'IntervogueSoft-MediumOblique.woff') format('woff'),
+            url($font-location + 'IntervogueSoft-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt Black';
+    src:    url($font-location + 'IntervogueSoftAlt-Black.eot'),
+            url($font-location + 'IntervogueSoftAlt-Black.woff2') format('woff2'),
+            url($font-location + 'IntervogueSoftAlt-Black.woff') format('woff'),
+            url($font-location + 'IntervogueSoftAlt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intervogue Soft Alt Medium Oblique';
+    src:    url($font-location + 'IntervogueSoftAlt-MediumOblique.eot'),
+            url($font-location + 'IntervogueSoftAlt-MediumOblique.woff2') format('woff2'),
+            url($font-location + 'IntervogueSoftAlt-MediumOblique.woff') format('woff'),
+            url($font-location + 'IntervogueSoftAlt-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}

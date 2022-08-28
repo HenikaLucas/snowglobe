@@ -1,0 +1,101 @@
+.clover-165 {
+    // make KONVA Generated CANVAS responsive
+    .konvajs-content {
+        padding-bottom: 100%;// height/width*100%
+    }
+
+    #front-photo-1 {
+        .cropit-preview-image-container {
+            -ms-clip-path: url(#front1);
+            clip-path: url(#front1);
+        }
+    }
+
+    #back-photo-1 {
+        .cropit-preview-image-container {
+            -ms-clip-path: url(#back1);
+            clip-path: url(#back1);
+        }
+    }
+
+    
+    #front {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+
+                    }
+                }
+            }
+
+            &__guide {
+                position: absolute;
+                border-color: $white;
+                // transform: rotate(15.61deg);
+
+                &:nth-of-type(1){
+                    width: 34.7964%;
+                    height: 8.333%;
+                    left: 33.446%;
+                    top: 57.9935%;
+                }
+
+                &:nth-of-type(2){
+                    width: 39.728%;
+                    height: 8.333%;
+                    left: 33.446%;
+                    top: 67.627%;
+                }
+
+            }
+        }
+    }
+
+    
+    #back {
+        .preview {
+            &__content {
+                .personalisation-step {
+                    &__indication {
+                        z-index: 1;
+                        border: 2px solid $white;
+                        transform-origin: left top;
+                        font-size: 10px;
+
+                        @include breakpoint(medium) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            &__guide {
+                position: absolute;
+                border-color: $white;
+                transform: rotate(9deg);
+
+                &:nth-of-type(1){
+                    width: 23.776%;
+                    height: 16.109%;
+                    left: 32.638%;
+                    top: 66.59%;
+
+                    @include breakpoint(medium) {
+                        left: 41.192%;
+                        top: 42.624%;
+                    }
+                }
+
+            }
+        }
+    }
+}

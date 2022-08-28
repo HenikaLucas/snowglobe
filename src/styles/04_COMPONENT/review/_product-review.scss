@@ -1,0 +1,59 @@
+.product-review {
+    &__container {
+        min-height: 20px;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 17px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include breakpoint(medium) {
+            justify-content: initial;
+            margin-bottom: 0;
+        }
+
+        .icon-review {
+            font-size: 25px;
+            color: $dark-lilac;
+        }
+
+        &.notvalid {
+            .icon-review {
+                color: $error-red;
+            }
+        }
+    }
+
+    &__item {
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    &__count {
+        display: none;
+        color: $dark-lilac;
+        font-size: 18px;
+
+        @include breakpoint(medium) {
+            display: block;
+            font-size: 22px;
+        }
+
+        @include breakpoint(large) {
+            font-size: 25px;
+        }
+    }
+    &s__container {
+        flex-direction: column;
+    }
+
+}
+
+#review-section {
+    background-color: rgba(116, 39, 39, 0.05);
+}
+
+@import "../../05_STATE/review/product-review";

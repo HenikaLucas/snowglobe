@@ -1,0 +1,128 @@
+.ladele {
+    background-image: url($local-images+'/Shapes/master-paper-texture_grey.jpg');
+    background-repeat: repeat;
+    .breadcrumb {
+        &__container {
+            margin-top: 0;
+        }
+    }
+    .main-content {
+        background-image: url(../images/Shapes/master-paper-texture_grey.jpg);
+        background-repeat: repeat;
+        .breadcrumb__container {
+            margin-top: 0px;
+        }
+        p {
+            padding: 15px 10px 0;
+        }
+        h4 {
+            padding: 15px 10px 0;
+        }
+        .content {
+            &__head {
+                .center {
+                    @include breakpoint(large) {
+                        max-width: 490px;
+                        margin: 65px auto 0px;
+                    }
+                }
+            }
+            &__2 {
+                @include breakpoint(medium) {
+                    padding-top: 50px;
+                }
+                p {
+                    max-width: 687px;
+                }
+                img {
+                    margin-top: 10px;
+                    @include breakpoint(medium) {
+                        max-width: 308px;
+                        max-height: 308px;
+                        width: 100%;
+                        height: auto;
+                        position: absolute;
+                        margin-top: 100px;
+                    }
+                }
+            }
+            &__3 {
+                padding-top: 40px;
+                .galerie__title {
+                    font-family: $recoleta;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 60px;
+                    line-height: 65px;
+                    text-align: center;
+                    color: #3B2774;
+                    margin: 0 auto;
+                }
+            }
+            &__map {
+                padding: 0 10px 50px;
+                .map {
+                    width: 100%;
+                    // height: 500px;
+                }
+                .adress__title {
+                    font-family: $recoleta;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 46px;
+                    text-align: center;
+                    color: #3B2774;
+                    margin: 50px auto 0;
+                }
+                .text {
+                    font-family: $recoleta;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 25px;
+                    line-height: 29px;
+                    color: #3B2774;
+                    &__container {
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+        .mrg-tp {
+            @include breakpoint(medium) {
+                padding-top: 50px;
+            }
+            @include breakpoint(large) {
+                padding-bottom: 50px;
+            }
+            p {
+                max-width: 630px;
+            }
+            .center-text {
+                @include breakpoint(large) {
+                    position: relative;
+                    left: 170px;
+                    top: 40px;
+                }
+            }
+        }
+        .img__container {
+            img {
+                padding: 0px 20px;
+                width: 100%;
+            }
+            .placeholder {
+                position: relative;
+                font-family: $soft-regular;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 35px;
+                line-height: 31px;
+                letter-spacing: 0.2em;
+                color: #F3ECEB;
+                top: -50px;
+                left: 30px;
+            }
+        }
+    }
+}

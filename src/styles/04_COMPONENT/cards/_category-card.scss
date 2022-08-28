@@ -1,0 +1,55 @@
+$circle-color: $light-purple;
+$circle-text-color: $dark-lilac;
+
+.product-category {
+    &__container {
+        overflow: hidden;
+    }
+
+    &__card-container {
+        width: 100px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    &__content {
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        height: 44px;
+        min-height: 44px;
+        width: 92%;
+        overflow: hidden;
+
+        border-radius: 22px;
+        padding: 0 17px;
+
+        overflow: hidden;
+        background-color: $x-light-purple;
+        transition: .5s;
+        
+        color: $circle-text-color;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: $soft-medium;
+        font-size: 12px;
+        line-height: 1.3em;
+
+        @include breakpoint(large) {
+            letter-spacing: 1px;
+        }
+
+        span {
+            transition: 0s;
+        }
+    }
+}
+
+@import "../../05_STATE/card/index";

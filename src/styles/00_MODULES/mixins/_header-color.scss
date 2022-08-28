@@ -1,0 +1,57 @@
+@mixin header-color($color) {
+    .header-md {
+        &__navigation {
+            color: $color;
+        }
+
+        &__logo {
+            span {
+                color: $color;
+            }
+        }
+
+        &__contact {
+            a {
+                color: $color;
+            }
+        }
+
+        &__icon {
+            span {
+                color: $color;
+            }
+        }
+    }
+
+    .header {
+        &__menu {
+            .menu {
+                &-line {
+                    background-color: $color;
+                }
+            }
+        }
+
+        &__logo {
+            a {
+                color: $color;
+            }
+        }
+
+        &__icons {
+            span {
+                color: $color;
+            }
+        }
+    }
+
+    .select-country {
+        &__container {
+            border-color: $color;
+        }
+
+        &__text {
+            color: $color;
+        }
+    }
+}

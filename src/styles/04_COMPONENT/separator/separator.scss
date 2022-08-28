@@ -1,0 +1,333 @@
+.separator {
+    &__line {
+        position: relative;
+        // background: red;
+
+        &:after {
+            content: url($local-images + '/shapes/line_lilac.svg');
+            position: absolute;
+            bottom: -7px;
+            left:0;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__curve  {         // test
+        position: relative;
+
+        &::before {
+            content: url($local-images + '/shapes/curve_lilac-MOB.svg');
+            position: absolute;
+            top: -4%;
+            width: 100%;
+            left: 0;
+
+            @include breakpoint(medium) {
+                content: url($local-images + '/shapes/curve_lilac.svg');
+                top: -2.3%;
+            }
+
+            @include breakpoint(large) {
+                top: -11%;
+            }
+
+            @include breakpoint(x-large) {
+                top: -14%;
+            }
+
+            @include breakpoint(IE-only) {
+                top: -15%
+            }
+        }
+
+        &--bottom {
+            position: relative;
+
+            div {
+                z-index: 1;
+                color: $white;
+            }
+
+            &::after {
+                content: url($local-images + '/shapes/curve-lilac-bottom-MOB.svg');
+                position: absolute;
+                bottom: 0;
+                z-index: 0;
+                width: 100%;
+                left: 0;
+
+                @include breakpoint(medium) {
+                    content: url($local-images + '/shapes/curve-lilac-bottom.svg');
+                }
+            }
+        }
+
+
+        &--banner {
+            position: relative;
+
+            &::after {
+                content: url($local-images + '/shapes/curve_lilac-MOB.svg');
+                position: absolute;
+                bottom: -3%;
+                z-index: 0;
+                width: 100%;
+                left: 0;
+                pointer-events: none;
+
+                @include breakpoint(medium) {
+                    content: url($local-images + '/shapes/curve-lilac-bottom.svg');
+                    bottom: -8%;
+                }
+                @include breakpoint(large) {
+                    bottom: -12%;
+                }
+                @include breakpoint(start-large) {
+                    bottom: -17%;
+                }
+            }
+
+            &-white {
+                position: relative;
+
+                &::after {
+                    content: '';
+                    background-image: url($local-images + '/shapes/curve-lilac-tear.png');
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: bottom;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    bottom: -2px;
+                    z-index: 0;
+                    pointer-events: none;
+                    left: 0;
+
+                    @include breakpoint(medium) {
+                        background-image: url($local-images + '/shapes/curve-lilac-tear.png');
+                        // bottom: -8%;
+                    }
+                    
+                }   
+            }
+
+            &-white-rotate {
+                position: relative;
+
+                &::before {
+                    content: '';
+                    background-image: url($local-images + '/shapes/curve-lilac-tear-rotate.png');
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: top;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    bottom: -2px;
+                    z-index: 0;
+                    pointer-events: none;
+                    left: 0;
+                    top: 0;
+
+                    @include breakpoint(medium) {
+                        background-image: url($local-images + '/shapes/curve-lilac-tear-rotate.png');
+                        // bottom: -8%;
+                    }
+                    
+                }   
+            }
+
+
+            &-dark {
+                position: relative;
+
+                &::after {
+                    content: '';
+                    background-image: url($local-images + '/shapes/darkmilk_contre_alpine-MOB.png');
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: bottom;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    bottom: -2px;
+                    z-index: 0;
+                    pointer-events: none;
+                    left: 0;
+
+                    @include breakpoint(medium) {
+                        background-image: url($local-images + '/shapes/darkmilk_contre_alpine.png');
+                        // bottom: -8%;
+                    }
+                }
+            }
+        }
+
+        &--test {
+            position: relative;
+            overflow: hidden;
+
+            &::after {
+                content: url($local-images + '/shapes/curve_lilac-MOB.svg');
+                position: absolute;
+                bottom: -20px;
+                left: 0;
+                // z-index: -1;
+                width: 100%;
+
+                @include breakpoint(medium) {
+                    content: url($local-images + '/shapes/curve-lilac-bottom.svg');
+                    bottom: -5%;
+                }
+                @include breakpoint(large) {
+                    bottom: -10%;
+                }
+                @include breakpoint(x-large) {
+                    content: url($local-images + '/shapes/curve-lilac-bottom.svg');
+                    bottom: -15%;
+                }
+            }
+        }
+    }
+
+    &__bottle {
+        position: relative;
+        padding-top: 180px;
+        overflow: hidden;
+
+        
+        @include breakpoint(medium) {
+            padding-top: 180px;
+            margin-top: -20px;
+        }
+
+        @include breakpoint(large) {
+            padding-top: 200px;
+            margin-top: -145px;
+        }
+
+        @include breakpoint(start-large) {
+            padding-top: 250px;
+            margin-top: -160px;
+        }
+        
+        @include breakpoint(x-large) {
+            padding-top: 445px;
+        }
+
+        &::before {
+            // z-index: 2;
+            content:'';
+            background-image: url($local-images + '/shapes/bottle_lilac-MOB.png');
+            background-size: 100%;
+            background-position: top;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 105%;
+            position: absolute;
+            top: -10px;
+            pointer-events: none;
+
+            @include breakpoint(medium) {
+                background-image: url($local-images + '/shapes/bottle_lilac.png');
+                left: -5%;
+            }
+        }
+    }
+
+    &__milka {
+        &--bottom {
+            position: relative;
+            z-index: 1;
+            &:after {
+                content: '';
+                z-index: -1;
+                height: 45%;
+                width: 100%;
+                bottom: 0;
+                left: 0;
+                position: absolute;
+                background-image: url($local-images + '/shapes/milka-pattern.png');
+                background-repeat: no-repeat;
+                background-size: 100%;
+                box-shadow: 0 0 8px 8px $dark-natural inset;
+            }
+        }
+    }
+
+    &__out-curve {
+        position: relative;
+        &::after {
+            content:'';
+            background-image: url($local-images + '/shapes/torn-lilac-MOB.png');
+            background-size: 100%;
+            background-position: top;
+            background-repeat: no-repeat;
+            height: 50%;
+            width: 105%;
+            position: absolute;
+            bottom: -49%;
+            left: -2px;
+
+            @include breakpoint(medium) {
+                background-image: url($local-images + '/shapes/bottom-torn.png');
+            }
+        }
+
+        & + div {
+            padding-top: 80px;
+
+            @include breakpoint(medium) {
+                padding-top: 200px;
+            }
+        }
+    }
+
+    &__arrow-next {
+        &--right {
+            position: relative;
+            &::before {
+                content: '';
+                background-image: url($local-images + '/shapes/Arrow-1.png');
+                background-size: contain;
+                position: absolute;
+
+                right: 0;
+                top: -50px;
+                width: 120px;
+                height: 120px;
+
+                @include breakpoint (large) {
+                    right: 100px;
+                    top: -100px;
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+
+        &--left {
+            position: relative;
+            &::after {
+                content: '';
+                background-image: url($local-images + '/shapes/Arrow-2.png');
+                background-size: contain;
+                position: absolute;
+
+                left: 0;
+                top: -50px;
+                width: 120px;
+                height: 120px;
+
+                @include breakpoint(large) {
+                    left: 100px;
+                    top: -100px;
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}

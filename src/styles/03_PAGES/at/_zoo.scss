@@ -1,0 +1,102 @@
+.zoo {
+    background-image: url($local-images+'/Shapes/master-paper-texture_grey.jpg');
+    background-repeat: repeat;
+    .breadcrumb {
+        &__container {
+            margin-top: 0;
+        }
+    }
+    .main-content {
+        background-image: url(../images/Shapes/master-paper-texture_grey.jpg);
+        background-repeat: repeat;
+        .page__title {
+            max-width: 1090px;
+            margin: 0 auto;
+            @include breakpoint(large) {
+                padding: 35px 0;
+            }
+        }
+        .s-content {
+            .zoo__container {
+                margin: 0 auto;
+            }
+            .text {
+                font-family: Intervogue Soft Alt;
+                font-style: normal;
+                font-weight: normal;
+                font-size: inherit;
+                line-height: inherit;
+                color: #3B2774;
+                @include breakpoint(large) {
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+                padding: 0 10px;
+                &__1 {
+                    @include breakpoint(large) {
+                        left: -110px;
+                        top: 5px;
+                        position: relative;
+                        max-width: 783px;
+                    }
+                }
+                &__2 {
+                    margin-top: 20px;
+                    @include breakpoint(large) {
+                        position: relative;
+                        top: 20px;
+                        left: 30px;
+                        max-width: 440px;
+                    }
+                }
+            }
+            .content {
+                &__rabbit {
+                    padding-top: 30px;
+                    @include breakpoint(medium) {
+                        padding-top: 0px;
+                    }
+                    .page__enumeration.left {
+                        @include breakpoint(medium) {
+                            margin-top: 50px;
+                        }
+                    }
+                    p {
+                        margin-top: 20px;
+                        max-width: 630px;
+                    }
+                }
+                &__milka-adv {
+                    .page__enumeration.left {
+                        @include breakpoint(medium) {
+                            margin-top: 90px;
+                        }
+                    }
+                    p {
+                        margin-top: 20px;
+                    }
+                }
+                &__eye {
+                    .page__enumeration.left {
+                        @include breakpoint(medium) {
+                            margin-top: 50px;
+                        }
+                    }
+                    p {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        .intro__img {
+            max-width: 100%;
+        }
+        .text-content {
+            padding-top: 40px;
+        }
+        .breadcrumb__container {
+            margin-top: 0px;
+        }
+    }
+}

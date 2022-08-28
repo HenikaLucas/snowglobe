@@ -1,0 +1,188 @@
+.national-park {
+    background-image: url($local-images+'/Shapes/master-paper-texture_grey.jpg');
+    background-repeat: repeat;
+
+    .breadcrumb {
+        &__container {
+            margin-top: 0;
+        }
+    }
+
+    &__biodiversity {
+        margin: 0 15px 40px;
+        @include breakpoint(large) {
+            max-width: 980px;
+            margin: 0 auto 0;
+        }
+
+        &-images {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__succes-story {
+        margin: 0 15px 40px;
+        @include breakpoint(large) {
+            max-width: 770px;
+            margin: 0 auto 86px;
+        }
+        
+        &-link {
+            display:  flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 210px;
+            padding: 0 20px 20px;
+
+            img {
+                max-width: 100%;
+            }
+
+            a {
+                display: block;
+                text-align: center;
+                // div {
+                //     max-width: 250px;
+                // }
+            }
+
+            @include breakpoint(medium) {
+                padding: 0 20px;
+                max-width: 50%;
+            }
+        }
+
+        .page {
+            &__intro {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    &__important-points {
+        margin: 86px auto 84px;
+        @include breakpoint(large) {
+            max-width: 1176px;
+        }
+        &-video {
+            video {
+                width: 100%;
+            }
+
+            .video-card__content-poster {
+
+                @include breakpoint(large) {
+                    margin-top: -60px
+                }
+            }
+        }
+        
+        &-programs {
+            margin: 0 15px;
+
+            @include breakpoint(large) {
+                max-width: 1080px;
+                // margin: 0 0 0 auto;
+                margin: 0 auto;
+            }
+            &-first {
+                margin-top: 26px;
+            }
+            &-second {
+                background-image: url($local-images+'/Shapes/master-paper-texture_white.jpg');
+                background-repeat: repeat;
+                padding: 50px 0;
+
+                img {
+                    margin-top: -20px;
+                }
+            }
+            
+            &-third {
+                padding: 90px 0 30px;
+
+                .page {
+                    &__enumeration {
+                        h4 {
+                            text-align: left;
+                        }
+                    }
+                }
+
+                img {
+                    margin-top: -70px;
+                }
+            }
+        }
+
+        .page {
+            &__subtitle {
+                max-width: 845px;
+                margin: 40px auto;
+            }
+            &__enumeration-p {
+                @include breakpoint(medium) {
+                    max-width: 850px;
+                    margin: 0 auto;
+
+                    p {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    &__pastures {
+        padding: 50px 0;
+        margin: 0 15px;
+
+        @include breakpoint(large) {
+            max-width: 1176px;
+            margin: 0 auto;
+        }
+        &-bg {
+            background-image: url($local-images+'/Shapes/master-paper-texture_white.jpg');
+            background-repeat: repeat;
+        }
+        .almen-des-jahres {
+            padding-top: 75px;
+
+            img {
+                margin-top: -50px;
+            }
+        }
+        .page {
+            &__paragraph {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__times {
+        padding: 0 0 30px;
+        margin: 0 15px;
+
+        @include breakpoint(large) {
+            max-width: 1176px;
+            padding: 50px 0 30px;
+            margin: 0 auto;
+        }
+
+        img {
+            @include breakpoint(large) {
+                margin-top: -90px;
+            }
+        }
+    }
+
+    .page {
+        &__title {
+            margin: 50px 0 30px;
+        }
+    }
+
+}

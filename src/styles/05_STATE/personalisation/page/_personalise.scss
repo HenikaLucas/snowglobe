@@ -1,0 +1,102 @@
+.personalise {
+    &__preview {
+        &--full {
+            flex-grow: 0;
+            @include breakpoint(medium) {
+                flex-basis: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__form {
+        &--full {
+            flex-grow: 0;
+            margin-bottom: 25px;
+
+            @include breakpoint(medium) {
+                flex-basis: 60%;
+                margin: 0 auto;
+                margin-bottom: 50px;
+            }
+
+            .personalisation-form__item {
+                display: flex;
+                flex-direction: column;
+
+                .personalise__link {
+                    align-self: center;
+                }
+            }
+
+            .cropit {
+                &-image {
+                    &-zoom {
+                        &-input {
+                            width: 80%;
+
+                            @include breakpoint(medium) {
+                                width: 90%;
+                                position: absolute;
+                                top: 20px;
+                                left: 149%;
+                            }
+
+                            @include breakpoint(large) {
+                                left: 152%;
+                            }
+
+                            @include breakpoint(IE-only) {
+                                width: 70%;
+                                left: 115%
+                            }
+                        }
+                    }
+                }
+            }
+
+            .personalisation-crop__links {
+                &::before {
+                    @include breakpoint(medium) {
+                        top: 10px;
+                        left: 18%;
+                    }
+
+                    @include breakpoint(large) {
+                        left: 18%;
+                    }
+
+                    @include breakpoint(IE-only) {
+                        left: 8%;
+                    }
+                }
+
+                &::after {
+                    @include breakpoint(medium) {
+                        top: 10px;
+                        right: 17%;
+                    }
+
+                    @include breakpoint(large) {
+                        right: 20%;
+                    }
+
+                    @include breakpoint(IE-only) {
+                        right: 8%;
+                    }
+                }
+            }
+        }
+    }
+
+    &__instructions {
+        &--column {
+            flex-direction: column;
+            align-items: flex-start;
+
+            h4 {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,131 @@
+.checkout {
+    background-image: url($local-images + '/Pages/CartPage-Background.png');
+    @include header-color($milka-lilac);
+
+    &__container {
+        padding-top: 100px;
+        h1 {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 100%;
+            text-align: center;
+            color: $dark-lilac;
+            
+            margin: 0 auto;
+            max-width: 1170px;
+    
+            @include breakpoint(large){
+                font-size: 45px;
+                line-height: 61px;
+                text-align: left;
+            }
+        }
+    }
+
+    &__content {
+        padding: 40px 0 0;
+        background-image: url($local-images + '/Pages/Cart-Background-Mobile.png');        
+    
+        @include breakpoint(medium) {
+            padding: 52px 0 22px;
+            background-image: url($local-images + '/Pages/Cart-Background.png');        
+        }
+        @include breakpoint(large) {
+            padding: 55px 0 38px;       
+        }
+
+        .grid-row {
+            position: relative;
+            margin: 0 auto;
+            max-width: 1170px;
+            color: $dark-lilac;
+            padding-bottom: 40px;
+
+            @include breakpoint(medium) {
+                padding-bottom: 79px;
+            }
+
+            &:after {
+                content: ' ';
+                border: 1px solid rgba(126,105,172,.2);
+                position: absolute;
+                top: 0;
+                left: 50%;
+                height: 85%;
+                max-width: 0px;
+                display: none;
+
+                @include breakpoint(medium){
+                    display: block;
+                }
+            }
+        }
+    }
+
+    &__subtitle {
+        font-family: $recol-alt;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 34px;
+        text-align: center;
+
+        @include breakpoint(medium) {
+            font-size: 30px;
+            line-height: 41px;
+        }
+    }
+    
+    &-choice {
+        p {
+            max-width: 330px;
+            margin: 15px auto 0;
+
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 20px;
+            text-align: center;
+
+            @include breakpoint(medium){
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    &__guest {
+        .checkout__continue-as-guest {
+            display: block;
+            text-align: center;
+
+            .btn {
+                &__container {
+                    margin: 30px auto 0;
+
+                    span {
+                        color: $milka-lilac;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 22px;
+                        text-align: center;
+                        letter-spacing: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__separator {
+        border: 1px solid $hr-grey;
+        display: block;
+        margin: 30px 0 20px;
+
+        @include breakpoint(medium) {
+            display: none;
+        }
+    }
+}

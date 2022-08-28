@@ -1,0 +1,43 @@
+.product__list {
+    &.full {
+        margin-bottom: 20px;
+    }
+
+    margin-bottom: 150px;
+
+    // @include breakpoint
+    @include breakpoint (large) {
+        margin-bottom: 250px;
+    }
+    .product {
+        &__card {
+            display: none;
+            margin-bottom: 10px;
+            width: calc(100%/2.5);
+            min-height: 198px;
+            margin: 0 10px;
+
+            @include breakpoint (medium) {
+                width: calc(100%/ 3.5);
+                min-height: 297px;
+            }
+
+            @include breakpoint(large) {
+                width: 253px !important;
+                // width: 253px !important;
+                min-height: 269px;
+            }
+        }
+
+        &__head {
+            height: unset;
+            // width: fit-content;
+        }
+
+        &-list {
+            &__control {
+                z-index: 1;
+            }
+        }
+    }
+}

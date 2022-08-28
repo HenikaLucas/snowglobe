@@ -1,0 +1,66 @@
+.mothers-day {
+    .slick-dots {
+        & li {
+            & button {
+                &:before {
+                    border: 1px solid $dark-lilac;
+                    height: 10px;
+                    width: 10px;
+    
+                    border-radius: 50%;
+                    content: "";
+                }
+            }
+
+            &.slick-active {
+
+                & button {
+                    &:before {
+                        background-color: $dark-lilac;
+                    }
+                }
+            }
+        }
+    }
+    .breadcrumb {
+        &__container {
+            padding-top: 10px;
+            margin-top: 0;
+        }
+    }
+    .product-highlight {
+        &__container {
+            background-color: transparent;
+
+            @include breakpoint(large) {
+                padding: 60px 7%;
+            }
+
+            @include breakpoint(x-large) {
+                padding: 60px 20%;
+            }
+
+            .btn{
+                &__container {
+                    min-width: unset;
+                }
+                &__text {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .page {
+        &__paragraph {
+            font-size: 25px;
+        }
+    }
+
+    .shop-card {
+        &__title {
+            @include breakpoint(small-down) {
+                font-size: 24px;
+            }
+        }
+    }
+}

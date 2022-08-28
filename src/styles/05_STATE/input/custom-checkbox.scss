@@ -1,0 +1,9 @@
+.custom-checkbox{
+    &__label {
+        &--error {
+            &::before {
+                border-color: $error-red !important;
+            }
+        }
+    }
+}

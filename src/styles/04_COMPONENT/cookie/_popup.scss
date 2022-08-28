@@ -1,0 +1,24 @@
+.cookie-overlay {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        box-shadow: 0 0 10px 0 $cookie-banner-shadow;
+
+        @include breakpoint(medium) {
+            height: 45%;
+            flex-basis: 50%;
+        }
+        
+        span {
+            font-family: $soft-alt-black;
+        }
+
+        p {
+            text-align: center;
+            width: 40%;
+            margin: 15px auto;
+        }
+    }
+}

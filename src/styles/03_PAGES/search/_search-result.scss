@@ -1,0 +1,131 @@
+.search-result {
+    background-image: url($local-images + '/Pages/CartPage-Background.png');
+    @include header-color($milka-lilac);
+
+    .js-search-icon {
+        opacity: 0;
+    }
+    .header-md__in-cart {
+        @include breakpoint(large) {
+            right: 72px;
+        }
+    }
+
+    &__container {
+        padding-top: 100px;
+        h1 {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 100%;
+            text-align: center;
+            color: $dark-lilac;
+            
+            margin: 0 auto;
+            max-width: 1170px;
+    
+            @include breakpoint(large){
+                font-weight: 500;
+                font-size: 45px;
+                line-height: 61px;
+                text-align: left;
+            }
+        }
+
+        .breadcrumb__container {
+            background-color: $white;
+            margin-top: 0;
+            padding-top: 15px;
+
+            div {
+                margin: 0 15px;
+                padding: 15px 0 0;
+
+                @include breakpoint(large) {
+                    max-width: 1175px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    &__content {
+        background-color: $white;
+        padding-top: 15px;
+
+        @include breakpoint(medium) {
+            padding-top: 36px;
+        }
+    }
+    
+    &__search-bar {
+        margin: 0 15px;
+        padding: 30px 0;
+
+        @include breakpoint(large) {
+            max-width: 1175px;
+            margin: 0 auto;
+        }
+
+        hr {
+            margin: 30px 0 0;
+            border: 1px solid $hr-grey;
+
+            @include breakpoint(medium) {
+                display: none;
+            }
+        }
+
+        .icon-overlay-close {
+            &:before {
+                content: "\e012";
+            }
+        }
+    }
+
+    &__product-list {
+        margin: 0;
+
+        @include breakpoint(large) {
+            max-width: 1175px;
+            margin: 0 auto;
+        }
+    }
+
+    &__pagination {
+
+        .btn__container {
+            // width: 278px;
+        }
+
+        h3 {
+            width: 90%;
+            @include breakpoint(large) {
+                width: 100%;
+            }
+        }
+    
+        a {
+            display: flex;
+        }
+
+    }
+
+    &__article-list {
+        margin: 45px 15px 0;
+        padding-bottom: 30px;
+
+        @include breakpoint(large) {
+            max-width: 1175px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.active {
+    display: block;
+}
+.hide {
+    display: none !important;
+}

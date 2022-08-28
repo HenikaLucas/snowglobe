@@ -1,0 +1,12 @@
+$font-location: '/resources/fonts/Moments/';
+
+@font-face {
+    font-family: 'Moments Regular';
+    src: url($font-location + 'moments-regular.eot');
+    src: url($font-location + 'moments-regular.eot?#iefix') format('embedded-opentype'),
+        url($font-location + 'moments-regular.woff2') format('woff2'),
+        url($font-location + 'moments-regular.woff') format('woff'),
+        url($font-location + 'moments-regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}

@@ -1,0 +1,124 @@
+.confirmation {
+    background-image: url($local-images + '/Pages/Checkout-Thank-You-Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__container {
+        padding-top: 140px;
+        h1 {
+            font-family: $recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 100%;
+            text-align: center;
+            color: $white;
+
+            margin: 0 auto;
+            max-width: 980px;
+
+            @include breakpoint(large){
+                font-size: 45px;
+                line-height: 61px;
+            }
+        }
+    }
+    &__content {
+        background-color: $white;
+        border-radius: 30px;
+
+        max-width: 300px;
+        margin: 10px auto 0;
+        padding: 15px 10px 20px;
+
+        color: $dark-lilac;
+
+        @include breakpoint(small) {
+            max-width: 350px;
+        }
+
+        @include breakpoint(medium) {
+            max-width: 750px;
+            padding: 15px 30px 20px;
+        }
+
+        @include breakpoint(large) {
+            max-width: 780px;
+        }
+
+        p {
+            font-family: $soft-alt;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+
+            strong {
+                font-weight: bold;
+            }
+
+            @include breakpoint(medium) {
+                font-size: 20px;
+                line-height: 25px;
+            }
+            @include breakpoint(large) {
+                max-width: 980px;
+                margin: 20px auto 0;
+                text-align: left;
+            }
+        }
+
+        &:after {
+            content: url($local-images + '/Pages/checkout/Vector.png');
+            position: absolute;
+            left: 50%;
+        }
+
+        &-thanks {
+            max-width: 230px!important;
+            margin: 0 auto;
+            @include breakpoint(large) {
+                margin-left: 0!important;
+            }
+        }
+    }
+    &__cow {
+        max-width: 1175px;
+        margin: 0 auto;
+
+        &-image {
+            max-width: 55%;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    &__home {
+        max-width: 270px;
+        margin: -105px auto 35px;
+
+        @include breakpoint(medium) {
+            margin: -110px auto 20px;
+        }
+        @include breakpoint(large) {
+            margin: -150px auto 30px;
+        }
+        &-link {
+            display: block;
+            text-align: center;
+
+            .btn__text {
+                font-family: $soft-alt;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 5px;
+                color: $dark-lilac;
+            }
+        }
+    }
+}

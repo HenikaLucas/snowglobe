@@ -1,0 +1,13 @@
+#error-notice {
+    h1 {
+        font-family: $soft-alt;
+        text-align: center;
+        color: $error-red;
+
+        font-size: 20px;
+    }
+
+    .overlay__close {
+        color: $error-red;
+    }
+}

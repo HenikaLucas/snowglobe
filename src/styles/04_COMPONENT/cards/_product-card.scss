@@ -1,0 +1,146 @@
+$product-min-height: 180px;
+$product-max-height: 181px;
+$card-head-height: 70%;
+$name-font-size: 20px;
+$price-font-size: 18px;
+
+.product {
+  &__list {
+    .product__card {
+      display: none;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: $product-min-height;
+  }
+
+  &__head {
+    position: relative;
+
+    // height: $card-head-height;
+    width: 100%;
+
+    picture {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__out-of-stock {
+    &:after {
+      content: attr(data-out-of-stock);
+      position: absolute;
+      width: 85%;
+      max-height: 30px;
+      -ms-transform: rotate(-20deg);
+      transform: rotate(-20deg);
+      top: 45%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: $dark-lil;
+
+      color: $white;
+
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    picture {
+        opacity: 0.6;
+    }
+    .product__icon {
+        pointer-events: none;
+    }
+  }
+
+  &__foot {
+    text-align: center;
+    width: 100%;
+
+    @include breakpoint(medium) {
+    }
+
+    h3 {
+      @include breakpoint(large) {
+        line-height: 25px;
+      }
+    }
+  }
+
+  &__image {
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+    // max-width: 85%;
+
+    @include breakpoint(IE-only) {
+      // max-height: 100%;
+      width: 80%;
+      // max-width: 80%;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: flex-end;
+
+    height: $icon-height;
+    max-height: $icon-height;
+    width: 100%;
+
+    & > * {
+      cursor: pointer;
+    }
+  }
+
+  &__name {
+    color: $product-name-color;
+    font-family: $recol-medium;
+    width: 100%;
+    line-height: 0.1em;
+    overflow-wrap: break-word;
+
+    @include breakpoint(large) {
+      font-size: $name-font-size;
+    }
+  }
+
+  &__price {
+    color: $product-price-color;
+    font-family: $soft-alt-medium;
+    width: 100%;
+
+    @include breakpoint(large) {
+      font-size: $price-font-size;
+      padding-top: 5px;
+    }
+
+    &_information {
+      font-size: 14px;
+      color: #7e69ac;
+      margin-top: 5px;
+    }
+  }
+
+  &__carousel {
+    margin-top: 0px;
+    @include breakpoint(medium) {
+      margin-top: -50px;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.steps {
+    &__description {
+        &--big {
+            position: relative;
+            margin-top: -100px;
+            padding: 120px 0;
+            background-image: url($local-images+'/Pages/home/step-big-mobile.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            @include breakpoint(large) {
+                background-image: url($local-images+'/Pages/home/step-big.png');
+                background-size: contain;
+                padding: 200px 90px 200px 30px;
+                margin-top: 0;
+                margin-left: -50px;
+            }
+        } 
+
+        &--small {
+            position: relative;
+            margin-top: -95px;
+            padding: 110px 0;
+            background-image: url($local-images+'/Pages/home/step-small-mobile.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            @include breakpoint(large) {
+                background-size: contain;
+                padding: 200px 50px;
+                margin-top: 0;
+            }
+            
+            &-left {
+                @include breakpoint(large) {
+                    background-image: url($local-images+'/Pages/home/step-small-left.png');
+                    background-size: contain;
+                    margin-right: -50px;
+                    padding: 200px 50px 200px 200px;
+                }
+            }
+            
+            &-right {
+                @include breakpoint(large) {
+                    background-image: url($local-images+'/Pages/home/step-small-right.png');
+                    background-size: contain;
+                    margin-left: -60px;
+                    padding: 200px 40px;
+                }
+            }
+        }
+    }
+}

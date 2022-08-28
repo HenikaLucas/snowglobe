@@ -1,0 +1,78 @@
+$nav-sticky-height: 80px;
+$header-opaque: $sticky-header-back;
+
+.header-md{
+    &--sticky {
+        max-height: $nav-sticky-height;
+
+        .header-md {
+            &--hide {
+                right: -2000px;
+            }
+        }
+    }
+
+    &--opaque {
+        // background-color: $header-opaque;
+        background-image: url($local-images+'/Pages/bg-pattern/bg-paper-purple.png');
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+        background-size: cover;
+        .header {
+            &__logo {
+                a {
+                    color: $white !important;
+                }
+            }
+
+            &__icons {
+                a {
+                    span {
+                        color: $white;
+                    }
+                }
+            }
+
+            &__menu {
+                .menu-line {
+                    background-color: $white !important;
+                }
+            }
+        }
+
+        .header-md {
+            &__navigation {
+                color: $white !important;
+            }
+
+            &__logo {
+                span {
+                    color: $white !important;
+                    font-size: 50px !important;
+                }
+            }
+
+            &__contact {
+                a {
+                    color: $white !important;
+                }
+            }
+            
+            &__icon {
+                span {
+                    color: $white !important;
+                }
+            }
+        }
+
+        .select-country {
+            &__container {
+                border-color: $white !important;
+            }
+
+            &__text {
+                color: $white !important;
+            }
+        }
+    }
+    
+}

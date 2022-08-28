@@ -1,0 +1,173 @@
+.product-list {
+    
+    // @include header-color($white);
+
+    background-image: url($local-images+'/Shapes/master-paper-texture_white.jpg');
+
+    .slick-dots {
+        & li {
+            & button {
+                &:before {
+                    border: 1px solid $dark-lilac;
+                    height: 10px;
+                    width: 10px;
+
+                    border-radius: 50%;
+                    content: "";
+                }
+            }
+
+            &.slick-active {
+
+                & button {
+                    &:before {
+                        background-color: $dark-lilac;
+                    }
+                }
+            }
+        }
+    }
+
+    .filter-d__container {
+        background-color: rgba(116, 39, 39, 0.05);
+    }
+    .filter__entire-container {
+        background-color: rgba(116, 39, 39, 0.05);
+    }
+    
+    &__control {
+        z-index: 5;
+        margin-top: 10px;
+    }
+
+    .image {
+        &__text {
+            @include breakpoint(medium) {
+                justify-content: flex-start;
+            }
+        }
+
+        &__titles {
+            color: $white;
+        }
+
+        &__subtitle {
+            @media screen and (max-width: 480px) {
+                font-size: 30px;
+            }
+        }
+
+    }
+
+    .product-list {
+        &__container {
+            padding: 10px 0;
+            @include breakpoint(medium) {
+                padding: 60px 0;
+            }
+        }
+    }
+
+    .product-highlight {
+        &__container {
+            padding-bottom: 20px;
+
+            @include breakpoint (medium) {
+                padding-bottom: 40px;
+            }
+        }
+
+        &__carousel {
+            &:last-of-type {
+                padding-bottom: 0;
+    
+                @include breakpoint (medium) {
+                    padding-bottom: 40px;
+                }
+            }
+        }
+    }
+
+    .breadcrumb {
+        &__container {
+            padding-top: 10px;
+            margin-top: 0;
+        }
+    }
+
+    .product-category {
+        &__container {
+            padding: 15px 10px 0;
+
+            .slick {
+                &-prev, &-next {
+                    top: 63%;
+                    &::before {
+                        color: $milka-lilac;
+                    }
+                }
+
+                // &-next {
+                //     @include breakpoint(large) {
+                //         right: -8px;
+                //     }
+                // }
+            }
+        }
+        &__content {
+            background-color: $light-purple;
+            color: $white;
+        }
+    }
+
+    .product-highlight {
+        &__container {
+            background-color: transparent;
+
+            @include breakpoint(large) {
+                padding: 60px 7%;
+            }
+
+            @include breakpoint(x-large) {
+                padding: 60px 20%;
+            }
+
+            .btn{
+                &__container {
+                    min-width: unset;
+                }
+                &__text {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    .popular-products {
+        &__container {
+            padding-top: 50px;
+            margin-top: 0;
+        }
+        &__content {
+            z-index: 1;
+
+            .product__name {
+                @include breakpoint(small-only) {
+                    color: $dark-lilac;
+                }
+            }
+        }
+    }
+
+    main {
+        background-image: url($local-images+'/Shapes/master-paper-texture_grey.jpg');
+    }
+
+    .page__paragraph {
+        @include breakpoint(medium) {
+            font-size: 25px;
+        }
+    }
+}
+
+// .slick-dots li.slick-active

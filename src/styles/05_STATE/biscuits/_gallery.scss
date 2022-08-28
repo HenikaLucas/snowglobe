@@ -1,0 +1,9 @@
+.gallery {
+    &--liked {
+        .icon-like {
+            &::before {
+                color: #E50071;
+            }
+        }
+    }
+}

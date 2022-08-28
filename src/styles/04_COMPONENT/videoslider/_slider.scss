@@ -1,0 +1,33 @@
+.carousel-wrapper{
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    @include breakpoint(small-only) {
+        width: 100%;
+    }
+    .slide{
+        transform: scale(0.7);
+        transition: transform 300ms;
+        opacity: 0.5;
+        video{
+            margin: 0 auto;
+            width: 294.52px;
+            height: 524.77px;
+            @media only screen and (max-width: 1225px) {
+                width: 220px;
+                height: 392px;
+            }
+        }
+    }
+    .activeSlide{
+        transform: scale(1);
+        opacity: 1;
+    }
+    .slick-prev{
+        z-index: 1;
+    }
+    .slick-slide{
+        display: flex;
+        justify-content: center;
+    }
+}

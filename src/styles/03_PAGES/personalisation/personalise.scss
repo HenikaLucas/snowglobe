@@ -1,0 +1,206 @@
+
+.personalise {
+
+    @include header-color($milka-lilac);
+
+    &__title {
+        font-family: $recol-medium;
+        color: $milka-lilac;
+        width: 100%;
+        text-align: center;
+        padding-top: 115px;
+        padding-bottom: 15px;
+
+        // background-image: url($beige-back-texture);
+        background-image: url($local-images + '/pages/beige-back.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @include breakpoint(medium) {
+            font-size: 45px;
+        }
+    }
+
+    &__subtitle {
+        font-family: $recol-medium;
+        color: $milka-lilac;
+        width: 100%;
+        text-align: center;
+        padding: 10px 14px;
+        font-size: 19px;
+
+        // background-image: url($milka-small-texture);
+        background-image: url($local-images + '/pages/Steps-Background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        position: relative;
+        top: -15px;
+
+
+        @include breakpoint(medium) {
+            font-size: 30px;
+            padding: 20px 0;
+        }
+
+        @include breakpoint(x-large) {
+            padding: 25px 0;
+        }
+    }
+
+    &__preview {
+        padding: 0 2%;
+
+        svg {
+            // display: none;
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        .personalisation-step__indication {
+            margin-left: 0;
+        }
+    }
+
+    &__form {
+        padding: 0 5%;
+        margin-top: 20px;
+        
+        @include breakpoint(medium) {
+            margin: 0;
+            padding: 0 2%;
+        }
+
+        @include breakpoint(IE-only) {
+            flex-grow: 1;
+            flex-basis: 0;
+        }
+
+        input {
+            font-family: $soft-regular;
+        }
+    }
+
+    &__instructions {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        color: $dark-lilac;
+
+        h4 {
+            font-family: $recol-medium;
+
+            @include breakpoint(medium) {
+                font-size: 25px;
+            }
+        }
+
+        span {
+            font-family: $soft-alt-regular;
+
+            @include breakpoint(medium) {
+                font-size: 16px;
+            }
+        }
+
+        p {
+            width: 100%;
+        }
+    }
+
+    &__link {
+        font-family: $soft-alt-regular;
+        font-size: 16px;
+        text-decoration-line: underline;
+        color: $dark-lilac;
+        margin: 15px;
+    }
+
+    &__control {
+        display: none;
+        border-top: 1px solid $light-lilac;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 25px;
+        flex-direction: column;
+        align-items: center;
+
+        @include breakpoint(medium) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .btn {
+            &__container {
+                margin-top: 15px;
+                padding: 10px 20px;
+            }
+
+            &--primary {
+                .btn__text {
+                    color: $dark-lilac;
+                }
+            }
+        }
+    }
+
+    &__limit-indicator {
+        font-family: $soft-alt-regular;
+        color: $dark-lilac;
+        font-size: 14px;
+        padding-left: 10px;
+        margin-top: 10px;
+
+        @include breakpoint(medium) {
+            font-size: 16px;
+        }
+    }
+
+    &__btn-preview {
+        display: none;
+        // width: 100%;
+
+        // @include breakpoint(medium) {
+        //     width: 42%;
+        // }
+
+        flex-shrink: 1;
+        .btn__text{
+            color: $white;
+        }
+    }
+    
+    &__btn-to-cart {
+        display: none;
+        // width: 100%;
+        text-align: right;
+        flex-shrink: 1;
+
+        // @include breakpoint(medium) {
+        //     width: 55%;
+        // }
+
+        .btn__container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    &__previous {
+        color: $dark-lilac;
+    }
+
+    &__next {
+        color: $white;
+    }
+
+    &__content {
+        padding-bottom: 30px;
+        @include breakpoint(medium) {
+            min-height: 65vh;
+        }
+    }
+}
+
+@import "../../05_STATE/personalisation/page/personalise";

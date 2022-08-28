@@ -1,0 +1,103 @@
+.product-details {
+    @include header-color($milka-lilac);
+    display: none;
+
+    .icon__text {
+        margin-top: 0;
+    }
+
+    .select-country {
+        &__container {
+            border-color: $milka-lilac;
+        }
+
+        &__text {
+            color: $milka-lilac;
+        }
+    }
+
+    main>.container:first-child {
+        padding-top: 75px;
+        @include breakpoint(medium) {
+            padding-top: 150px;
+        }
+    }    
+
+    .product{
+        &__name {
+            @include breakpoint(medium) {
+                color: $white !important;
+            }
+        }
+        &__price {
+            @include breakpoint(medium) {
+                color: $white !important;
+            }
+        }
+        &__head {
+            margin-bottom: 0px;
+            @include breakpoint(medium) {
+                margin-bottom: 15px;
+            }
+        }
+        &__info>p {
+            font-size: 19px;
+            line-height: 1.3;
+        }
+    }
+
+    .to-cart {
+        &__main {
+            padding: 15px;
+            @include breakpoint(medium) {
+                padding: 0px;
+            }
+        }
+    }
+
+    .slick-list.draggable {
+        width: 100% !important;
+    }
+
+    .separator {
+        &__curve--bottom {
+            &::after {
+                transform: scale(1);
+                @include breakpoint(medium) {
+                    transform: scale(2.5);
+                }
+                @include breakpoint(large) {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+    
+    .scroll--mb {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-top: 20px;
+        @include breakpoint(medium) {
+            width: unset;
+            overflow-x: unset;
+            white-space: nowrap;
+            padding-top: 0px;
+        }
+    }
+
+    .mosaique {
+        &-column {
+            @include breakpoint(mozilla-only) {
+                overflow: hidden;
+                .grid-5 {
+                    max-height: 40%;
+                }
+                .grid-7 {
+                    max-height: 60%;
+                }
+            }
+        }
+    }
+
+}

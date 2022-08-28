@@ -1,0 +1,56 @@
+.popover {
+    &__container {
+        position: relative;
+        height: 100%;
+
+        @include hover {
+            .popover__content {
+                // display: flex;
+                z-index: 3;
+                opacity: 1;
+                transform: translateY(-40px);
+            }
+        }
+
+        &:nth-child(1) {
+            margin-right: 2.4px;
+        }
+
+        &:nth-last-child(1) {
+            margin-left: 2.4px;
+        }
+    }
+
+    &__content {
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: -5px;
+        left: -75%;
+
+        background-color: black;
+        min-width: 100px;
+        padding: 5px 10px;
+
+        transition: 0.2s;
+        opacity: 0;
+
+        &:after {
+            content: '';
+            z-index: -1;
+            position: absolute;
+            bottom: -9px;
+            left: calc(50% - 10px);
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid black;
+        }
+    }
+
+    &__message {
+        text-align: center;
+        color: $white;
+        font-family: $soft-regular;
+    }
+}

@@ -1,0 +1,12 @@
+$font-location: '/resources/fonts/Moonshiner/';
+
+@font-face {
+    font-family: 'Moonshiner Regular';
+    src: url($font-location + 'moonshiner-regular.eot');
+    src: url($font-location + 'moonshiner-regular.eot?#iefix') format('embedded-opentype'),
+        url($font-location + 'moonshiner-regular.woff2') format('woff2'),
+        url($font-location + 'moonshiner-regular.woff') format('woff'),
+        url($font-location + 'moonshiner-regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal; 
+}

@@ -1,0 +1,34 @@
+.article {
+
+    &__content {
+        // background-image: url($big-lilac-texture);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -10px;
+    }
+
+    .breadcrumb__item {
+        color: $natural;
+
+        a {
+            color: $natural;
+        }
+    }
+
+    .category-anchor {
+        &__container {
+            border-color: $natural;
+        }
+
+        &__item {
+            color: $natural;
+        }
+    }
+
+    .product-highlight {
+        &__container {
+            background-color: transparent;
+        }
+    }
+    
+}

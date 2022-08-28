@@ -1,0 +1,15 @@
+$font-location: '/resources/fonts/Foco/';
+
+@font-face {
+    font-family: 'Foco';
+    src:    url($font-location + 'FOCO.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Foco Bold';
+    src:    url($font-location + 'FOCOBOLD.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

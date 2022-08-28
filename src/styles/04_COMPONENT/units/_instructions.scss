@@ -1,0 +1,46 @@
+.instruction {
+    &__container {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+
+        @include breakpoint(large) {
+            display: none;
+        }
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        margin: 20px 10px 0;
+        flex-basis: calc(50% - 20px);
+        flex-shrink: 1;
+        position: relative;
+
+        .icon__container {
+            height: 29px;
+            width: 29px;
+            flex-shrink: 0;
+            margin-right: 10px;
+
+            // &--personalize {
+            //     padding-top: 3px;
+            // }
+
+            // &--to-cart {
+            //     padding-top: 3px;
+            // }
+            
+            [class^="icon-"] {
+                color: $white;
+                font-size: 18px;
+            }
+        }
+
+        span {
+            color: $milka-lilac;
+            font-family: $soft-regular;
+            flex-shrink: 1;
+        }
+    }
+}

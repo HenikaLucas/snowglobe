@@ -1,0 +1,427 @@
+{
+    "Meta": {
+        "title": "Milka - Snowglobe",
+        "description": "3x Milka bei REWE kaufen, Kaufbeleg hochladen und mit etwas Glück wöchentlich einen REWE Einkaufsgutschein im Wert von 50€ gewinnen.",
+        "ogTitle": "Gewinne einen REWE Einkaufsgutschein mit Milka",
+        "ogDescription": "Kaufe 3x Milka bei REWE und gewinne wöchentlich mit etwas Glück 1 von 100 REWE Gutscheinen im Wert von 50€",
+        "ogUrl": "https://rewe.milka.de",
+        "ogSitename": "www.rewe.milka.de",
+        "ogImage": ""
+    },
+
+    "Page": {
+        "Holding": {
+            "title": "Bald ist es so weit ...",
+            "subTitle":{
+                "mobile": "Gewinne mit etwas Glück einen REWE Einkaufsgutschein mit Milka und tue gleichzeitig etwas Gutes.",
+                "desktop": "Gewinne mit etwas Glück einen REWE Einkaufsgutschein mit Milka und tue gleichzeitig etwas Gutes."
+            },
+            "linkText": {
+                "mobile": "MEHR ENTDECKEN",
+                "desktop": "ENTDECKE MEHR VON MILKA"
+            },
+            "subTitle2": null,
+            "paragraph": "Zwischen dem 21.02. und 16.04.2022 in einem Kaufakt 3x Milka bei REWE kaufen, Kaufbeleg bis zum 16.04.2022 hochladen und mit etwas Glück gewinnen. Wöchentlich werden 100 REWE Einkaufsgutscheine im Wert von 50€ verlost. Obendrein spendet Milka pro Gewinner 20€ an die Tafel Deutschland e. V.",
+            "bottomBanner": {
+                "desktop": "/resources/images/rewe/products.png",
+                "mobile": "/resources/images/rewe/products-sm.png"
+            }
+        },
+
+        "Home": {
+            "title": "Uitleg video",
+            "subTitle": "Wat heb je nodig om een <br/><span>Milka Snow Globe</span> te maken?",
+            "paragraph": "Milka naschen und Gutes tun: Zwischen dem 21.02. und 16.04.2022 in einem Kaufakt bei REWE 3x Milka deiner Wahl kaufen und den Kaufbeleg <a href=\"/mitmachen\">hier</a> hochladen. Mit etwas Glück wöchentlich 1 von 100 REWE Einkaufsgutscheinen im Wert von 50€ gewinnen. Pro Gewinner gehen zusätzlich 20€ als Spende an Tafel Deutschland e. V.",
+            "linkParticipation": "JETZT MITMACHEN!",
+            "StepTitle": "So einfach geht’s",
+            "content":"<div class=\"list_item\"> <div class=\"list_number\">1</div> <div class=\"list_text\"><p> Een lege pot Milka Hazelnootpasta<br/><span>(lekker dik smeren dus!)<span> </p> </div> </div> <div class=\"list_item\"> <div class=\"list_number\">2</div> <div class=\"list_text\"><p> Watervaste lijm </p> </div> </div> <div class=\"list_item\"> <div class=\"list_number\">3</div> <div class=\"list_text\"><p> Glitters of nep sneeuw </p> </div> </div> <div class=\"list_item\"> <div class=\"list_number\">4</div> <div class=\"list_text\"><p> Water </p> </div> </div> <div class=\"list_item\"> <div class=\"list_number\">5</div> <div class=\"list_text\"><p> Eventueel glycerine<span> (dit maakt het water ‘dikker’ en daardoor vallen de glitters langzamer!)</span> </p> </div> </div> <div class=\"list_item\"> <div class=\"list_number\">6</div> <div class=\"list_text\"><p> Versiering voor in de Milka Snow Globe<br/><span>Gebruik poppetjes, takjes en/of piepschuimballetjes, wees creatief!</span> </p> </div> </div> ",
+			"bg":{
+				"desktop":"/resources/images/Pages/bg-pattern/bg-purple-cropped.png",
+				"mobile":"/resources/images/Pages/bg-pattern/bg-purple-mobile.png"
+			}
+        },
+        
+        "Meedoen": {
+            "section1": {
+                "title": "Hoe kan ik meedoen?",
+                "bg": {
+                    "desktop": "/resources/images/snow-milka.png"
+                }
+            },
+            "section2": {
+                "title": "Actievoorwaarden",
+                "subheading": "Subtitel",
+                "subheading2": "Subtitel",
+                "paragraph": "Lorem ipsum is een opvultekst die drukkers, zetters, grafisch ontwerpers en dergelijken gebruiken om te kijken hoe een opmaak er grafisch uitziet. De eerste woorden van de tekst luiden doorgaans Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Vitae elementum curabitur vitae nunc sed. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Facilisis volutpat est velit egestas dui id ornare arcu. Lorem ipsum is een opvultekst die drukkers, zetters, grafisch ontwerpers en dergelijken gebruiken om te kijken hoe een opmaak er grafisch uitziet. De eerste woorden van de tekst luiden doorgaans Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Vitae elementum curabitur vitae nunc sed. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Facilisis volutpat est velit egestas dui id ornare arcu. Lorem ipsum is een opvultekst die drukkers, zetters, grafisch ontwerpers en dergelijken gebruiken om te kijken hoe een opmaak er grafisch uitziet. De eerste woorden van de tekst luiden doorgaans Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Vitae elementum curabitur vitae nunc sed. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Facilisis volutpat est velit egestas dui id ornare arcu. Lorem ipsum is een opvultekst die drukkers, zetters, grafisch ontwerpers en dergelijken gebruiken om te kijken hoe een opmaak er grafisch uitziet. De eerste woorden van de tekst luiden doorgaans Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Vitae elementum curabitur vitae nunc sed. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Facilisis volutpat est velit egestas dui id ornare arcu. Lorem ipsum is een opvultekst die drukkers, zetters, grafisch ontwerpers en dergelijken gebruiken om te kijken hoe een opmaak er grafisch uitziet. De eerste woorden van de tekst luiden doorgaans Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Vitae elementum curabitur vitae nunc sed. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Facilisis volutpat est velit egestas dui id ornare arcu. ",
+                "paragraph2": "Lorem ipsum is een opvultekst die drukkers, zetters, grafisch ontwerpers en dergelijken gebruiken om te kijken hoe een opmaak er grafisch uitziet. De eerste woorden van de tekst luiden doorgaans Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Vitae elementum curabitur vitae nunc sed. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Facilisis volutpat est velit egestas dui id ornare arcu. ",
+                "bg":{
+                    "desktop":"/resources/images/Pages/bg-pattern/bg-blue-snow.png",
+                    "mobile":"/resources/images/Pages/bg-pattern/bg-meedoen-mobile.png"
+                }
+            }
+        },
+
+        "Participation": {
+            "title": {
+                "desktop" : "Sichere dir deine Chance auf einen REWE Einkaufsgutschein im Wert von 50€ mit Milka.",
+                "mobile" : "Sichere dir deine Chance auf einen REWE Einkaufsgutschein im Wert von 50€ mit Milka."
+            },
+            "subTitle": "Zarte Milka Alpenmilch Schokolade naschen und gleichzeitig Gutes tun: Mit deinen Milka Lieblingsprodukten kannst du jetzt tolle Preise gewinnen und dich schon auf Ostern freuen. Milka verlost <strong>wöchentlich 100 REWE Einkaufsgutscheine</strong> im Wert von 50€.<br /><br /> Zusätzlich werden pro Gewinner 20€ an Tafel Deutschland e.V. gespendet.",
+            "paragraph": null,
+            "stepsTitle": "So einfach geht’s",
+            "description": {
+                "Caption": "*Gib deine persönlichen Daten (Vor- und Nachnamen sowie die E-Mail-Adresse, Geburtsdatum, Postadresse) ein. Lies dir bitte vorher unsere <a href=\"#\">Datenschutzhinweise</a> aufmerksam durch, damit du weißt, wie wir mit deinen personenbezogenen Daten umgehen und welche Rechte dir zustehen.",
+                "Title": {
+                    "desktop": "Mitmachen ist ganz einfach:",
+                    "mobile": "Mitmachen ist ganz einfach"
+                },
+                "image": {
+                    "desktop": "/resources/images/rewe/participation-img.png",
+                    "mobile": "/resources/images/rewe/participation-img-mobile.png"
+                },
+                "Steps": [
+                    [
+                        {
+                            "type" : "text",
+                            "text" : "Kaufe zwischen dem <strong>21.02.</strong> und <strong>16.04.2022</strong> in einem Kaufakt 3x Milka Produkte bei REWE <strong>(Kaufbeleg bitte aufbewahren).</strong>"  
+                        }
+                    ],
+                    [
+                        {
+                            "type" : "text",
+                            "text" : "Lade "  
+                        },
+                        {
+                            "type" : "link",
+                            "link" : "/mitmachen",
+                            "text" : "hier",
+                            "dataEvent" : "button-click",
+                            "dataCategory" : "Click Action",
+                            "dataAction" : "Participate"
+                        },
+                        {
+                            "type" : "text",
+                            "text" : " bis zum <strong>16.04.2022</strong> deinen Kaufbeleg hoch und gib deine persönlichen Daten ein. Färbe zudem bitte alle Produkte schwarz, die nicht von Milka sind.*"
+                        }
+                    ],
+                    [
+                        {
+                            "type" : "text",
+                            "text" : "Schon bist du im Gewinner-Lostopf! Du hast die Chance, wöchentlich <strong>1 von 100 REWE Einkaufsgutscheinen im Wert von 50€</strong> zu gewinnen. Die Gewinner werden wöchentlich unter allen hochgeladenen Kaufbelegs per Zufallsgenerator ermittelt und <strong>per E-Mail</strong> benachrichtigt. Zusätzlich spendet Milka 20 € pro Gewinner an Tafel Deutschland e. V." 
+                        } 
+                    ]
+                ]
+            },
+            "Form": {
+                "Sections": {
+                    "Receipt": {
+                        "Title": "REWE Kaufbeleg hochladen",
+                        "CTA": "DATEI AUSWÄHLEN",
+                        "Info": "Du kannst deinen Kaufbeleg als .jpg oder.pdf hochladen.",
+                        "Field": {
+                            "ReceiptDate": {
+                                "Type": "text",
+                                "Label": "Kaufdatum",
+                                "Required": true
+                            },
+                            "ProductAmount": {
+                                "Type": "select",
+                                "Label": "Anzahl der gekauften Milka Produkte",
+                                "Id": "",
+                                "Default": "Anzahl der gekauften Milka Produkte ",
+                                "Required": false,
+                                "MinValue" : 3,
+                                "ErrorMessage" : "Du hast weniger als 3 Milka Produkte gekauft und kannst daher mit diesem Kaufbeleg nicht an der Aktion teilnehmen",
+                                "MinValueAdventCalendar" : 1,
+                                "ErrorMessageAdventCalendar" : "Wenn du weniger als 3 Milka Produkte gekauft hast, kannst du mit deinem Kaufbeleg oder der Eingabe des Produktcodes deines Milka & REWE Adventskalenders nur an der Milka & REWE Adventskalender Sonderverlosung teilnehmen.",
+                                "Options": [
+                                    {
+                                        "Display": "Anzahl der gekauften Milka Produkte",
+                                        "Value": "default"
+                                    },
+                                    {
+                                        "Display": "1",
+                                        "Value": "1"
+                                    },
+                                    {
+                                        "Display": "2",
+                                        "Value": "2"
+                                    },
+                                    {
+                                        "Display": "3",
+                                        "Value": "3"
+                                    },
+                                    {
+                                        "Display": "4",
+                                        "Value": "4"
+                                    },
+                                    {
+                                        "Display": "5",
+                                        "Value": "5"
+                                    },
+                                    {
+                                        "Display": "6",
+                                        "Value": "6"
+                                    },
+                                    {
+                                        "Display": "7",
+                                        "Value": "7"
+                                    },
+                                    {
+                                        "Display": "8",
+                                        "Value": "8"
+                                    },
+                                    {
+                                        "Display": "9",
+                                        "Value": "9"
+                                    },
+                                    {
+                                        "Display": "10",
+                                        "Value": "10"
+                                    },
+                                    {
+                                        "Display": ">10",
+                                        "Value": "11"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "Details": {
+                        "Title": "Trage hier deine persönlichen Daten ein",
+                        "Subtitle": "So kann Milka dich kontaktieren, falls du gewinnst",
+                        "CTA": "JETZT MIMACHEN",
+                        "Info": "",
+                        "Field": {
+                            "Salutation" : {
+                                "Type": "select",
+                                "Label": "Anrede*",
+                                "Options": [
+                                    {
+                                        "Display": "Anrede*",
+                                        "Value": "default"
+                                    },
+                                    {
+                                        "Display": "Herr",
+                                        "Value": "1"
+                                    },
+                                    {
+                                        "Display": "Frau",
+                                        "Value": "2"
+                                    },
+                                    {
+                                        "Display": "Divers",
+                                        "Value": "10"
+                                    }
+                                ]
+                            },
+                            "FirstName" : {
+                                "Type": "text",
+                                "Id": "firstName",
+                                "Label": "Vorname*",
+                                "Required": true
+                            },
+                            "LastName" : {
+                                "Type": "text",
+                                "Label": "Nachname*",
+                                "Required": true
+                            },
+                            "Email" : {
+                                "Type": "email",
+                                "Label": "E-Mail*",
+                                "Required": true
+                            },
+                            "Street" :  {
+                                "Type": "text",
+                                "Label": "Straße*",
+                                "Required": true
+                            },
+                            "HouseNumber" : {
+                                "Type": "text",
+                                "Label": "Hausnummer*",
+                                "Required": true
+                            },
+                            "Address" : {
+                                "Type": "text",
+                                "Label": "Adresszusatz",
+                                "Required": false
+                            },
+                            "ZipCode" : {
+                                "Type": "text",
+                                "Label": "PLZ*",
+                                "Required": true
+                            },
+                            "City" : {
+                                "Type": "text",
+                                "Label": "Stadt*",
+                                "Required": true
+                            },
+                            "Country" : {
+                                "Type": "text",
+                                "Label": "Land*",
+                                "Value": "Deutschland"
+                            },
+                            "Birthday" : {
+                                "Label": "Geburtsdatum*",
+                                "Required": true,
+                                "Day": {
+                                    "Type": "text",
+                                    "Label": "TT"
+                                },
+                                "Month":{
+                                    "Type": "text",
+                                    "Label": "MM"
+                                },
+                                "Year": {
+                                    "Type": "text",
+                                    "Label": "JJJJ"
+                                }
+                            },
+                            "Terms": {
+                                "HTML": "Wir schätzen dein Vertrauen in unseren Umgang mit deinen personenbezogenen Daten. Verantwortliche Stelle für die Verarbeitung deiner personenbezogenen Daten im Rahmen dieser Aktion ist die Mondelēz Deutschland GmbH. Wir speichern personenbezogene Daten von dir nach Maßgabe der rechtlichen Vorschriften und ausschließlich zum Zweck der Abwicklung dieser Aktion (Rechtsgrundlage: Art. 6 Abs. 1 Buchst. f) der Datenschutz-Grundverordnung EU 2016/679). Es werden die E-Mail-Adresse, Vor- und Nachname sowie das Geburtsdatum und die Adressdaten der Teilnehmer erfasst und ausschließlich zur Verifizierung der Teilnahme gespeichert. Name und Adressdaten werden für den Versand der Gewinne verarbeitet (Rechtsgrundlage: Art. 6 Abs. 1 Buchst. b) der Datenschutz-Grundverordnung EU 2016/679, DS-GVO). Weitere Information zu dem Umgang mit deinen personenbezogenen Daten im Rahmen dieser Aktion findest du in unseren <a href=\"/teilnahmebedingungen\">Teilnahmebedingungen</a>"
+                            },
+                            "Terms2": null,
+                            "Newsletter": {
+                                "HTML": "Ich möchte den regelmäßigen Newsletter mit Informationen zu Milka Produkten, Rezepten und Aktionen per E-Mail von der Mondelēz Deutschland Services GmbH & Co. KG oder von mit der Mondelēz International Unternehmensgruppe verbundenen Unternehmen erhalten. In diesem Zusammenhang wird auch mein Kauf- und Klickverhalten auf dieser Milka Website analysiert. Diese Einwilligung kann jederzeit mit zukünftiger Wirkung <a href=\"https://contactus.mdlzapps.com/form?siteId=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\">hier</a> widerrufen werden. Bitte beachten Sie auch unsere <a href=\"https://eu.mondelezinternational.com/privacy-notice?sc_lang=de-de&siteID=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\">Datenschutzerklärung</a> für weitere Informationen."
+                            }
+                        }
+                    }
+                }
+            },
+            "Product": {
+                "Title": "Entdecke dein liebstes Milka Osterprodukt unter vielen Lieblingsprodukten",
+                "Description": "Bei Milka findet jeder sein liebstes Osterprodukt aus zartschmelzender Alpenmilch Schokolade. Ob österliche Neuheiten, klassischer Milka Schmunzelhase in vielen unterschiedlichen Sorten oder Feine Eier – Milka Alpenmilch Schokolade ist immer perfekt; zum Genießen, Teilen und Verschenken.",
+                "Caption": "Milka Weihnachtsprodukte entdecken",
+                "Image": "/resources/images/rewe/products-no-back.png",
+                "CTA": {
+                    "desktop" : "ALLE MILKA OSTERPRODUKTE",
+                    "mobile" :  "ALLE OSTERPRODUKTE" 
+                }
+            }
+        },
+
+        "Confirmation": {
+            "title": "Vielen Dank für deine Teilnahme!",
+            "subTitle": "Du hast an der Milka Osteraktion teilgenommen und nun die Chance, einen REWE Einkaufsgutschein im Wert von 50€ zu gewinnen. Die Gewinner werden wöchentlich per Zufallsgenerator ermittelt und per E-Mail benachrichtigt – wir drücken dir die Daumen!",
+            "paragraph": null,
+            "boxs" : [
+                {
+                    "img" : "/resources/images/rewe/card-img-1.png",
+                    "platzhalter" : "/resources/images/rewe/platzhalter.png",
+                    "title" : "Osterprodukte",
+                    "copy" : "Der Schmunzelhase als Limited Design Edition oder andere Highlights zum Fest: Entdecke jetzt Milkas zarte Vielfalt.",
+                    "button" : {
+                        "text" : "PRODUKTE" , 
+                        "href" : "https://www.fcmilka.de/account"
+                    }
+                },
+                {
+                    "img" : "/resources/images/rewe/card-img-2.png",
+                    "platzhalter" : null,
+                    "title" : "Lass dich inspirieren",
+                    "copy" : "Mach deinen Liebsten eine ganz besondere Freude und personalisiere deine Milka Schokolade.",
+                    "button" : {
+                        "text" : "GESCHENKIDEEN" , 
+                        "href" : "https://www.fcmilka.de/account"
+                    }
+                },
+                {
+                    "img" : "/resources/images/rewe/card-img-3.png",
+                    "platzhalter" : null,
+                    "title" : "Neues von Milka",
+                    "copy" : "Verpasse keine Neuigkeit mehr: ob tolle Aktionen, zarte Produktnews oder Infos zum Milka Engagement.",
+                    "button" : {
+                        "text" : "NEUES ENTDECKEN" , 
+                        "href" : "https://www.fcmilka.de/account"
+                    }
+                }
+            ],
+            "homepageLink": "ZURÜCK ZUR STARTSEITE",
+            "bottomBanner": {
+                "desktop": "/resources/images/rewe/products.png",
+                "mobile": "/resources/images/rewe/products-sm.png"
+            }
+        },
+
+        "Prize": {
+            "title": "Wöchentlich gewinnen & Gutes tun!",
+            "subtitle": "Sichere dir die Chance auf einen REWE Einkaufsgutschein mit Milka.",
+            "paragraph": "Mit deiner Teilnahme sicherst du dir wöchentlich die Chance auf 1 von 100 REWE Einkaufsgutscheinen im Wert von 50€. Die Gewinner werden wöchentlich per Zufallsgenerator ermittelt. Die Gutscheine sind 3 Jahre ab Ausstellungsdatum in allen teilnehmenden REWE Märkten einlösbar. Ein weiterer Clou: Pro Gewinner spendet Milka zusätzlich 20€ an Tafel Deutschland e. V."
+        },
+		"Faq": {
+			"title" : "FAQ´ s - Die vollständigen TNB´ s findest du hier.",
+			"stepsTitle": {
+				"desktop": null,
+				"mobile": null
+			},
+			"stepsItems": [
+				{
+					"image": "/resources/images/rewe/steps-01.png",
+					"text": "3x Milka <br/> Produkte bei <strong>REWE</strong> in einem Kaufakt <br/>kaufen"
+				},
+				{
+					"image": "/resources/images/rewe/steps-02.png",
+					"kassenbonImage": "/resources/images/rewe/kassenbonImage.png",
+					"text": "<strong>Kaufbeleg</strong><br/> bis zum 16.04.2022 <a href=\"/mitmachen\">hier</a> hochladen"
+				},
+				{
+					"image": "/resources/images/rewe/steps-03.png",
+					"text": "Wöchentlich 1 von 100 <strong>REWE Gutscheinen</strong> im Wert von 50€ gewinnen"
+				},
+				{
+					"image": "/resources/images/rewe/steps-04.png",
+					"text": "<strong>Doppelt freuen:</strong>Pro Gewinner spendet Milka 20€ an Tafel Deutschland e.V."
+				}
+			],
+			"decoration": [
+				"/resources/images/rewe/deco-2.png",
+				"/resources/images/rewe/deco-1.png",
+				"/resources/images/rewe/deco-2.png",
+				"/resources/images/rewe/deco-1.png",
+				"/resources/images/rewe/deco-2.png"
+			],
+			"content": "<div class=\"s-content-copy__item\"> <p class=\"headings\"><strong>Wie kann ich teilnehmen und den Kaufbeleg hochladen?</strong></p> <p>So einfach gehts:</p> <ol> <li>Kaufe zwischen dem <strong>21.02.</strong> und <strong>16.04.2022</strong> in einem Kaufakt 3x Milka bei REWE <strong>(Kaufbeleg bitte aufbewahren).</strong></li> <li>Lade <a href=\"/mitmachen\">hier</a> bis zum <strong>16.04.2022</strong> deinen Kaufbeleg hoch und gib deine persönlichen Daten* ein. </li> <li>Schon bist du im Gewinner-Lostopf! Du hast die Chance, wöchentlich <strong>1 von 100 REWE Einkaufsgutscheinen im Wert von 50€</strong> zu gewinnen. Die Gewinner werden wöchentlich unter allen hochgeladenen Kaufbelegs per Zufallsgenerator ermittelt und <strong>per E-Mail</strong> benachrichtigt. Zusätzlich spendet Milka 20 € pro Gewinner an Tafel Deutschland e. V.</li> </ol><br/><p class=\"condition-copy\">* Gib deine persönlichen Daten (Vor- und Nachnamen sowie die E-Mail-Adresse, Geburtsdatum, Postadresse) ein. Lies dir bitte vorher unsere <a href=\"https://eu.mondelezinternational.com/privacy-notice?sc_lang=de-de&siteID=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\">Datenschutzhinweise</a> aufmerksam durch, damit du weißt, wie wir mit deinen personenbezogenen Daten umgehen und welche Rechte dir zustehen.</p><p class=\"headings\"><strong>Kann ich auch teilnehmen, wenn ich die drei Milka Produkte nicht bei REWE gekauft habe?</strong></p> <p> Nein, um an diesem Gewinnspiel teilzunehmen, musst du drei Milka Produkte bei REWE in einem Kaufakt kaufen. </p> <p class=\"headings\"><strong>Mit welchen Produkten kann ich teilnehmen?</strong></p> <p> Du kannst mit allen Milka Produkten teilnehmen, die du im Aktionszeitraum vom 21.02. bis zum 16.04.2022 bei REWE kaufst. Vielleicht entdeckst du schon ein paar schokoladige Überraschungen für dein Osternest oder das deiner Lieben. </p> <p class=\"headings\"><strong>Wie lange kann ich an der Aktion teilnehmen?</strong></p> <p> Du kannst bis einschließlich 16.04.2022 deinen Kaufbeleg hochladen und teilnehmen. </p> <p class=\"headings\"><strong>Wie oft kann ich teilnehmen?</strong></p> <p> Du kannst beliebig oft teilnehmen, allerdings ist jeder Kaufbeleg nur einmal gültig. Während des Aktionszeitraums ist ein Gewinn pro Teilnehmer möglich. </p> <p class=\"headings\"><strong>Kann ich einen Kaufbeleg mehrmals nutzen?</strong></p> <p> Nein, jeder Kaufbeleg ist nur einmal gültig. </p> <p class=\"headings\"><strong>Kann jeder an der Aktion teilnehmen?</strong></p> <p> Teilnehmen kann jede natürliche Person ab 18 Jahren mit Wohnsitz in Deutschland. </p> <p class=\"headings\"><strong>Was wird verlost?</strong></p> <p> Im Aktionszeitraum verlost Milka wöchentlich 100 REWE Einkaufsgutscheine im Wert von 50€. Zusätzlich spendet Milka pro Gewinner 20€ an Tafel Deutschland e. V. </p> <p class=\"headings\"><strong>Wann werden die Gewinne verlost?</strong></p> <p> Die Auslosung erfolgt durch eine wöchentliche Gewinnerziehung per Zufallsgenerator. </p> <p class=\"headings\"><strong>Wie bekomme ich meinen Gewinn?</strong></p> <p> Die Gewinner werden per E-Mail informiert und erhalten im Anhang Ihren REWE Einkaufsgutschein im Wert von 50€. </p> <p class=\"headings\"><strong>Wo kann ich meinen Gewinn einlösen und wie lange ist der REWE-Gutschein gültig?</strong></p> <p> Deinen Gutschein kannst du in jedem REWE Markt in Deutschland einlösen. Die Gutscheine sind ab Ausstellungsdatum 3 Jahre gültig. </p> <p class=\"headings\"><strong>Endet die Gewinnchance am 16.04.2022?</strong></p> <p> Ja, bis einschließlich 16.04.2022 kannst du Kaufbelegs deiner REWE Einkäufe <a href=\"/mitmachen\">hier</a> hochladen und hast die Chance zu gewinnen. Danach ist die Aktion beendet. </p> <p class=\"headings\"><strong>Kann ich meine Daten löschen?</strong></p> <p> Nach Ende der Aktion werden die Teilnehmerdaten gelöscht. Soweit keine gesetzlichen Aufbewahrungspflichten bestehen, erfolgt eine umgehende Löschung der Daten, nachdem das Gewinnspiel abgewickelt ist. Eine umgehende Löschung erfolgt bezüglich der Daten der Nichtgewinner. Gewinnerdaten sind aus gesetzlichen und buchhalterischen Gründen nach Maßgabe der §§ 257 HGB, 147 AO, 14b UStG aufzubewahren. Für diese Speicherung der Gewinnerdaten ist die Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. c) DSGVO, da die Verarbeitung zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, der Mondelez Deutschland unterliegt. Aber falls du deine Daten bereits während des Aktionszeitraums löschen möchtest, ist das natürlich möglich. Dazu wendest du dich bitte direkt an unseren <a href=\"https://contactus.mdlzapps.com/form?siteId=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\" rel=\"noopener noreferrer\">Verbraucherservice*.</a> Eine Teilnahme am Gewinnspiel ist dann leider nicht mehr möglich. </p> <p class=\"headings\"><strong>An wen kann ich mich wenden, wenn ich weitere Fragen habe?</strong></p> <p> Vielleicht hast du noch weitere Fragen, die hier nicht beantwortet worden sind. Dann wende dich am besten direkt an unseren <a href=\"https://contactus.mdlzapps.com/form?siteId=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\" rel=\"noopener noreferrer\">Verbraucherservice*.</a><br/> *Falls der hier hinterlegte Link zum Verbraucherservice nicht funktioniert, kannst du über den Kontaktlink im Bereich „Service“ den Verbraucherservice erreichen. </p> </div>"
+		},
+
+        "Terms": {
+            "content": "<div class=\"s-content-copy__item\">     <p class=\"headings\">IMPRESSUM:</p>     <p>         Mondelez Deutschland GmbH<br />         Konsul Smidt Str. 21<br />         28217 Bremen      </p>     <p>          Telefon: 00800 83 00 00 36 (kostenfrei)<br/>         Fax: (0421) 599-3675<br/>         E-Mail: Verbraucherservice@mdlz.com      </p>     <p>          Sitz: Bremen, AG Bremen HRB 11373<br/>         Geschäftsführer: Maximilian Eckardt, Martin Kaufmann, Niko Warmbrunn, Hartmut Wilkens<br/>         USt.-ID-Nr. DE114397121     </p> </div>  <div class=\"s-content-copy__item\">     <p class=\"headings\">I. Teilnahmebedingungen </p>      <p class=\"headings sub\">Teilnahmebedingungen der Oster-Gewinnspielaktion „Mit Milka, REWE Gutschein gewinnen und pro Gewinner 20 € an Tafel Deutschland e.V. spenden“</p>     <p>     Eine Teilnahme erfolgt ausschließlich nach Maßgabe der nachfolgend aufgeführten Teilnahmebedingungen und Datenschutzhinweisen. Mit der Teilnahme erkennt der Teilnehmer diese Teilnahmebedingungen ausdrücklich an. Bei einem Verstoß gegen diese Teilnahmebedingungen behält sich Mondelez Deutschland das Recht vor, Personen vom Gewinnspiel auszuschließen und Gewinne abzuerkennen bzw. zurückzuverlangen.     </p>     <p>     Aus Gründen der besseren Lesbarkeit verwenden wir nachstehend einheitlich die Bezeichnung Teilnehmer oder Gewinner. Es sind hiervon selbstverständlich alle Geschlechter (m/w/d) umfasst.          </p>       <p>      Mit der Durchführung und Abwicklung des Gewinnspiels wurden die Baudek & Schierhorn GmbH, Banksstraße 4, 20097 Hamburg (Agentur), die Consultix GmbH, Wachtstr. 17-24 28195 Bremen und die bürozwei GmbH & Co KG, Theodor-Heuss-Allee 21 28215 Bremen beauftragt.     </p>     <p>     Der Teilnehmer geht mit der Teilnahme am Gewinnspiel über die Teilnahme hinaus keine vertraglichen oder sonstigen rechtlichen Verpflichtungen gegenüber Mondelez Deutschland ein. Die Teilnahme am Gewinnspiel ist kostenlos, mit Ausnahme der Übermittlungskosten, die nach dem von Ihnen gewählten Tarif Ihres Mobilfunk- bzw. Internetanbieters entstehen.     </p>     <p class=\"headings sub\">1. Angaben zum Veranstalter </p>     <p>     Veranstalterin des Gewinnspiels ist die Mondelez Deutschland GmbH Konsul-Smidt-Str. 21, 28217 Bremen, Deutschland (nachstehend als „Mondelez Deutschland“ oder „Veranstalter“ bezeichnet).      </p>          <p class=\"headings sub\">2. Teilnahmeberechtigung </p>     <p> Teilnehmen kann jede natürliche Person ab 18 Jahren mit Wohnsitz in Deutschland. Ausgenommen sind Mitarbeiter der beteiligten Unternehmen und der an der Durchführung des Gewinnspiels beteiligte Dienstleister und jeweils deren Angehörige.        </p>          <p>      Bei einem Verstoß gegen diese Teilnahmebedingungen, das geltende Recht oder die Regeln von Sitte und Anstand behält sich Mondelez Deutschland das Recht vor, Personen vom Gewinnspiel auszuschließen.     </p>          <p>     Mondelez Deutschland behält sich außerdem vor, Teilnehmer auszuschließen, wenn festgestellt wird, dass sie falsche Angaben im Registrierungsprozess machen und/oder den Teilnahmevorgang manipulieren und/oder sonst in unfairer und/oder unlauterer Weise versuchen, den Teilnahmevorgang zu beeinflussen. Bereits zuerkannte Gewinne werden in diesen Fällen aberkannt.      </p>          <p>     In dem Fall wird per Los ein Ersatzgewinner ermittelt. Für den Fall, dass die Rückgabe des Gewinns nicht mehr möglich ist, behält sich Mondelez Deutschland die Forderung von Schadensersatzleistungen vor.     </p>      <p>     Ferner gilt: Alle Einsendungen müssen direkt von der Person vorgenommen werden, die sich an der Werbeaktion beteiligt. Masseneinsendungen durch gewerbliche Absender, Verbrauchergruppen oder Dritte werden nicht akzeptiert. Unvollständige oder unleserliche Einsendungen, Einsendungen durch oder über Dritte oder Syndikate, Einsendungen durch Makros oder andere automatisierte Methoden (einschließlich programmierbare Teilnahme-Systeme) sowie Einsendungen, die den Vorgaben dieser Teilnahmebedingungen nicht vollumfänglich entsprechen, werden von der Teilnahme ausgeschlossen und nicht berücksichtigt. Stellt sich heraus, dass ein Teilnehmer einen oder mehrere Computer zur Umgehung dieser Bestimmungen nutzt, beispielsweise durch den Einsatz von „Skripten“, die „Brute-Force“-Methode, die Verschleierung seiner Identität durch Manipulation von IP-Adressen, willkürliches Erraten von Codes oder sonstige automatisierte Mittel, die die Anzahl seiner Einsendungen für diese Werbeaktion auf eine Weise erhöhen sollen, die nicht mit dem Geist dieser Werbeaktion im Einklang steht, werden die Einsendungen dieser Person von der Teilnahme ausgeschlossen und jeder eventuelle Gewinn wird für nichtig erklärt und zurückgefordert. Dasselbe gilt für Beiträge, die den Teilnahmevorgang manipulieren und/oder sonst in unfairer und/oder unlauterer Weise versuchen, den Teilnahmevorgang zu beeinflussen.     </p>     <p class=\"headings sub\">3. Durchführung, Gewinne und Abwicklung </p>     <p class=\"headings sub\">3.1 Durchführung </p>     <p>Teilnahmezeitraum ist vom 21. Februar 2022 – 16. April 2022.</p>          <p>     Die Teilnahme erfolgt durch den Kauf von mindestens 3 Milka Produkten bei REWE Märkten im Aktionszeitraum, zu erwerben in einem Kaufakt, das Hochladen eines Fotos des Kaufbelegs (gut leserlich) sowie die Angabe der personenbezogenen Daten (E-Mail-Adresse, Name, Vorname, Geburtsdatum, Straße/Hausnummer und Postleitzahl und Ort) auf der Internetseite rewe.milka.de, jeweils im Aktionszeitraum. Produkte, die nicht an der Promotion teilnehmen (also keine Milka Produkte sind), bitte auf dem Kaufbeleg unkenntlich machen, zum Beispiel indem sie geschwärzt werden. Den Original-Kaufbeleg bitte aufbewahren. Mondelez Deutschland behält sich vor, den Original-Kaufbeleg zur Überprüfung der Einhaltung der Teilnahmebedingungen anzufordern.     </p>     <p>     Diese Aktion ist nur mit anderen Milka-Aktionen kombinierbar, wenn jeweils die Teilnahmebedingungen separat erfüllt werden.     </p>     <p>      Jeder Teilnehmer (d.h. eine natürliche Person) kann mehrfach mit neuen Einkäufen teilnehmen, allerdings darf jeder Kaufbeleg nur einmal hochgeladen werden. Es kann jedoch pro Teilnehmer nur ein Gewinn im gesamten Teilnahmezeitraum gewonnen werden. Weitere Teilnahmen derselben Person unter derselben Adresse, aber mit einer anderen als der bei der ersten Teilnahme angegebenen E-Mail-Adresse werden nicht berücksichtigt. Eine weitere Teilnahme derselben natürlichen Person unter einer neuen/anderen E-Mail-Adresse als die bei der ersten Teilnahme angegebene Email Adresse wird als Verstoß gegen diese Teilnahmebedingungen angesehen. Sollte dem Teilnehmer aufgrund einer weiteren Teilnahme noch ein/mehrere Preise zuerkannt oder bereits übergeben worden sein, kann der Veranstalter den Preis/die Preise aberkennen und auf Kosten des Teilnehmers zurückverlangen.     </p>     <p>     Eine Online-Registrierung ist erforderlich. Hinweise dazu, wie wir mit Ihren personenbezogenen Daten umgehen, sind unter Punkt II. zu finden.     </p>      <p>     Unmittelbar nach der Registrierung inkl. Hochladen des Kaufbeleg-Fotos und Abschicken mittels des Buttons „Absenden“ wird dem Gewinnspielteilnehmer online mitgeteilt, dass er an dem Gewinnspiel teilnimmt.      </p>      <p>      Einsendungen, die als nicht mit diesen Bedingungen übereinstimmend betrachtet werden, werden verworfen. Eine Teilnahme ist in diesen Fällen ausgeschlossen.     </p>     <p>     Darüber hinaus gilt auch: In dem Fall, dass ein Gewinner entweder     </p>     <p>         - diese Teilnahmebedingungen nicht erfüllt,<br/>          - seine Kontaktdaten nicht vollständig oder unrichtig angibt <br/>         - den Preis wie hierin beschrieben aus irgendeinem, vom Gewinner zu vertretendem Grund, nicht in Anspruch nehmen kann oder möchte,<br/>         - oder der Gewinn unter der von dem Gewinner angegebenen Adresse auch nach zweifachem Versuch binnen 4 Wochen nach dem ersten Zustellversuch nicht zustellbar ist,     </p>     <p>     verfällt der Gewinn automatisch und kann an einen anderen Teilnehmer übermittelt werden, der unter denselben Bedingungen ermittelt wurde.      </p>     <p>     Teilnahmeschluss ist der 16. April 2022.     </p>      <p class=\"headings sub\">3.2 Gewinne</p>     <p>     Im Rahmen des Gewinnspiels werden unter allen Teilnehmern wöchentlich nachstehende Preise per Zufall verlost:     </p>     <p>     Jede Woche 100 x 1 REWE Gutschein im Wert von je 50€ verlost unter den Teilnehmern der jeweiligen Woche.     </p>          <p>      Zusätzlich spendet Mondelez Deutschland pro Gewinner 20€ nach Abschluss der Aktion einmalig an Tafel Deutschland e.V..     </p>     <p>      Die Gutscheine sind ab Ausstellungsdatum 3 Jahre in teilnehmenden REWE Märkten einlösbar. Maßgeblich sind die Einlösebedingungen des Händlers.     </p>     <p>     Die Gewinne können, sofern nichts anderes angegeben wurde, nicht gegen Bargeld oder sonstige Formen der Entschädigung eingelöst werden. Der Umtausch ist ausgeschlossen. Falls der Nutzer ein Gewinnelement aus irgendeinem Grund nicht innerhalb des vom Veranstalter vorgegebenen Zeitrahmens einlöst, verfällt dieses Angebotselement für den Nutzer und es wird keine Geldzahlung oder sonstige Form von Entschädigung als Ersatz für dieses Element geliefert, soweit nichts anderes vereinbart wurde. Für den Fall, dass das Angebot aus unvorhersehbaren Gründen nicht zur Verfügung steht, behält sich der Veranstalter das Recht vor, es nach alleinigem Ermessen durch ein anderes gleichartiges Angebot zu ersetzen.     </p>     <p>Der Gewinnanspruch ist nicht übertragbar. </p>     <p class=\"headings sub\">3.3 Gewinnermittlung und -übergabe</p>     <p>     Die Gewinner werden per Zufallsprinzip aus den wöchentlichen Teilnehmern ermittelt und nach Prüfung der Richtigkeit des Kaufbelegs sowie der Einhaltung der Teilnahmebedingungen innerhalb von 7 Werktagen per E-Mail über ihren Gewinn in Form eines REWE-Gutscheins als pdf-Dokument zum Ausdrucken, benachrichtigt. Um den Gutschein einzulösen, muss dieser in dem jeweiligen REWE Markt ausgedruckt vorgelegt werden.     </p>      <p>      Mondelez Deutschland behält sich das Recht vor den Gewinn einzubehalten, wenn der Teilnehmer seine Kontaktdaten nicht vollständig oder unrichtig angibt.        </p>     <p class=\"headings sub\">4. Haftung / Gewährleistung</p>          <p>      Für einen Mangel oder mehrere Mängel an einem Gewinn übernimmt Mondelez Deutschland weder eine Gewährleistung noch stehen dem Gewinner im Falle eines Mangels oder mehrerer Mängel an dem Gewinn Umtausch- oder Rückgaberechte zu, es sei denn, es liegt ein Mondelez Deutschland zurechenbarer Fall von Vorsatz oder arglistiger Täuschung vor.      </p>           <p>      Der Veranstalter haftet auch nicht für Produkte oder Dienstleistungen Dritter. Bei der Inanspruchnahme der Leistungen Dritter gelten deren allgemeine Geschäftsbedingungen. Dies gilt vorliegend für die REWE Gutscheine, die von REWE zur Verfügung gestellt werden. Der Veranstalter kann wegen der Gutscheine nicht in Anspruch genommen werden. Es gelten die Einlösebedingungen der REWE für diese Gutscheine.       </p>      <p>      Der Veranstalter haftet auch nicht im Falle einer Insolvenz des Dritten und leistet keinen Ersatz im Falle einer in der Zukunft liegenden, derzeit nicht absehbaren Eröffnung eines Insolvenzverfahrens über das Vermögen des Dritten.     </p>      <p>     Der Veranstalter übernimmt keine Verantwortung für verspätet eingehende, unvollständige, inkorrekt eingesandte, schadhafte oder falsch zugestellte Einsendungen, Ansprüche oder Mitteilungen, unabhängig davon, ob diese durch Fehler, Unterlassung, Veränderung, Manipulation, Löschung, Diebstahl, Zerstörung, Übertragungsunterbrechung, Kommunikationsausfall oder anderweitig bedingt wurden.     </p>      <p>      Der Veranstalter haftet nicht für Schäden aufgrund von technischen Störungen, für Verzögerungen oder Unterbrechungen von Übertragungen oder für Schäden, die im Zusammenhang mit der Teilnahme an dem Gewinnspiel stehen, es sei denn der Veranstalter handelt vorsätzlich oder grob fahrlässig. Hiervon unberührt bleiben etwaige Ersatzansprüche aufgrund von Produkthaftung und der Verletzung von Leben, Körper und Gesundheit sowie von wesentlichen Vertragspflichten. Im Fall der Verletzung von wesentlichen Vertragspflichten, d.h. solcher Pflichten, die die ordnungsgemäße Durchführung des Vertrages erst ermöglichen und auf deren Erfüllung der Nutzer vertrauen darf, ist die Haftung auf den vertragstypisch vorhersehbaren Schaden begrenzt.        </p>     <p>     Die Teilnehmer erkennen durch ihre Teilnahme an, dass die Beteiligung an dieser Werbeaktion auf alleiniges Risiko des Teilnehmers erfolgt. Der Veranstalter, seine Organmitglieder, Direktoren, Beschäftigten und Agenten geben, soweit rechtlich zulässig, keinerlei Garantien oder Zusicherungen über die Richtigkeit oder Vollständigkeit der Inhalte auf rewe.milka.de oder auf mit diesen Websites verlinkten Seiten ab und übernehmen keine Haftung oder Verantwortung für:     </p>      <p>          a. Fehler, Irrtümer oder Ungenauigkeiten von Inhalten;<br/>         b. Sachschäden jeglicher Art, die aus der Teilnahme an der Werbeaktion herrühren;<br/>         c. Todesfälle oder Personenschäden, die sich als direkte Folge der Teilnahme an der Werbeaktion ergeben, sofern diese nicht durch zumindest Fahrlässigkeit von Mondelez International, seinen Organmitgliedern, Direktoren, Beschäftigten und Agenten verursacht werden;<br/>         d. Unterbrechungen oder Abbrüche der Übertragung an oder von www.milka.com;<br/>         e. Softwarefehler, Viren usw., die an oder durch www.milka.com an einen Dritten übertragen werden, und/oder<br/>         f. Verluste oder Schäden jeglicher Art, die sich aus der Nutzung geposteter, per E-Mail versandter, übertragener oder anderweitig über www.milka.com zur Verfügung gestellter Inhalte ergeben,<br/>         g. Datenverluste, insbesondere auf dem Weg der Datenübertragung.     </p>     <p>      Gewinne können nicht gegen Bargeld oder sonstige Formen der Entschädigung eingelöst werden, sofern nichts anderes angegeben wurde. Falls der Nutzer einen Teil eines Gewinns aus irgendeinem Grund nicht innerhalb des vom Veranstalter vorgegebenen Zeitrahmens einlöst, verfällt dieses Gewinnelement für den Nutzer und es wird keine Geldzahlung oder sonstige Form von Entschädigung als Ersatz für dieses Element geliefert, soweit nichts anderes vereinbart wurde. Für den Fall, dass der Gewinn aus unvorhersehbaren Gründen nicht zur Verfügung steht, behält sich der Veranstalter das Recht vor, es nach alleinigem Ermessen durch einen anderen gleichartigen Gewinn zu ersetzen oder ganz zu streichen.     </p>     <p class=\"headings sub\">5. Vorzeitige Beendigung des Gewinnspiels / Änderung der Teilnahmebedingungen</p>     <p>     Mondelez Deutschland behält sich vor, die Aktionen zu jedem Zeitpunkt ohne Vorankündigung und ohne Angabe von weiteren Gründen abzubrechen oder zu beenden.     </p>     <p>     Mondelez Deutschland kann diese Bedingungen jederzeit und ohne weitere Benachrichtigungen ändern.      </p>     <p class=\"headings sub\">6. Sonstiges</p>     <p>Der Rechtsweg ist ausgeschlossen.</p>     <p>     Sollten einzelne dieser Teilnahmebedingungen ungültig sein oder werden, bleibt die Gültigkeit der übrigen Teilnahmebedingungen hiervon unberührt. Diese Teilnahmebedingungen können jederzeit von Mondelez Deutschland geändert werden. Wir empfehlen daher, die Teilnahmebedingungen bei Relevanz zeitnah aufzurufen. Es gilt Ziffer 5 dieser Teilnahmebedingungen.     </p>     <p>      Diese Teilnahmebedingungen unterliegen in Deutschland einschlägigem deutschem Recht unter Ausschluss des UN Kaufrechts, wobei alle Streitigkeiten bezüglich der Auslegung dieser Teilnahmebedingungen der ausschließlichen Zuständigkeit der deutschen Gerichte unterliegen.     </p>     <p class=\"headings sub\">7. Angaben zu Streitschlichtungsverfahren</p>          <p> Wir weisen unsere Teilnehmer aus Deutschland gemäß <strong>§ 36 Verbraucherstreitbeilegungsgesetz (VSBG)</strong> darauf hin, dass wir nicht verpflichtet und nicht bereit sind, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.     </p>      <p> Sie können sich aber jederzeit an unseren Verbraucherservice wenden.</p>     <p> Informationen zur Online-Streitbeilegung: </p>     <p>     Die EU-Kommission stellt unter folgendem Link eine Internetplattform zur Online-Beilegung von Streitigkeiten (sog. „OS-Plattform“) bereit, die als Anlaufstelle zur außergerichtlichen Beilegung von Streitigkeiten betreffend vertragliche Verpflichtungen, die aus Online-Kaufverträgen erwachsen, dient: <a href=\"https://ec.europa.eu/consumers/odr/main/?event=main.home.howitworks\" target=\"_blank\">https://ec.europa.eu/consumers/odr/main/?event=main.home.howitworks</a>     </p>   </div> <div class=\"s-content-copy__item\">     <p class=\"headings\">II. Datenschutzhinweise </p>     <p>     Verantwortliche Stelle für die Verarbeitung Ihrer personenbezogenen Daten <u>im Rahmen dieses Gewinnspiels</u> ist die Mondelez Deutschland GmbH, Konsul-Smidt-Str. 21, D-28217 Bremen (Mondelez Deutschland). Mit der Durchführung des Gewinnspiels sind die folgenden Agenturen beauftragt: Baudek & Schierhorn GmbH, Banksstraße 4, 20097 Hamburg, Consultix GmbH, Wachtstr. 17-24 28195 Bremen Germany und bürozwei GmbH & Co KG, Theodor-Heuss-Allee 21 28215 Bremen beauftragt, welche die personenbezogen Daten auf einem Server in Deutschland speichern.  Die Baudek & Schierhorn GmbH, Banksstraße 4, 20097 Hamburg,  Consultix GmbH, Wachtstr. 17-24 28195 Bremen Germany und bürozwei GmbH & Co KG, Theodor-Heuss-Allee 21 28215 Bremen unterliegen sämtlichen anwendbaren Datenschutzgesetzen.     </p>     <p>      Alle Agenturen sind im Rahmen einer Auftragsverarbeitung nach Art. 28 der Datenschutzgrundverordnung („DSGVO“) für uns tätig und an die Anforderungen entsprechender Verträge gebunden. Eine darüberhinausgehende Weitergabe Ihrer personenbezogenen Daten an Dritte erfolgt nicht.     </p>      <p>     Wir speichern personenbezogene Daten von Ihnen nach Maßgabe der rechtlichen Vorschriften und ausschließlich zum Zweck der Abwicklung dieses Gewinnspiels (Rechtsgrundlage: Art. 6 Abs. 1 Buchst. f) der Datenschutzgrundverordnung EU 2016/679, DS-GVO). Es werden die E-Mailadresse, der Name, Geburtsdatum und die Adressdaten der Teilnehmer erfasst und ausschließlich zur Verifizierung der Teilnahme / Gewinner gespeichert. Sie können Ihre Teilnahme an dem Gewinnspiel jederzeit ohne Angabe von Gründen widerrufen bzw. der Verarbeitung Ihrer personenbezogener Daten jederzeit ohne Angabe von Gründen widersprechen. Hierzu genügt eine formlose E-Mail an verbraucherservice@mdlz.com. Im Falle eines Widerrufs/Widerspruchs werden Ihre personenbezogenen Daten selbstverständlich gelöscht.       </p>      <p>      Soweit keine gesetzlichen Aufbewahrungspflichten bestehen, erfolgt eine umgehende Löschung der Daten, nachdem das Gewinnspiel abgewickelt ist. Eine umgehende Löschung erfolgt bezüglich der Daten der Nichtgewinner. Gewinnerdaten sind aus gesetzlichen und buchhalterischen Gründen nach Maßgabe der §§ 257 HGB, 147 AO, 14b UStG aufzubewahren. Für diese Speicherung der Gewinnerdaten ist die Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. c) DS-GVO, da die Verarbeitung zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, der Mondelez Deutschland unterliegt.         </p>     <p> Ihre Rechte im Zusammenhang mit personenbezogenen Daten:</p>          <p>      Sie sind unter anderem berechtigt (i) zu überprüfen, ob und welche personenbezogenen Daten wir über Sie gespeichert haben und Kopien dieser Daten zu erhalten, (ii) die Berichtigung, Ergänzung oder das Löschen Ihrer personenbezogenen Daten, die falsch sind oder nicht rechtskonform verarbeitet werden, zu verlangen, (iii) von uns zu verlangen, die Verarbeitung Ihrer personenbezogenen Daten einzuschränken, und (iv) der Verarbeitung Ihrer personenbezogenen Daten zu widersprechen, (v) Datenübertragbarkeit zu verlangen, (vi) in Deutschland bei der deutschen (für weitere Informationen, siehe <a href=\"https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html\" target=\"_blank\">https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a> Beschwerde zu erheben.     </p>          <p> Unsere Kontaktdaten:</p>     <p>      Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich in Deutschland bitte an:     </p>     <p> Mondelez Deutschland GmbH, Konsul Smidt Str. 21, 28217 Bremen, Deutschland  </p>     <p> E-Mail: Verbraucherservice@mdlz.com </p>     <p>         Unseren Datenschutzbeauftragten in Deutschland können Sie postalisch unter:          Mondelez Deutschland GmbH, zu Händen des Datenschutzbeauftragten, Konsul          Smidt Str. 21, 28217 Bremen, Deutschland oder per E-Mail unter:          datenschutz@mdlz.com erreichen.     </p>     <p>          Weitere Informationen zu dem Umgang von Mondelez Deutschland mit Ihren          personenbezogenen Daten im Rahmen der Nutzung dieser Webseite und zu Ihren          gesetzlichen Rechten und wie Sie diese ausüben können, entnehmen Sie bitte          unserer <a href=\"https://eu.mondelezinternational.com/privacy-notice?sc_lang=de-de&siteId=7GTws0jSEtgtqGQHH57lZw%3D%3D\" target=\"_blank\">Datenschutzerklärung </a> für Teilnehmer aus Deutschland.        </p>   </div>"
+        },
+
+        "End": {
+            "title": "Die Aktion ist beendet.<br />Freue dich auf viele weitere Milka Aktionen, die kommen werden.",
+            "link": {
+                "mobile": "MEHR ENTDECKEN",
+                "desktop": "ENTDECKE MEHR VON MILKA"
+            },
+			"CardContent1":{
+				"imgSrc":"/resources/images/rewe/group308-1.png",
+				"title":"FC Milka Q2 Kampagne",
+				"paragraph":"Der Schmunzelhase als Limited Design Edition oder andere Highlights zum Fest: Entdecke jetzt Milkas zarte Vielfalt.",
+				"button":{
+					"text":"PRODUKTE",
+					"link":""
+				}
+			},
+			"CardContent2":{
+				"imgSrc":"/resources/images/rewe/group308-2.png",
+				"title":"Lass dich inspirieren",
+				"paragraph":"Mach deinen Liebsten eine ganz besondere Freude und personalisiere deine Milka Schokolade.",
+				"button":{
+					"text":"GESCHENKIDEEN",
+					"link":""
+				}
+			},
+			"CardContent3":{
+				"imgSrc":"/resources/images/rewe/group308-3.png",
+				"title":"Neues von Milka",
+				"paragraph":"Verpasse keine Neuigkeit mehr: ob tolle Aktionen, zarte Produktnews oder Infos zum Milka Engagement.",
+				"button":{
+					"text":"NEUES ENTDECKEN",
+					"link":""
+				}
+			}
+        },
+
+        "Cookie": ""
+    }
+}

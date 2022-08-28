@@ -1,0 +1,38 @@
+.video {
+    &__container {
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: visible;
+
+        & > * {
+            margin-top: 20px; 
+        }
+
+        &::after {
+            display: none;
+            content: url($local-images + '/Pages/Home/umbrella.png');
+            position: absolute;
+            bottom: 0;
+            right: -5%;
+
+            @include breakpoint(large) {
+                display: block;
+            }
+        }
+    }
+}
+
+.iframe-card {
+    &__video {
+        iframe {
+            width: 100%;
+            height: auto;
+            min-height: 210px;
+    
+            @include breakpoint(medium) {
+                min-height: 320px;
+            }
+        }
+    }
+}

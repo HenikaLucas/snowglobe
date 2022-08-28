@@ -1,0 +1,82 @@
+
+$filter-color: $dark-lilac;
+
+.filter-d {
+    &__container {
+        display: none;
+        color: $filter-color;
+        background-color: transparent;
+        padding: 15px ;
+
+        @include breakpoint(medium-l) {
+            display: block;
+        }
+        
+        @include breakpoint(large) {
+            display: block;
+        }
+
+        & > .filter-d__title {
+            // font-size: 30px; 
+            font-size: 18px; 
+
+            color: $filter-color;
+            padding-bottom: 10px;
+            border-bottom: 1px solid $filter-color; 
+        }
+    }
+
+    &__title {
+        font-family: $soft-alt-medium;
+        font-size: 14px;
+        
+        @include breakpoint(large) {
+            font-size: 16px;
+        }
+        
+        @include breakpoint(large) {
+            font-size: 18px;
+        }
+        
+        @include breakpoint(x-large) {
+            font-size: 22px;
+        }
+    }
+
+    &__category {
+        margin-top: 32px;
+    }
+
+    &__item {
+        cursor: pointer;
+        margin: 5px 0;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        font-family: $soft-alt-regular;
+        font-size: 17px;
+        line-height: 1.2em;
+
+
+        @include breakpoint (medium) {
+            font-size: 18px;
+        }
+
+        @include breakpoint (x-large) {
+            font-size: 19px;
+        }
+
+        &:after {
+            content: attr(data-filter-count);
+            text-align: center;
+            font-family: $soft-alt-medium;
+            background-color: transparent; //$light-grey
+            border-radius: 5px;
+            padding: 3px;
+            margin-left: 10px;
+            min-width: 25px;
+        }
+    }
+}

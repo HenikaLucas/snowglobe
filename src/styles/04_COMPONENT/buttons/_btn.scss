@@ -1,0 +1,71 @@
+$container-back-color: $btn-background-color;
+$container-color: $btn-color;
+
+.btn {
+    &__container {
+        position: relative;
+        cursor: pointer;
+        border: none;
+        font-family: $soft-medium;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: $container-back-color;
+        color: $container-color;
+        font-family: $btn-font-family;
+
+        border-radius: 22px;
+        transition: .3s;
+        box-shadow: 0px 0px $dark-lilac;
+
+        span {
+            font-family: $soft-medium;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        &:before {
+            left: 0;
+        }
+    }
+
+    &__icon {
+        @include breakpoint(medium) {
+            margin: 0 10px;
+        }
+    }
+
+    &__text {
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
+        text-align: center;
+        transition: 0s;
+
+        @include breakpoint(medium) {
+            letter-spacing: initial;
+        }
+
+        .icon-customize {
+            display: none;
+            position: absolute;
+
+            @include breakpoint(large) {
+                display: block;
+                top: 20%;
+                right: 75px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@import "../../05_STATE/buttons/btn";

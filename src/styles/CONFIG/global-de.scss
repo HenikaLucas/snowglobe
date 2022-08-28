@@ -1,0 +1,23 @@
+@import "../00_MODULES/variables/breakpoints";
+@import "../00_MODULES/mixins/breakpoints";
+.btn {
+    &__container {
+        width: auto;
+        height: auto;
+        // min-width: 0;
+        max-width: none;
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 2px; 
+        padding: 10px 30px 8px 30px;
+
+        @include breakpoint (medium) {
+            padding: 10px 40px 8px 40px;
+        }
+
+        span {
+            font-size: 16px;
+            letter-spacing: 2px;
+        }
+    }
+}

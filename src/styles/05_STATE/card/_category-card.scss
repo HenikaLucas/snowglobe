@@ -1,0 +1,22 @@
+.product-category {
+    &__container {
+        .product-category__content {
+            @include hover {
+                background-color: $dark-lilac;
+                color: $white;
+            }
+        }
+    }
+}
+
+.shop-highlight {
+    &__categories {
+        .product-category__content {
+            @include hover {
+                background-color: $dark-lilac;
+                color: $white;
+            }
+        }
+    }
+}
+

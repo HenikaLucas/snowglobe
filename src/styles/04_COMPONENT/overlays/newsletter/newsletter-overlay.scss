@@ -1,0 +1,125 @@
+.newsletter-overlay{
+
+    &__container {
+        align-self: flex-start;
+        margin: 50px 0;
+        text-align: center;
+        position: relative;
+
+        padding: 0 30px 70px;
+        
+        .overlay__close {
+            position: absolute;
+            top: -35px;
+            right: 0;
+            color: $white;
+        }
+        
+        h1, h3, label {
+            font-family: $recol-regular;
+        }
+
+        .newsletter {
+            &__container {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            &__content {
+                padding-top: 10px;
+                &-wrapper-form {
+                    max-width: initial;
+
+                    .form-container {
+                        width: 100%;
+
+                        @include breakpoint(large) {
+                            width: 45%;
+
+                            &.email, &.confirm {
+                                width: 95%;
+                                margin-top: 0;
+                            }
+                        }
+
+                        .custom-checkbox {
+                            &__label {
+                                display: block;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @include breakpoint(large){
+            flex-basis: 50%;
+        }
+    }
+
+    &__sub-container {
+        padding: 25px 0;
+        margin: 0 0 10px;
+        border-bottom: 1px solid rgba(126, 105, 172, 0.2);
+        position: relative;
+
+        .review-overlay__subtitle {
+            margin-top: 0;
+        }
+    }
+
+    &__title{
+        margin-top: 10px;
+        font-size: 30px;
+        color: $dark-lil;
+    }
+
+    &__subtitle{
+        margin-top: 10px;
+        font-size: 25px;
+        color: $dark-lila;
+    }
+
+    &__foot {
+        height: 95px;
+        width: 100%;
+        padding: 0 30px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        border-radius: 0 0 10px 10px;
+
+        .btn {
+            &__container {
+                // min-width: auto;
+
+                &:not(:only-child) {
+                    margin: 0;
+                }
+
+                @include breakpoint (small-down) {
+                    padding: 10px 20px;
+                }
+            }
+            &__text {
+                word-break: break-word;
+                white-space: unset;
+            }
+        }
+
+        input[type="submit"] {
+            border: none;
+            font-family: $soft-alt-medium;
+            font-size: 20px;
+            color: $dark-lilac;
+        }
+    }
+}
+
+@import "../../../05_STATE/overlay/newsletter/newsletter-overlay.scss";

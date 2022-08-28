@@ -1,0 +1,23 @@
+.image {
+    &__text {
+        &--bottom-left {
+            
+            @include breakpoint(large) {
+                align-items: flex-start;
+                justify-content: flex-end !important;
+            }
+
+            & > * {
+                margin-bottom: 9%;
+            }
+        }
+
+        &--bottom-center {
+            top: 72%;
+
+            @include breakpoint(large) {
+                top: 78%;
+            }
+        }
+    }
+}
