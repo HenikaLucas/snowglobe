@@ -5,7 +5,7 @@ const GLOBAL_CONFIG = {
         Main Settings
     */
     Settings: {
-        localDev: 		true,					//Need to be false on staging and prod
+        localDev: 		false,					//Need to be false on staging and prod
         campaign: 		true,					//True or false
         campaignStatus: 'main',					//main, holding, end
 		localDomain: 	'localhost',
